@@ -1,0 +1,49 @@
+[  2%] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.obj
+types.cpp
+[  4%] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.obj
+reference_data.cpp
+[  6%] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.obj
+positions.cpp
+[  8%] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.obj
+oms.cpp
+[ 10%] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.obj
+ledger.cpp
+[ 12%] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.obj
+funds.cpp
+[ 14%] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.obj
+risk.cpp
+[ 16%] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.obj
+core.cpp
+[ 18%] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.obj
+step_harness.cpp
+[ 20%] Building CXX object CMakeFiles/p03_core.dir/src/order_planner.cpp.obj
+order_planner.cpp
+[ 22%] Building CXX object CMakeFiles/p03_core.dir/src/quote_strategy.cpp.obj
+quote_strategy.cpp
+[ 24%] Linking CXX static library p03_core.lib
+[ 24%] Built target p03_core
+[ 26%] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.obj
+m1a_demo.cpp
+[ 28%] Linking CXX executable p03_m1a_demo.exe
+[ 28%] Built target p03_m1a_demo
+[ 30%] Building CXX object CMakeFiles/p03_export_snapshot.dir/examples/export_snapshot.cpp.obj
+export_snapshot.cpp
+[ 32%] Linking CXX executable p03_export_snapshot.exe
+[ 32%] Built target p03_export_snapshot
+[ 34%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_sim.cpp.obj
+local_sim.cpp
+[ 36%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_delivery.cpp.obj
+local_delivery.cpp
+[ 38%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_query_review.cpp.obj
+local_query_review.cpp
+[ 40%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_quote_runner.cpp.obj
+local_quote_runner.cpp
+D:\HFT Market Making & Execution Infrastructure\project03\src\local_quote_runner.cpp(86): error C2220: æµ ãƒ¤ç¬…ç’€ï¹€æ†¡çšî‚¥î‹æ¶“æ´ªæ•Šç’‡?
+D:\HFT Market Making & Execution Infrastructure\project03\src\local_quote_runner.cpp(86): warning C4456: éˆ¥æ¸‡illéˆ¥æ¿ˆæ®‘æ¾¹ç‰ˆæ§‘é—…æ„¯æ£Œæµœå—•ç¬‚æ¶“â‚¬æ¶“î…æ¹°é¦æ¿ï¼é„?
+D:\HFT Market Making & Execution Infrastructure\project03\src\local_quote_runner.cpp(84): note: é™å‚î†éˆ¥æ¸‡illéˆ¥æ¿ˆæ®‘æ¾¹ç‰ˆæ§‘
+NMAKE : fatal error U1077: ¡°"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\p03_localsim.dir\src\local_quote_runner.cpp.obj.d --working-dir="D:\HFT Market Making & Execution Infrastructure\project03\evidence-local\2026-11-07-runner-query-debug\build" --filter-prefix="æ³¨æ„: åŒ…å«æ–‡ä»¶:  " -- D:\ĞÂÑÔµÄvs2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @C:\Users\321\AppData\Local\Temp\nm8040.tmp¡±: ·µ»Ø´úÂë¡°0x2¡±
+Stop.
+NMAKE : fatal error U1077: ¡°D:\ĞÂÑÔµÄvs2022\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\nmake.exe -s -f CMakeFiles\p03_localsim.dir\build.make /nologo -SL                 CMakeFiles\p03_localsim.dir\build¡±: ·µ»Ø´úÂë¡°0x2¡±
+Stop.
+NMAKE : fatal error U1077: ¡°D:\ĞÂÑÔµÄvs2022\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\nmake.exe -s -f CMakeFiles\Makefile2 /nologo -LS                 all¡±: ·µ»Ø´úÂë¡°0x2¡±
+Stop.

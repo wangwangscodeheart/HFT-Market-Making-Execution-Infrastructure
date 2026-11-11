@@ -1,0 +1,17 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-07-delivery-debug",
+    "configuration":  "Debug",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-07T02:56:47.3376311Z",
+    "finished_utc":  "2026-11-07T02:57:21.2276091Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "f321c2017781b05c8716238c564e1184c791602b459596d213d3c27cf59f829b",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "component_scope":  "m1b-localsim-slice1",
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

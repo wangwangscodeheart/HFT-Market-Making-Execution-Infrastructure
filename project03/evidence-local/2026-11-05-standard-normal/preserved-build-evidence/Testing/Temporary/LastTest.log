@@ -1,0 +1,1466 @@
+Start testing: Nov 05 23:15 东京标准时间
+----------------------------------------------------------
+1/86 Testing: P02_real_position_mapping_remains_blocked
+1/86 Test: P02_real_position_mapping_remains_blocked
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P02_real_position_mapping_remains_blocked"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P02_real_position_mapping_remains_blocked" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P02_real_position_mapping_remains_blocked checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"P02_real_position_mapping_remains_blocked" end time: Nov 05 23:15 东京标准时间
+"P02_real_position_mapping_remains_blocked" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/86 Testing: A01_core_rejects_bad_contract_calendar_tick_and_account
+2/86 Test: A01_core_rejects_bad_contract_calendar_tick_and_account
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_core_rejects_bad_contract_calendar_tick_and_account"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_core_rejects_bad_contract_calendar_tick_and_account" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_core_rejects_bad_contract_calendar_tick_and_account checks=35
+RESULT cases=1 failed=0 assertions=35
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"A01_core_rejects_bad_contract_calendar_tick_and_account" end time: Nov 05 23:15 东京标准时间
+"A01_core_rejects_bad_contract_calendar_tick_and_account" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/86 Testing: A04_quantity_failure_has_no_order_or_reservation
+3/86 Test: A04_quantity_failure_has_no_order_or_reservation
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_quantity_failure_has_no_order_or_reservation"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_quantity_failure_has_no_order_or_reservation" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_quantity_failure_has_no_order_or_reservation checks=7
+RESULT cases=1 failed=0 assertions=7
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A04_quantity_failure_has_no_order_or_reservation" end time: Nov 05 23:15 东京标准时间
+"A04_quantity_failure_has_no_order_or_reservation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/86 Testing: A04_insufficient_close_rollback
+4/86 Test: A04_insufficient_close_rollback
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_insufficient_close_rollback"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_insufficient_close_rollback" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_insufficient_close_rollback checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"A04_insufficient_close_rollback" end time: Nov 05 23:15 东京标准时间
+"A04_insufficient_close_rollback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/86 Testing: A04_insufficient_funds_rolls_back_candidate_and_ID
+5/86 Test: A04_insufficient_funds_rolls_back_candidate_and_ID
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_insufficient_funds_rolls_back_candidate_and_ID"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_insufficient_funds_rolls_back_candidate_and_ID" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_insufficient_funds_rolls_back_candidate_and_ID checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A04_insufficient_funds_rolls_back_candidate_and_ID" end time: Nov 05 23:15 东京标准时间
+"A04_insufficient_funds_rolls_back_candidate_and_ID" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/86 Testing: A04_capacity_failure_preserves_existing_state
+6/86 Test: A04_capacity_failure_preserves_existing_state
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_capacity_failure_preserves_existing_state"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_capacity_failure_preserves_existing_state" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_capacity_failure_preserves_existing_state checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"A04_capacity_failure_preserves_existing_state" end time: Nov 05 23:15 东京标准时间
+"A04_capacity_failure_preserves_existing_state" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/86 Testing: A04_exception_seam_has_strong_transaction_rollback
+7/86 Test: A04_exception_seam_has_strong_transaction_rollback
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_exception_seam_has_strong_transaction_rollback"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_exception_seam_has_strong_transaction_rollback" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_exception_seam_has_strong_transaction_rollback checks=12
+RESULT cases=1 failed=0 assertions=12
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"A04_exception_seam_has_strong_transaction_rollback" end time: Nov 05 23:15 东京标准时间
+"A04_exception_seam_has_strong_transaction_rollback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/86 Testing: A04_ID_exhaustion_does_not_leave_half_order
+8/86 Test: A04_ID_exhaustion_does_not_leave_half_order
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A04_ID_exhaustion_does_not_leave_half_order"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A04_ID_exhaustion_does_not_leave_half_order" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A04_ID_exhaustion_does_not_leave_half_order checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A04_ID_exhaustion_does_not_leave_half_order" end time: Nov 05 23:15 东京标准时间
+"A04_ID_exhaustion_does_not_leave_half_order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/86 Testing: A05_worst_case_interval_is_one_to_five
+9/86 Test: A05_worst_case_interval_is_one_to_five
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A05_worst_case_interval_is_one_to_five"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A05_worst_case_interval_is_one_to_five" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A05_worst_case_interval_is_one_to_five checks=12
+RESULT cases=1 failed=0 assertions=12
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A05_worst_case_interval_is_one_to_five" end time: Nov 05 23:15 东京标准时间
+"A05_worst_case_interval_is_one_to_five" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/86 Testing: A05_opposite_quote_cannot_net_away_limit
+10/86 Test: A05_opposite_quote_cannot_net_away_limit
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A05_opposite_quote_cannot_net_away_limit"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A05_opposite_quote_cannot_net_away_limit" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A05_opposite_quote_cannot_net_away_limit checks=9
+RESULT cases=1 failed=0 assertions=9
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"A05_opposite_quote_cannot_net_away_limit" end time: Nov 05 23:15 东京标准时间
+"A05_opposite_quote_cannot_net_away_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/86 Testing: A06_P01_six_effects_through_actual_core
+11/86 Test: A06_P01_six_effects_through_actual_core
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A06_P01_six_effects_through_actual_core"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A06_P01_six_effects_through_actual_core" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A06_P01_six_effects_through_actual_core checks=60
+RESULT cases=1 failed=0 assertions=60
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A06_P01_six_effects_through_actual_core" end time: Nov 05 23:15 东京标准时间
+"A06_P01_six_effects_through_actual_core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/86 Testing: A06_P01_close_freezes_compete_per_bucket
+12/86 Test: A06_P01_close_freezes_compete_per_bucket
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A06_P01_close_freezes_compete_per_bucket"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A06_P01_close_freezes_compete_per_bucket" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A06_P01_close_freezes_compete_per_bucket checks=18
+RESULT cases=1 failed=0 assertions=18
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A06_P01_close_freezes_compete_per_bucket" end time: Nov 05 23:15 东京标准时间
+"A06_P01_close_freezes_compete_per_bucket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/86 Testing: P02_external_and_settlement_never_overwrite_buckets
+13/86 Test: P02_external_and_settlement_never_overwrite_buckets
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P02_external_and_settlement_never_overwrite_buckets"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P02_external_and_settlement_never_overwrite_buckets" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P02_external_and_settlement_never_overwrite_buckets checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P02_external_and_settlement_never_overwrite_buckets" end time: Nov 05 23:15 东京标准时间
+"P02_external_and_settlement_never_overwrite_buckets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/86 Testing: P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once
+14/86 Test: P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once checks=20
+RESULT cases=1 failed=0 assertions=20
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once" end time: Nov 05 23:15 东京标准时间
+"P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/86 Testing: P03_clean_boundary_still_requires_new_anchor_evidence
+15/86 Test: P03_clean_boundary_still_requires_new_anchor_evidence
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P03_clean_boundary_still_requires_new_anchor_evidence"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P03_clean_boundary_still_requires_new_anchor_evidence" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P03_clean_boundary_still_requires_new_anchor_evidence checks=9
+RESULT cases=1 failed=0 assertions=9
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P03_clean_boundary_still_requires_new_anchor_evidence" end time: Nov 05 23:15 东京标准时间
+"P03_clean_boundary_still_requires_new_anchor_evidence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/86 Testing: RISK_reinstated_close_freeze_reports_deficit_without_losing_trade
+16/86 Test: RISK_reinstated_close_freeze_reports_deficit_without_losing_trade
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "RISK_reinstated_close_freeze_reports_deficit_without_losing_trade"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"RISK_reinstated_close_freeze_reports_deficit_without_losing_trade" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS RISK_reinstated_close_freeze_reports_deficit_without_losing_trade checks=18
+RESULT cases=1 failed=0 assertions=18
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RISK_reinstated_close_freeze_reports_deficit_without_losing_trade" end time: Nov 05 23:15 东京标准时间
+"RISK_reinstated_close_freeze_reports_deficit_without_losing_trade" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/86 Testing: RISK_stale_mark_rate_limit_and_gross_limit
+17/86 Test: RISK_stale_mark_rate_limit_and_gross_limit
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "RISK_stale_mark_rate_limit_and_gross_limit"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"RISK_stale_mark_rate_limit_and_gross_limit" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS RISK_stale_mark_rate_limit_and_gross_limit checks=20
+RESULT cases=1 failed=0 assertions=20
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RISK_stale_mark_rate_limit_and_gross_limit" end time: Nov 05 23:15 东京标准时间
+"RISK_stale_mark_rate_limit_and_gross_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/86 Testing: RISK_crossing_pending_cancel_and_unknown_orders_still_blocked
+18/86 Test: RISK_crossing_pending_cancel_and_unknown_orders_still_blocked
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "RISK_crossing_pending_cancel_and_unknown_orders_still_blocked"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"RISK_crossing_pending_cancel_and_unknown_orders_still_blocked" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS RISK_crossing_pending_cancel_and_unknown_orders_still_blocked checks=13
+RESULT cases=1 failed=0 assertions=13
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RISK_crossing_pending_cancel_and_unknown_orders_still_blocked" end time: Nov 05 23:15 东京标准时间
+"RISK_crossing_pending_cancel_and_unknown_orders_still_blocked" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/86 Testing: CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact
+19/86 Test: CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact checks=15
+RESULT cases=1 failed=0 assertions=15
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact" end time: Nov 05 23:15 东京标准时间
+"CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/86 Testing: CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume
+20/86 Test: CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume checks=14
+RESULT cases=1 failed=0 assertions=14
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume" end time: Nov 05 23:15 东京标准时间
+"CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/86 Testing: CAPACITY_evidence_streams_are_bounded
+21/86 Test: CAPACITY_evidence_streams_are_bounded
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "CAPACITY_evidence_streams_are_bounded"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"CAPACITY_evidence_streams_are_bounded" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS CAPACITY_evidence_streams_are_bounded checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CAPACITY_evidence_streams_are_bounded" end time: Nov 05 23:15 东京标准时间
+"CAPACITY_evidence_streams_are_bounded" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/86 Testing: BOUNDARY_Kill_blocks_new_but_processes_existing_trades
+22/86 Test: BOUNDARY_Kill_blocks_new_but_processes_existing_trades
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "BOUNDARY_Kill_blocks_new_but_processes_existing_trades"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"BOUNDARY_Kill_blocks_new_but_processes_existing_trades" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS BOUNDARY_Kill_blocks_new_but_processes_existing_trades checks=14
+RESULT cases=1 failed=0 assertions=14
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"BOUNDARY_Kill_blocks_new_but_processes_existing_trades" end time: Nov 05 23:15 东京标准时间
+"BOUNDARY_Kill_blocks_new_but_processes_existing_trades" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/86 Testing: BOUNDARY_future_capabilities_never_return_success
+23/86 Test: BOUNDARY_future_capabilities_never_return_success
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "BOUNDARY_future_capabilities_never_return_success"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"BOUNDARY_future_capabilities_never_return_success" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS BOUNDARY_future_capabilities_never_return_success checks=39
+RESULT cases=1 failed=0 assertions=39
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BOUNDARY_future_capabilities_never_return_success" end time: Nov 05 23:15 东京标准时间
+"BOUNDARY_future_capabilities_never_return_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/86 Testing: BOUNDARY_external_CTP_evidence_is_blocked_not_trusted
+24/86 Test: BOUNDARY_external_CTP_evidence_is_blocked_not_trusted
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "BOUNDARY_external_CTP_evidence_is_blocked_not_trusted"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"BOUNDARY_external_CTP_evidence_is_blocked_not_trusted" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS BOUNDARY_external_CTP_evidence_is_blocked_not_trusted checks=9
+RESULT cases=1 failed=0 assertions=9
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BOUNDARY_external_CTP_evidence_is_blocked_not_trusted" end time: Nov 05 23:15 东京标准时间
+"BOUNDARY_external_CTP_evidence_is_blocked_not_trusted" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/86 Testing: BOUNDARY_malformed_trade_and_unknown_identity_quarantine
+25/86 Test: BOUNDARY_malformed_trade_and_unknown_identity_quarantine
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "BOUNDARY_malformed_trade_and_unknown_identity_quarantine"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"BOUNDARY_malformed_trade_and_unknown_identity_quarantine" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS BOUNDARY_malformed_trade_and_unknown_identity_quarantine checks=40
+RESULT cases=1 failed=0 assertions=40
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BOUNDARY_malformed_trade_and_unknown_identity_quarantine" end time: Nov 05 23:15 东京标准时间
+"BOUNDARY_malformed_trade_and_unknown_identity_quarantine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/86 Testing: A01_actual_core_tick_and_quantity_step_reject
+26/86 Test: A01_actual_core_tick_and_quantity_step_reject
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_actual_core_tick_and_quantity_step_reject"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_actual_core_tick_and_quantity_step_reject" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_actual_core_tick_and_quantity_step_reject checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"A01_actual_core_tick_and_quantity_step_reject" end time: Nov 05 23:15 东京标准时间
+"A01_actual_core_tick_and_quantity_step_reject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/86 Testing: RISK_rate_window_expires_using_logical_time
+27/86 Test: RISK_rate_window_expires_using_logical_time
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "RISK_rate_window_expires_using_logical_time"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"RISK_rate_window_expires_using_logical_time" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS RISK_rate_window_expires_using_logical_time checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RISK_rate_window_expires_using_logical_time" end time: Nov 05 23:15 东京标准时间
+"RISK_rate_window_expires_using_logical_time" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/86 Testing: RISK_economic_close_deficit_is_retained_not_clamped
+28/86 Test: RISK_economic_close_deficit_is_retained_not_clamped
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "RISK_economic_close_deficit_is_retained_not_clamped"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"RISK_economic_close_deficit_is_retained_not_clamped" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS RISK_economic_close_deficit_is_retained_not_clamped checks=18
+RESULT cases=1 failed=0 assertions=18
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RISK_economic_close_deficit_is_retained_not_clamped" end time: Nov 05 23:15 东京标准时间
+"RISK_economic_close_deficit_is_retained_not_clamped" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/86 Testing: P04_full_and_partial_proven_coverage_subtract_only_difference
+29/86 Test: P04_full_and_partial_proven_coverage_subtract_only_difference
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P04_full_and_partial_proven_coverage_subtract_only_difference"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P04_full_and_partial_proven_coverage_subtract_only_difference" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P04_full_and_partial_proven_coverage_subtract_only_difference checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P04_full_and_partial_proven_coverage_subtract_only_difference" end time: Nov 05 23:15 东京标准时间
+"P04_full_and_partial_proven_coverage_subtract_only_difference" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/86 Testing: P04_local_cap_is_independent_of_external_available
+30/86 Test: P04_local_cap_is_independent_of_external_available
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P04_local_cap_is_independent_of_external_available"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P04_local_cap_is_independent_of_external_available" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P04_local_cap_is_independent_of_external_available checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P04_local_cap_is_independent_of_external_available" end time: Nov 05 23:15 东京标准时间
+"P04_local_cap_is_independent_of_external_available" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/86 Testing: P04_duplicate_or_excess_coverage_rejected_atomically
+31/86 Test: P04_duplicate_or_excess_coverage_rejected_atomically
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P04_duplicate_or_excess_coverage_rejected_atomically"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P04_duplicate_or_excess_coverage_rejected_atomically" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P04_duplicate_or_excess_coverage_rejected_atomically checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P04_duplicate_or_excess_coverage_rejected_atomically" end time: Nov 05 23:15 东京标准时间
+"P04_duplicate_or_excess_coverage_rejected_atomically" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/86 Testing: P04_core_insufficient_external_budget_rejects_atomic_reservation
+32/86 Test: P04_core_insufficient_external_budget_rejects_atomic_reservation
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P04_core_insufficient_external_budget_rejects_atomic_reservation"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P04_core_insufficient_external_budget_rejects_atomic_reservation" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P04_core_insufficient_external_budget_rejects_atomic_reservation checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P04_core_insufficient_external_budget_rejects_atomic_reservation" end time: Nov 05 23:15 东京标准时间
+"P04_core_insufficient_external_budget_rejects_atomic_reservation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/86 Testing: P05_unknown_and_excluded_coverage_are_zero
+33/86 Test: P05_unknown_and_excluded_coverage_are_zero
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P05_unknown_and_excluded_coverage_are_zero"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P05_unknown_and_excluded_coverage_are_zero" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P05_unknown_and_excluded_coverage_are_zero checks=8
+RESULT cases=1 failed=0 assertions=8
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"P05_unknown_and_excluded_coverage_are_zero" end time: Nov 05 23:15 东京标准时间
+"P05_unknown_and_excluded_coverage_are_zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/86 Testing: P05_untrusted_and_wrong_anchor_cannot_activate_coverage
+34/86 Test: P05_untrusted_and_wrong_anchor_cannot_activate_coverage
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P05_untrusted_and_wrong_anchor_cannot_activate_coverage"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P05_untrusted_and_wrong_anchor_cannot_activate_coverage" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P05_untrusted_and_wrong_anchor_cannot_activate_coverage checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P05_untrusted_and_wrong_anchor_cannot_activate_coverage" end time: Nov 05 23:15 东京标准时间
+"P05_untrusted_and_wrong_anchor_cannot_activate_coverage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/86 Testing: P06_transfer_keeps_one_resource_and_no_fabricated_money
+35/86 Test: P06_transfer_keeps_one_resource_and_no_fabricated_money
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P06_transfer_keeps_one_resource_and_no_fabricated_money"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P06_transfer_keeps_one_resource_and_no_fabricated_money" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P06_transfer_keeps_one_resource_and_no_fabricated_money checks=17
+RESULT cases=1 failed=0 assertions=17
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P06_transfer_keeps_one_resource_and_no_fabricated_money" end time: Nov 05 23:15 东京标准时间
+"P06_transfer_keeps_one_resource_and_no_fabricated_money" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/86 Testing: P06_post_anchor_fees_are_not_covered_by_margin_proof
+36/86 Test: P06_post_anchor_fees_are_not_covered_by_margin_proof
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P06_post_anchor_fees_are_not_covered_by_margin_proof"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P06_post_anchor_fees_are_not_covered_by_margin_proof" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P06_post_anchor_fees_are_not_covered_by_margin_proof checks=5
+RESULT cases=1 failed=0 assertions=5
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P06_post_anchor_fees_are_not_covered_by_margin_proof" end time: Nov 05 23:15 东京标准时间
+"P06_post_anchor_fees_are_not_covered_by_margin_proof" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/86 Testing: P06_cancel_release_does_not_credit_external_available
+37/86 Test: P06_cancel_release_does_not_credit_external_available
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P06_cancel_release_does_not_credit_external_available"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P06_cancel_release_does_not_credit_external_available" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P06_cancel_release_does_not_credit_external_available checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"P06_cancel_release_does_not_credit_external_available" end time: Nov 05 23:15 东京标准时间
+"P06_cancel_release_does_not_credit_external_available" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/86 Testing: FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline
+38/86 Test: FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline checks=5
+RESULT cases=1 failed=0 assertions=5
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline" end time: Nov 05 23:15 东京标准时间
+"FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/86 Testing: FUNDS_duplicate_resource_transfer_cannot_double_proof
+39/86 Test: FUNDS_duplicate_resource_transfer_cannot_double_proof
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "FUNDS_duplicate_resource_transfer_cannot_double_proof"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"FUNDS_duplicate_resource_transfer_cannot_double_proof" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS FUNDS_duplicate_resource_transfer_cannot_double_proof checks=3
+RESULT cases=1 failed=0 assertions=3
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FUNDS_duplicate_resource_transfer_cannot_double_proof" end time: Nov 05 23:15 东京标准时间
+"FUNDS_duplicate_resource_transfer_cannot_double_proof" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/86 Testing: FUNDS_invalid_coverage_status_cannot_activate_money
+40/86 Test: FUNDS_invalid_coverage_status_cannot_activate_money
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "FUNDS_invalid_coverage_status_cannot_activate_money"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"FUNDS_invalid_coverage_status_cannot_activate_money" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS FUNDS_invalid_coverage_status_cannot_activate_money checks=3
+RESULT cases=1 failed=0 assertions=3
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FUNDS_invalid_coverage_status_cannot_activate_money" end time: Nov 05 23:15 东京标准时间
+"FUNDS_invalid_coverage_status_cannot_activate_money" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/86 Testing: P04_one_external_deduction_cannot_cover_two_resources
+41/86 Test: P04_one_external_deduction_cannot_cover_two_resources
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P04_one_external_deduction_cannot_cover_two_resources"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P04_one_external_deduction_cannot_cover_two_resources" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P04_one_external_deduction_cannot_cover_two_resources checks=3
+RESULT cases=1 failed=0 assertions=3
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"P04_one_external_deduction_cannot_cover_two_resources" end time: Nov 05 23:15 东京标准时间
+"P04_one_external_deduction_cannot_cover_two_resources" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/86 Testing: P05_wrong_currency_and_unbounded_query_window_rejected
+42/86 Test: P05_wrong_currency_and_unbounded_query_window_rejected
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P05_wrong_currency_and_unbounded_query_window_rejected"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P05_wrong_currency_and_unbounded_query_window_rejected" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P05_wrong_currency_and_unbounded_query_window_rejected checks=3
+RESULT cases=1 failed=0 assertions=3
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"P05_wrong_currency_and_unbounded_query_window_rejected" end time: Nov 05 23:15 东京标准时间
+"P05_wrong_currency_and_unbounded_query_window_rejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/86 Testing: HARNESS_equal_time_preserves_insertion_order
+43/86 Test: HARNESS_equal_time_preserves_insertion_order
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_equal_time_preserves_insertion_order"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_equal_time_preserves_insertion_order" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_equal_time_preserves_insertion_order checks=7
+RESULT cases=1 failed=0 assertions=7
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_equal_time_preserves_insertion_order" end time: Nov 05 23:15 东京标准时间
+"HARNESS_equal_time_preserves_insertion_order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/86 Testing: HARNESS_same_ordered_inputs_same_business_states
+44/86 Test: HARNESS_same_ordered_inputs_same_business_states
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_same_ordered_inputs_same_business_states"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_same_ordered_inputs_same_business_states" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_same_ordered_inputs_same_business_states checks=22
+RESULT cases=1 failed=0 assertions=22
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_same_ordered_inputs_same_business_states" end time: Nov 05 23:15 东京标准时间
+"HARNESS_same_ordered_inputs_same_business_states" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/86 Testing: HARNESS_bounded_schedule_and_past_time_rejection
+45/86 Test: HARNESS_bounded_schedule_and_past_time_rejection
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_bounded_schedule_and_past_time_rejection"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_bounded_schedule_and_past_time_rejection" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_bounded_schedule_and_past_time_rejection checks=7
+RESULT cases=1 failed=0 assertions=7
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_bounded_schedule_and_past_time_rejection" end time: Nov 05 23:15 东京标准时间
+"HARNESS_bounded_schedule_and_past_time_rejection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/86 Testing: HARNESS_core_rejects_clock_regression_without_financial_change
+46/86 Test: HARNESS_core_rejects_clock_regression_without_financial_change
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_core_rejects_clock_regression_without_financial_change"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_core_rejects_clock_regression_without_financial_change" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_core_rejects_clock_regression_without_financial_change checks=3
+RESULT cases=1 failed=0 assertions=3
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_core_rejects_clock_regression_without_financial_change" end time: Nov 05 23:15 东京标准时间
+"HARNESS_core_rejects_clock_regression_without_financial_change" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/86 Testing: HARNESS_failed_evidence_input_is_retained_with_result
+47/86 Test: HARNESS_failed_evidence_input_is_retained_with_result
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_failed_evidence_input_is_retained_with_result"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_failed_evidence_input_is_retained_with_result" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_failed_evidence_input_is_retained_with_result checks=5
+RESULT cases=1 failed=0 assertions=5
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_failed_evidence_input_is_retained_with_result" end time: Nov 05 23:15 东京标准时间
+"HARNESS_failed_evidence_input_is_retained_with_result" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/86 Testing: HARNESS_summary_distinguishes_hidden_cumulative_versions
+48/86 Test: HARNESS_summary_distinguishes_hidden_cumulative_versions
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "HARNESS_summary_distinguishes_hidden_cumulative_versions"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"HARNESS_summary_distinguishes_hidden_cumulative_versions" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS HARNESS_summary_distinguishes_hidden_cumulative_versions checks=16
+RESULT cases=1 failed=0 assertions=16
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HARNESS_summary_distinguishes_hidden_cumulative_versions" end time: Nov 05 23:15 东京标准时间
+"HARNESS_summary_distinguishes_hidden_cumulative_versions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/86 Testing: O01_untrusted_negative_and_over_Q_do_not_promote_R
+49/86 Test: O01_untrusted_negative_and_over_Q_do_not_promote_R
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O01_untrusted_negative_and_over_Q_do_not_promote_R"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O01_untrusted_negative_and_over_Q_do_not_promote_R" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O01_untrusted_negative_and_over_Q_do_not_promote_R checks=36
+RESULT cases=1 failed=0 assertions=36
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O01_untrusted_negative_and_over_Q_do_not_promote_R" end time: Nov 05 23:15 东京标准时间
+"O01_untrusted_negative_and_over_Q_do_not_promote_R" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/86 Testing: O01_identity_scope_is_checked_before_evidence
+50/86 Test: O01_identity_scope_is_checked_before_evidence
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O01_identity_scope_is_checked_before_evidence"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O01_identity_scope_is_checked_before_evidence" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O01_identity_scope_is_checked_before_evidence checks=27
+RESULT cases=1 failed=0 assertions=27
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O01_identity_scope_is_checked_before_evidence" end time: Nov 05 23:15 东京标准时间
+"O01_identity_scope_is_checked_before_evidence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/86 Testing: O02_all_720_cumulative_trade_orderings
+51/86 Test: O02_all_720_cumulative_trade_orderings
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O02_all_720_cumulative_trade_orderings"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O02_all_720_cumulative_trade_orderings" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+DETAIL O02 permutations=720
+PASS O02_all_720_cumulative_trade_orderings checks=23761
+RESULT cases=1 failed=0 assertions=23761
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"O02_all_720_cumulative_trade_orderings" end time: Nov 05 23:15 东京标准时间
+"O02_all_720_cumulative_trade_orderings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/86 Testing: O02_R_greater_and_B_greater_are_not_conflicts
+52/86 Test: O02_R_greater_and_B_greater_are_not_conflicts
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O02_R_greater_and_B_greater_are_not_conflicts"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O02_R_greater_and_B_greater_are_not_conflicts" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O02_R_greater_and_B_greater_are_not_conflicts checks=16
+RESULT cases=1 failed=0 assertions=16
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"O02_R_greater_and_B_greater_are_not_conflicts" end time: Nov 05 23:15 东京标准时间
+"O02_R_greater_and_B_greater_are_not_conflicts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/86 Testing: O03_A07_cancel_exact_and_late_trade_release_only_one
+53/86 Test: O03_A07_cancel_exact_and_late_trade_release_only_one
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O03_A07_cancel_exact_and_late_trade_release_only_one"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O03_A07_cancel_exact_and_late_trade_release_only_one" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O03_A07_cancel_exact_and_late_trade_release_only_one checks=21
+RESULT cases=1 failed=0 assertions=21
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"O03_A07_cancel_exact_and_late_trade_release_only_one" end time: Nov 05 23:15 东京标准时间
+"O03_A07_cancel_exact_and_late_trade_release_only_one" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/86 Testing: O04_F_less_than_B_keeps_booked_facts_and_halts
+54/86 Test: O04_F_less_than_B_keeps_booked_facts_and_halts
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O04_F_less_than_B_keeps_booked_facts_and_halts"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O04_F_less_than_B_keeps_booked_facts_and_halts" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O04_F_less_than_B_keeps_booked_facts_and_halts checks=15
+RESULT cases=1 failed=0 assertions=15
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"O04_F_less_than_B_keeps_booked_facts_and_halts" end time: Nov 05 23:15 东京标准时间
+"O04_F_less_than_B_keeps_booked_facts_and_halts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/86 Testing: O04_late_trade_after_reject_restores_conservative_hold
+55/86 Test: O04_late_trade_after_reject_restores_conservative_hold
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O04_late_trade_after_reject_restores_conservative_hold"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O04_late_trade_after_reject_restores_conservative_hold" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O04_late_trade_after_reject_restores_conservative_hold checks=16
+RESULT cases=1 failed=0 assertions=16
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O04_late_trade_after_reject_restores_conservative_hold" end time: Nov 05 23:15 东京标准时间
+"O04_late_trade_after_reject_restores_conservative_hold" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/86 Testing: O04_terminal_exact_contradiction_cannot_release_twice
+56/86 Test: O04_terminal_exact_contradiction_cannot_release_twice
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O04_terminal_exact_contradiction_cannot_release_twice"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O04_terminal_exact_contradiction_cannot_release_twice" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O04_terminal_exact_contradiction_cannot_release_twice checks=12
+RESULT cases=1 failed=0 assertions=12
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O04_terminal_exact_contradiction_cannot_release_twice" end time: Nov 05 23:15 东京标准时间
+"O04_terminal_exact_contradiction_cannot_release_twice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/86 Testing: O05_query_push_share_economic_dedup
+57/86 Test: O05_query_push_share_economic_dedup
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O05_query_push_share_economic_dedup"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O05_query_push_share_economic_dedup" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O05_query_push_share_economic_dedup checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O05_query_push_share_economic_dedup" end time: Nov 05 23:15 东京标准时间
+"O05_query_push_share_economic_dedup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/86 Testing: O06_same_key_changed_payload_preserves_original
+58/86 Test: O06_same_key_changed_payload_preserves_original
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O06_same_key_changed_payload_preserves_original"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O06_same_key_changed_payload_preserves_original" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O06_same_key_changed_payload_preserves_original checks=39
+RESULT cases=1 failed=0 assertions=39
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"O06_same_key_changed_payload_preserves_original" end time: Nov 05 23:15 东京标准时间
+"O06_same_key_changed_payload_preserves_original" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/86 Testing: O07_A08_overfill_entire_trade_to_X_and_dedup
+59/86 Test: O07_A08_overfill_entire_trade_to_X_and_dedup
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O07_A08_overfill_entire_trade_to_X_and_dedup"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O07_A08_overfill_entire_trade_to_X_and_dedup" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O07_A08_overfill_entire_trade_to_X_and_dedup checks=18
+RESULT cases=1 failed=0 assertions=18
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O07_A08_overfill_entire_trade_to_X_and_dedup" end time: Nov 05 23:15 东京标准时间
+"O07_A08_overfill_entire_trade_to_X_and_dedup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/86 Testing: O08_no_exact_terminal_holds_V_and_H
+60/86 Test: O08_no_exact_terminal_holds_V_and_H
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O08_no_exact_terminal_holds_V_and_H"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O08_no_exact_terminal_holds_V_and_H" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O08_no_exact_terminal_holds_V_and_H checks=15
+RESULT cases=1 failed=0 assertions=15
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O08_no_exact_terminal_holds_V_and_H" end time: Nov 05 23:15 东京标准时间
+"O08_no_exact_terminal_holds_V_and_H" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/86 Testing: O09_comparable_newer_regression_conflicts
+61/86 Test: O09_comparable_newer_regression_conflicts
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O09_comparable_newer_regression_conflicts"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O09_comparable_newer_regression_conflicts" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O09_comparable_newer_regression_conflicts checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O09_comparable_newer_regression_conflicts" end time: Nov 05 23:15 东京标准时间
+"O09_comparable_newer_regression_conflicts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/86 Testing: O09_older_smaller_and_distinct_epoch_do_not_regress
+62/86 Test: O09_older_smaller_and_distinct_epoch_do_not_regress
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O09_older_smaller_and_distinct_epoch_do_not_regress"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O09_older_smaller_and_distinct_epoch_do_not_regress" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O09_older_smaller_and_distinct_epoch_do_not_regress checks=13
+RESULT cases=1 failed=0 assertions=13
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O09_older_smaller_and_distinct_epoch_do_not_regress" end time: Nov 05 23:15 东京标准时间
+"O09_older_smaller_and_distinct_epoch_do_not_regress" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/86 Testing: OMS_cancel_reject_does_not_reject_order
+63/86 Test: OMS_cancel_reject_does_not_reject_order
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_cancel_reject_does_not_reject_order"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_cancel_reject_does_not_reject_order" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_cancel_reject_does_not_reject_order checks=16
+RESULT cases=1 failed=0 assertions=16
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_cancel_reject_does_not_reject_order" end time: Nov 05 23:15 东京标准时间
+"OMS_cancel_reject_does_not_reject_order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/86 Testing: OMS_cancel_success_without_F_does_not_release
+64/86 Test: OMS_cancel_success_without_F_does_not_release
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_cancel_success_without_F_does_not_release"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_cancel_success_without_F_does_not_release" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_cancel_success_without_F_does_not_release checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_cancel_success_without_F_does_not_release" end time: Nov 05 23:15 东京标准时间
+"OMS_cancel_success_without_F_does_not_release" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/86 Testing: OMS_working_late_cannot_reopen_terminal
+65/86 Test: OMS_working_late_cannot_reopen_terminal
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_working_late_cannot_reopen_terminal"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_working_late_cannot_reopen_terminal" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_working_late_cannot_reopen_terminal checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_working_late_cannot_reopen_terminal" end time: Nov 05 23:15 东京标准时间
+"OMS_working_late_cannot_reopen_terminal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/86 Testing: OMS_timeout_holds_risk_and_never_resubmits
+66/86 Test: OMS_timeout_holds_risk_and_never_resubmits
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_timeout_holds_risk_and_never_resubmits"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_timeout_holds_risk_and_never_resubmits" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_timeout_holds_risk_and_never_resubmits checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_timeout_holds_risk_and_never_resubmits" end time: Nov 05 23:15 东京标准时间
+"OMS_timeout_holds_risk_and_never_resubmits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/86 Testing: OMS_unknown_cancel_stops_new_intents_but_books_late_trade
+67/86 Test: OMS_unknown_cancel_stops_new_intents_but_books_late_trade
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_unknown_cancel_stops_new_intents_but_books_late_trade"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_unknown_cancel_stops_new_intents_but_books_late_trade" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_unknown_cancel_stops_new_intents_but_books_late_trade checks=20
+RESULT cases=1 failed=0 assertions=20
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_unknown_cancel_stops_new_intents_but_books_late_trade" end time: Nov 05 23:15 东京标准时间
+"OMS_unknown_cancel_stops_new_intents_but_books_late_trade" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/86 Testing: OMS_late_old_cancel_report_does_not_overwrite_new_action
+68/86 Test: OMS_late_old_cancel_report_does_not_overwrite_new_action
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_late_old_cancel_report_does_not_overwrite_new_action"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_late_old_cancel_report_does_not_overwrite_new_action" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_late_old_cancel_report_does_not_overwrite_new_action checks=17
+RESULT cases=1 failed=0 assertions=17
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_late_old_cancel_report_does_not_overwrite_new_action" end time: Nov 05 23:15 东京标准时间
+"OMS_late_old_cancel_report_does_not_overwrite_new_action" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/86 Testing: OMS_cancel_action_capacity_rejects_without_half_action
+69/86 Test: OMS_cancel_action_capacity_rejects_without_half_action
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_cancel_action_capacity_rejects_without_half_action"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_cancel_action_capacity_rejects_without_half_action" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_cancel_action_capacity_rejects_without_half_action checks=13
+RESULT cases=1 failed=0 assertions=13
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_cancel_action_capacity_rejects_without_half_action" end time: Nov 05 23:15 东京标准时间
+"OMS_cancel_action_capacity_rejects_without_half_action" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/86 Testing: OMS_reliable_acceptance_conflicts_with_NotSent_or_reject
+70/86 Test: OMS_reliable_acceptance_conflicts_with_NotSent_or_reject
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_reliable_acceptance_conflicts_with_NotSent_or_reject"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_reliable_acceptance_conflicts_with_NotSent_or_reject" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_reliable_acceptance_conflicts_with_NotSent_or_reject checks=48
+RESULT cases=1 failed=0 assertions=48
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_reliable_acceptance_conflicts_with_NotSent_or_reject" end time: Nov 05 23:15 东京标准时间
+"OMS_reliable_acceptance_conflicts_with_NotSent_or_reject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/86 Testing: OMS_cumulative_partial_cannot_regress_to_working
+71/86 Test: OMS_cumulative_partial_cannot_regress_to_working
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_cumulative_partial_cannot_regress_to_working"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_cumulative_partial_cannot_regress_to_working" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_cumulative_partial_cannot_regress_to_working checks=11
+RESULT cases=1 failed=0 assertions=11
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_cumulative_partial_cannot_regress_to_working" end time: Nov 05 23:15 东京标准时间
+"OMS_cumulative_partial_cannot_regress_to_working" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/86 Testing: OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot
+72/86 Test: OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot checks=12
+RESULT cases=1 failed=0 assertions=12
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot" end time: Nov 05 23:15 东京标准时间
+"OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/86 Testing: OMS_invalid_terminal_enum_cannot_release
+73/86 Test: OMS_invalid_terminal_enum_cannot_release
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "OMS_invalid_terminal_enum_cannot_release"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"OMS_invalid_terminal_enum_cannot_release" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS OMS_invalid_terminal_enum_cannot_release checks=9
+RESULT cases=1 failed=0 assertions=9
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OMS_invalid_terminal_enum_cannot_release" end time: Nov 05 23:15 东京标准时间
+"OMS_invalid_terminal_enum_cannot_release" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/86 Testing: O09_equal_version_changed_quantity_conflicts
+74/86 Test: O09_equal_version_changed_quantity_conflicts
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O09_equal_version_changed_quantity_conflicts"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O09_equal_version_changed_quantity_conflicts" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O09_equal_version_changed_quantity_conflicts checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O09_equal_version_changed_quantity_conflicts" end time: Nov 05 23:15 东京标准时间
+"O09_equal_version_changed_quantity_conflicts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/86 Testing: O05_identical_economic_content_with_different_trade_id_is_distinct
+75/86 Test: O05_identical_economic_content_with_different_trade_id_is_distinct
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "O05_identical_economic_content_with_different_trade_id_is_distinct"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"O05_identical_economic_content_with_different_trade_id_is_distinct" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS O05_identical_economic_content_with_different_trade_id_is_distinct checks=10
+RESULT cases=1 failed=0 assertions=10
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"O05_identical_economic_content_with_different_trade_id_is_distinct" end time: Nov 05 23:15 东京标准时间
+"O05_identical_economic_content_with_different_trade_id_is_distinct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/86 Testing: STANDARD_A1a_accepted_order_fills_in_source_proportions
+76/86 Test: STANDARD_A1a_accepted_order_fills_in_source_proportions
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "STANDARD_A1a_accepted_order_fills_in_source_proportions"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"STANDARD_A1a_accepted_order_fills_in_source_proportions" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS STANDARD_A1a_accepted_order_fills_in_source_proportions checks=81
+RESULT cases=1 failed=0 assertions=81
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"STANDARD_A1a_accepted_order_fills_in_source_proportions" end time: Nov 05 23:15 东京标准时间
+"STANDARD_A1a_accepted_order_fills_in_source_proportions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/86 Testing: A01_identity_types_and_exhaustion
+77/86 Test: A01_identity_types_and_exhaustion
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_identity_types_and_exhaustion"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_identity_types_and_exhaustion" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_identity_types_and_exhaustion checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_identity_types_and_exhaustion" end time: Nov 05 23:15 东京标准时间
+"A01_identity_types_and_exhaustion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/86 Testing: A01_dates_validate_gregorian
+78/86 Test: A01_dates_validate_gregorian
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_dates_validate_gregorian"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_dates_validate_gregorian" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_dates_validate_gregorian checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"A01_dates_validate_gregorian" end time: Nov 05 23:15 东京标准时间
+"A01_dates_validate_gregorian" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/86 Testing: A01_calendar_night_mapping_and_breaks
+79/86 Test: A01_calendar_night_mapping_and_breaks
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_calendar_night_mapping_and_breaks"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_calendar_night_mapping_and_breaks" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_calendar_night_mapping_and_breaks checks=6
+RESULT cases=1 failed=0 assertions=6
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_calendar_night_mapping_and_breaks" end time: Nov 05 23:15 东京标准时间
+"A01_calendar_night_mapping_and_breaks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/86 Testing: A01_bad_calendar_configuration_rejected
+80/86 Test: A01_bad_calendar_configuration_rejected
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_bad_calendar_configuration_rejected"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_bad_calendar_configuration_rejected" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_bad_calendar_configuration_rejected checks=2
+RESULT cases=1 failed=0 assertions=2
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_bad_calendar_configuration_rejected" end time: Nov 05 23:15 东京标准时间
+"A01_bad_calendar_configuration_rejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/86 Testing: A01_contract_tick_quantity_and_day_rules
+81/86 Test: A01_contract_tick_quantity_and_day_rules
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_contract_tick_quantity_and_day_rules"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_contract_tick_quantity_and_day_rules" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_contract_tick_quantity_and_day_rules checks=7
+RESULT cases=1 failed=0 assertions=7
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_contract_tick_quantity_and_day_rules" end time: Nov 05 23:15 东京标准时间
+"A01_contract_tick_quantity_and_day_rules" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/86 Testing: A01_unsupported_real_profile_cannot_boot
+82/86 Test: A01_unsupported_real_profile_cannot_boot
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_unsupported_real_profile_cannot_boot"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_unsupported_real_profile_cannot_boot" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_unsupported_real_profile_cannot_boot checks=2
+RESULT cases=1 failed=0 assertions=2
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_unsupported_real_profile_cannot_boot" end time: Nov 05 23:15 东京标准时间
+"A01_unsupported_real_profile_cannot_boot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/86 Testing: A01_checked_arithmetic_boundaries
+83/86 Test: A01_checked_arithmetic_boundaries
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "A01_checked_arithmetic_boundaries"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"A01_checked_arithmetic_boundaries" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS A01_checked_arithmetic_boundaries checks=6
+RESULT cases=1 failed=0 assertions=6
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"A01_checked_arithmetic_boundaries" end time: Nov 05 23:15 东京标准时间
+"A01_checked_arithmetic_boundaries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/86 Testing: P01_six_position_effects
+84/86 Test: P01_six_position_effects
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P01_six_position_effects"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P01_six_position_effects" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P01_six_position_effects checks=12
+RESULT cases=1 failed=0 assertions=12
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"P01_six_position_effects" end time: Nov 05 23:15 东京标准时间
+"P01_six_position_effects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/86 Testing: P01_anchor_is_not_mutated_by_booking
+85/86 Test: P01_anchor_is_not_mutated_by_booking
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P01_anchor_is_not_mutated_by_booking"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P01_anchor_is_not_mutated_by_booking" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P01_anchor_is_not_mutated_by_booking checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"P01_anchor_is_not_mutated_by_booking" end time: Nov 05 23:15 东京标准时间
+"P01_anchor_is_not_mutated_by_booking" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/86 Testing: P01_invalid_side_offset_and_bucket_fail_without_mutation
+86/86 Test: P01_invalid_side_offset_and_bucket_fail_without_mutation
+Command: "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build/p03_tests.exe" "--case" "P01_invalid_side_offset_and_bucket_fail_without_mutation"
+Directory: D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-standard-normal/build
+"P01_invalid_side_offset_and_bucket_fail_without_mutation" start time: Nov 05 23:15 东京标准时间
+Output:
+----------------------------------------------------------
+PASS P01_invalid_side_offset_and_bucket_fail_without_mutation checks=4
+RESULT cases=1 failed=0 assertions=4
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"P01_invalid_side_offset_and_bucket_fail_without_mutation" end time: Nov 05 23:15 东京标准时间
+"P01_invalid_side_offset_and_bucket_fail_without_mutation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 05 23:15 东京标准时间

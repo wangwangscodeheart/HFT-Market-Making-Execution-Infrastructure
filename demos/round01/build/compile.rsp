@@ -1,0 +1,17 @@
+﻿/nologo
+/std:c++20
+/EHsc
+/utf-8
+/W4
+/I"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\include"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\core.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\funds.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\ledger.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\oms.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\positions.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\reference_data.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\risk.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\step_harness.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\types.cpp"
+"D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\examples\m1a_demo.cpp"
+/Fe:p03_m1a_demo.exe

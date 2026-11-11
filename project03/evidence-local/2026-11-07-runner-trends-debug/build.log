@@ -1,0 +1,103 @@
+[  2%] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.obj
+types.cpp
+[  4%] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.obj
+reference_data.cpp
+[  6%] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.obj
+positions.cpp
+[  8%] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.obj
+oms.cpp
+[ 10%] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.obj
+ledger.cpp
+?敞鎰? 鍖呭惈鏂囦欢:         D:\鏂拌█鐨剉s2022\VC\Tools\MSVC\14.44.35207\include\wmmintrin.h
+?敞鎰? 鍖呭惈鏂囦欢:          D:\鏂拌█鐨剉s2022\VC\Tools\MSVC\14.44.35207\include\nmmintrin.h
+[ 12%] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.obj
+funds.cpp
+[ 14%] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.obj
+risk.cpp
+[ 16%] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.obj
+core.cpp
+[ 18%] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.obj
+step_harness.cpp
+[ 20%] Building CXX object CMakeFiles/p03_core.dir/src/order_planner.cpp.obj
+order_planner.cpp
+[ 22%] Building CXX object CMakeFiles/p03_core.dir/src/quote_strategy.cpp.obj
+quote_strategy.cpp
+[ 24%] Linking CXX static library p03_core.lib
+[ 24%] Built target p03_core
+[ 26%] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.obj
+m1a_demo.cpp
+[ 28%] Linking CXX executable p03_m1a_demo.exe
+[ 28%] Built target p03_m1a_demo
+[ 30%] Building CXX object CMakeFiles/p03_export_snapshot.dir/examples/export_snapshot.cpp.obj
+export_snapshot.cpp
+[ 32%] Linking CXX executable p03_export_snapshot.exe
+[ 32%] Built target p03_export_snapshot
+[ 34%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_sim.cpp.obj
+local_sim.cpp
+[ 36%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_delivery.cpp.obj
+local_delivery.cpp
+[ 38%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_query_review.cpp.obj
+local_query_review.cpp
+[ 40%] Building CXX object CMakeFiles/p03_localsim.dir/src/local_quote_runner.cpp.obj
+local_quote_runner.cpp
+[ 42%] Linking CXX static library p03_localsim.lib
+[ 42%] Built target p03_localsim
+[ 44%] Building CXX object CMakeFiles/p03_localsim_demo.dir/examples/local_sim_demo.cpp.obj
+local_sim_demo.cpp
+[ 46%] Linking CXX executable p03_localsim_demo.exe
+[ 46%] Built target p03_localsim_demo
+[ 48%] Building CXX object CMakeFiles/p03_export_local_replay.dir/examples/export_local_replay.cpp.obj
+export_local_replay.cpp
+[ 51%] Linking CXX executable p03_export_local_replay.exe
+[ 51%] Built target p03_export_local_replay
+[ 53%] Building CXX object CMakeFiles/p03_export_quote_runner.dir/examples/export_quote_runner.cpp.obj
+export_quote_runner.cpp
+[ 55%] Linking CXX executable p03_export_quote_runner.exe
+[ 55%] Built target p03_export_quote_runner
+[ 57%] Building CXX object CMakeFiles/p03_tests.dir/tests/test_main.cpp.obj
+test_main.cpp
+?敞鎰? 鍖呭惈鏂囦欢:          D:\鏂拌█鐨剉s2022\VC\Tools\MSVC\14.44.35207\include\memory
+[ 59%] Building CXX object CMakeFiles/p03_tests.dir/tests/types_tests.cpp.obj
+types_tests.cpp
+[ 61%] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.obj
+oms_tests.cpp
+[ 63%] Building CXX object CMakeFiles/p03_tests.dir/tests/core_tests.cpp.obj
+core_tests.cpp
+[ 65%] Building CXX object CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.obj
+funds_tests.cpp
+[ 67%] Building CXX object CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.obj
+harness_tests.cpp
+?敞鎰? 鍖呭惈鏂囦欢:      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\ctype.h
+[ 69%] Building CXX object CMakeFiles/p03_tests.dir/tests/scenario_tests.cpp.obj
+scenario_tests.cpp
+[ 71%] Building CXX object CMakeFiles/p03_tests.dir/tests/identity_tests.cpp.obj
+identity_tests.cpp
+[ 73%] Building CXX object CMakeFiles/p03_tests.dir/tests/input_transaction_tests.cpp.obj
+input_transaction_tests.cpp
+[ 75%] Building CXX object CMakeFiles/p03_tests.dir/tests/admission_tests.cpp.obj
+admission_tests.cpp
+[ 77%] Building CXX object CMakeFiles/p03_tests.dir/tests/journal_fact_tests.cpp.obj
+journal_fact_tests.cpp
+[ 79%] Building CXX object CMakeFiles/p03_tests.dir/tests/lifecycle_fact_tests.cpp.obj
+lifecycle_fact_tests.cpp
+[ 81%] Building CXX object CMakeFiles/p03_tests.dir/tests/client_order_tests.cpp.obj
+client_order_tests.cpp
+[ 83%] Building CXX object CMakeFiles/p03_tests.dir/tests/strategy_identity_tests.cpp.obj
+strategy_identity_tests.cpp
+[ 85%] Building CXX object CMakeFiles/p03_tests.dir/tests/local_sim_tests.cpp.obj
+local_sim_tests.cpp
+[ 87%] Building CXX object CMakeFiles/p03_tests.dir/tests/local_delivery_tests.cpp.obj
+local_delivery_tests.cpp
+[ 89%] Building CXX object CMakeFiles/p03_tests.dir/tests/local_replay_tests.cpp.obj
+local_replay_tests.cpp
+[ 91%] Building CXX object CMakeFiles/p03_tests.dir/tests/local_query_tests.cpp.obj
+local_query_tests.cpp
+[ 93%] Building CXX object CMakeFiles/p03_tests.dir/tests/planner_tests.cpp.obj
+planner_tests.cpp
+[ 95%] Building CXX object CMakeFiles/p03_tests.dir/tests/quote_strategy_tests.cpp.obj
+quote_strategy_tests.cpp
+?敞鎰? 鍖呭惈鏂囦欢:               D:\鏂拌█鐨剉s2022\VC\Tools\MSVC\14.44.35207\include\pmmintrin.h
+[ 97%] Building CXX object CMakeFiles/p03_tests.dir/tests/local_runner_tests.cpp.obj
+local_runner_tests.cpp
+[100%] Linking CXX executable p03_tests.exe
+[100%] Built target p03_tests

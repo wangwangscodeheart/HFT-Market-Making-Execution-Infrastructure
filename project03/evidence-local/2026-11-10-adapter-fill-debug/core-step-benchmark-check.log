@@ -1,0 +1,2 @@
+PASS: 3000 measured steps, 50 warmup cycles, six per-event distributions and timer overhead; 4 benchmark negative controls. Local diagnostic only.
+PASS: 8 state profiles / 800 measured ReferenceMark steps; order/trade/position/held checks and 3 state benchmark negative controls.

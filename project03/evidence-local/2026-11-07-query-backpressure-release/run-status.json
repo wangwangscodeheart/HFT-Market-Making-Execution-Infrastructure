@@ -1,0 +1,25 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-07-query-backpressure-release",
+    "configuration":  "Release",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-07T05:06:08.9319664Z",
+    "finished_utc":  "2026-11-07T05:07:05.6730910Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "19d718374401106f4a72a72feb159b507adb68f5e85d620c9365fcb9c29251ea",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "component_scope":  "m1b-local-replay-slice3",
+    "query_first_replay":  true,
+    "quote_runner_export":  true,
+    "quote_expiry_export":  true,
+    "quote_query_gap_export":  true,
+    "quote_retry_export":  true,
+    "quote_overflow_export":  true,
+    "quote_cleanup_export":  true,
+    "quote_late_fill_export":  true,
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

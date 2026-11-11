@@ -1,0 +1,55 @@
+[
+  {
+    "name": "clean-configure",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "-S",
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/project03",
+      "-B",
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/workspace/scratch/085a4f9e2dc1/.build_tools/bin/ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_TESTING=ON"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "clean-build",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "--build",
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/build",
+      "--parallel",
+      "2"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "clean-ctest",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/ctest",
+      "--test-dir",
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/build",
+      "--output-on-failure",
+      "--output-junit",
+      "/workspace/scratch/085a4f9e2dc1/project03/evidence/clean-junit.xml"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "clean-tests",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/build/p03_tests"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "clean-demo",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/m1a-clean-ntezhvkb/build/p03_m1a_demo"
+    ],
+    "exit": 0
+  }
+]

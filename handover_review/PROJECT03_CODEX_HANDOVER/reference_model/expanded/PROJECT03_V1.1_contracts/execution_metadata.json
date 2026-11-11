@@ -1,0 +1,23 @@
+{
+  "execution_time_asia_shanghai": "2026-11-05T16:48:17.953936+08:00",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "kernel": "6.18.57",
+  "machine": "x86_64",
+  "source_sha256": "6cc50ea672d48b5945cf12ddd7c6e3825c97c2ab1a3d058082f34cc41d6838ca",
+  "output_sha256": "35a1cd6e665f67eab2a7c9103f23f47f4e3cafbc0b17568967a8fe9e8d697b64",
+  "summary": {
+    "named_tests": 38,
+    "passed": 38,
+    "failed": 0,
+    "kill_schedules": 5,
+    "oms_permutations": 720
+  },
+  "scope": "Architecture reference model only; no production core, SDK, real queue, fsync or thread-race verification."
+}

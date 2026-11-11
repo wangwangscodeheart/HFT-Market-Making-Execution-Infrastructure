@@ -1,0 +1,6 @@
+﻿{
+    "configuration_comparison":  "Debug and Release snapshot JSON byte-identical for both scenarios",
+    "test_cases_per_configuration":  93,
+    "assertions_per_configuration":  25120,
+    "failures":  0
+}

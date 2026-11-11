@@ -1,0 +1,107 @@
+[
+  {
+    "path": "freeze-2026-11-11/ADR_BASELINE_HASHES.json",
+    "bytes": 1602,
+    "sha256": "5c75348ffe3722700c65c9bbaecd4aa8fee14d908ba857c14f3a5548ba06c06f"
+  },
+  {
+    "path": "freeze-2026-11-11/AUDIT_RESULT.json",
+    "bytes": 261,
+    "sha256": "c07838ebb6144dc4a7b1e333b8c930b9794ecd877a7536706371f66294b915fc"
+  },
+  {
+    "path": "freeze-2026-11-11/AUDIT_TEXT_INDEX.json",
+    "bytes": 133200,
+    "sha256": "6cdd8837aa792e5fc85f31873a2c882414a51e78c9045c3e649ddd0ce9164dff"
+  },
+  {
+    "path": "freeze-2026-11-11/ENVIRONMENT.txt",
+    "bytes": 3612,
+    "sha256": "a889e04fd07694c15383b3a7ac32ef864915872b0ad4dede7c20d35739dc49e7"
+  },
+  {
+    "path": "freeze-2026-11-11/HISTORICAL_FAILURES.json",
+    "bytes": 2293,
+    "sha256": "a834a41be8b8443516f631ee44d627a2eea625737cf9f90d5ebe20a9e825a5ef"
+  },
+  {
+    "path": "freeze-2026-11-11/HISTORICAL_RUN_INDEX.json",
+    "bytes": 741066,
+    "sha256": "4099224f623b9cabd83a8facf781a5fca5ce899ac240dfb84cbc1a8304a7e37b"
+  },
+  {
+    "path": "freeze-2026-11-11/PROJECT03_RESUME_GUIDE.md",
+    "bytes": 6385,
+    "sha256": "ba3b3ce0bea46a9e1b85fbcc81b6be6d525761c0acc84c3213465f359855e58d"
+  },
+  {
+    "path": "freeze-2026-11-11/PROJECT03_SCOPE_REASSESSMENT.md",
+    "bytes": 4112,
+    "sha256": "64658fd96cfca32f0805fea8a2a2c3ac14128b81c08e337667219a0778f9f67a"
+  },
+  {
+    "path": "freeze-2026-11-11/PROJECT03_STATUS_AT_FREEZE.md",
+    "bytes": 9588,
+    "sha256": "73ca7056137c4cc2a604e43894ed30fd0f161ef11051562111ed9fa86f935daa"
+  },
+  {
+    "path": "freeze-2026-11-11/README.md",
+    "bytes": 1787,
+    "sha256": "23341adcb887893431a88fc0bf92c840ff9a3e71650e298e242066e9bb3091a5"
+  },
+  {
+    "path": "freeze-2026-11-11/SOURCE_DELTA.json",
+    "bytes": 254,
+    "sha256": "837f530867edc29c863717bedc05cfbdafb55456d3b2d81bca984813fd96f743"
+  },
+  {
+    "path": "freeze-2026-11-11/TEST_RESULTS.json",
+    "bytes": 2989,
+    "sha256": "457b5278e1a7644da151cf46e8e6612f1b27c7a772bec8e7fc304d210d8d36c5"
+  },
+  {
+    "path": "freeze-2026-11-11/WORKSPACE_FILES.json",
+    "bytes": 18511103,
+    "sha256": "2e5e15c510eff27f6806ddf21654a67e043701e17a55a9b73c66d1e27484d4e5"
+  },
+  {
+    "path": "freeze-2026-11-11/WORKSPACE_SHA256SUMS",
+    "bytes": 13838355,
+    "sha256": "bc45cd432fad4fca944c9c4cd4d441578fa1fda7bd5c30266f0021ac7c9baa05"
+  },
+  {
+    "path": "freeze-2026-11-11/audit.cjs",
+    "bytes": 2278,
+    "sha256": "981c5f02a6b6a63918bc6964ea1f75f0786a17264050baa7876635e9a2ddfd83"
+  },
+  {
+    "path": "freeze-2026-11-11/document-review-index-handover.json",
+    "bytes": 42535,
+    "sha256": "d2b2a5cd2722c9a3bbcccd179f7bf48b25b12d5f39394875663baf5c459e27b7"
+  },
+  {
+    "path": "freeze-2026-11-11/document-review-index-working.json",
+    "bytes": 22553,
+    "sha256": "fed298921b39da3c20889beb895fdc06ffb6852cc1955bc91986dc15722d89f4"
+  },
+  {
+    "path": "freeze-2026-11-11/package.ps1",
+    "bytes": 1079,
+    "sha256": "4aebf054e649c145a9b710887fd792df2317f1e374171bf088ad1bc87f6736e0"
+  },
+  {
+    "path": "freeze-2026-11-11/verify-debug.log",
+    "bytes": 226,
+    "sha256": "1fe53cddf35533739e04a2c40aaa962118175abd42a20cbb719c0fd1b50b36ed"
+  },
+  {
+    "path": "freeze-2026-11-11/verify-package.cjs",
+    "bytes": 2558,
+    "sha256": "60a2960c568e698831cb92dafef03ecec661ca645c1b38686ca9ec1be730950f"
+  },
+  {
+    "path": "freeze-2026-11-11/verify-release.log",
+    "bytes": 230,
+    "sha256": "6fd8db27bbaa4247682617f158d583f8ae652b0aeb29d35fcddeb41fdc1c595f"
+  }
+]

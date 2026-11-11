@@ -1,0 +1,146 @@
+{
+  "schema": "p03.offline-bundle.v1",
+  "run": "2026-11-10-adapter-cancel-release",
+  "configuration": "Release",
+  "ui_manifest_sha256": "6a9a2021640fea8b6c6f15eee39e5e873585a95abc6430d7e1282b8e6ec3f286",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8e5ddea4d8009789abab8df8bf9c3f870da03f5eb697849a46237c6b61cbd7c8"
+    },
+    {
+      "path": "core-snapshot.js",
+      "sha256": "900259bc615e63f5603262d8f2c194f77952d080d82e9fe1e357f0ddb52b07fa"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d25b3cda8a192a371353d25e02607513bb7026970c06412ad8738e42ec931f64"
+    },
+    {
+      "path": "local-replay-data.js",
+      "sha256": "da3b9fbc49962b1a7809b3aedcbc033cb0316b3fe8a9ff1878c7de15413bc9a7"
+    },
+    {
+      "path": "local-replay.css",
+      "sha256": "727abc2f4056f3eb22b1fd85227761c58c5cfc330f7ff0201f07c4a51acfc7f4"
+    },
+    {
+      "path": "local-replay.js",
+      "sha256": "f2e9ef8f1421b0c86a60725e1f0c59308c297ec170529de1e492379cd5aed102"
+    },
+    {
+      "path": "quote-runner-data.js",
+      "sha256": "ee8d0fda7dd1bcec2b0702b05ab1de96bc3291870b2d723356ccb74075bf8ed2"
+    },
+    {
+      "path": "quote-runner.js",
+      "sha256": "8fd9bed108fed66b6e8d166a04e7110cf10d2da6c132a1d8d23e75274e19f167"
+    },
+    {
+      "path": "runner-charts.js",
+      "sha256": "49d047d95da0d4b5fbd225ee393ef1cc8084ad99d6ff4d96f7b321608313f3f7"
+    },
+    {
+      "path": "runner.html",
+      "sha256": "350c4157ec09b35296820e405762db31102fc2abb79af2cecb22bf8b2743157b"
+    },
+    {
+      "path": "terminal-cases.js",
+      "sha256": "ab85d6a1add2fb1bf13253234b88cbe60edeb717ea90d15803ca21c644ffcfd9"
+    },
+    {
+      "path": "terminal-core.js",
+      "sha256": "f0d91284f1586c83cadded51534e0815adbc15bea899fdde1fbd9e9dcf679e20"
+    },
+    {
+      "path": "terminal.css",
+      "sha256": "1425810e2d366a86b0be18d8e1a610cd9f36433d47a388c3541119d9183aec57"
+    },
+    {
+      "path": "terminal.js",
+      "sha256": "e8bef843b1d09ef9342508b2456340f465fffcfbbb846809667b5a43cab77bef"
+    },
+    {
+      "path": "trend-cases.js",
+      "sha256": "c2880583ed2b51d9c160848ff08eec5294f420e73a9ca7ceaade8a0503459fd0"
+    },
+    {
+      "path": "trend.js",
+      "sha256": "67beba20ceac56a8fe68f3df146cd7a2b9acb49d74ad359ec80a41d76adfb40b"
+    }
+  ],
+  "raw_json": [
+    {
+      "path": "toolchain.json",
+      "sha256": "20c474bab747532beb6a7c533d751c64d7c797805e0713c6b399903a2b60007e"
+    },
+    {
+      "path": "negative-controls.json",
+      "sha256": "bbc6a5e75d606ccf6fd3baae5b293f0fdee2033df25e0e033b0d595cac67f79b"
+    },
+    {
+      "path": "snapshot.json",
+      "sha256": "72f3535add506183ec310b4299c42545510cecad37f84049b873588cdda0da25"
+    },
+    {
+      "path": "normal-snapshot.json",
+      "sha256": "6b4aebf36e22ac7a2a26d2fa521e5cde9658944f04289205fd030954a6373acf"
+    },
+    {
+      "path": "local-replay.json",
+      "sha256": "52d0864c00d4132b6c1eaf9dea91b6670c4c3d6bfb54293090ba4f52dc0a7af4"
+    },
+    {
+      "path": "query-first-replay.json",
+      "sha256": "3a2c7f47685f87f1b0f1945d2474c0388991e08defd7ba7c684de4a68d8c2334"
+    },
+    {
+      "path": "quote-runner.json",
+      "sha256": "3a3357f3d70080ecfe0d15a5e154e7865e568f590edb970557e8397cc5004b38"
+    },
+    {
+      "path": "quote-expiry.json",
+      "sha256": "4f2c48f98eec8178c6aaebaa9f92b9033ce8912b7755b371fdc4afd04c854325"
+    },
+    {
+      "path": "quote-query-gap.json",
+      "sha256": "e896f070ce130585a3aa5af54087ab7a75daeaacd0999b21dd8be83125256eac"
+    },
+    {
+      "path": "quote-retry.json",
+      "sha256": "f53d2688c55e80ea2147066b4c78fd7b03c6e4810e61fde873ad022ca5626a81"
+    },
+    {
+      "path": "quote-overflow.json",
+      "sha256": "e58e0c91d4183b682a58aa0801a26b209478d157ce127154ca4a583cfc3fcce3"
+    },
+    {
+      "path": "quote-cleanup.json",
+      "sha256": "a0db10d56d5e6087b36113930899f41831e8c47d4932d6710bce153b714625ad"
+    },
+    {
+      "path": "quote-late-fill.json",
+      "sha256": "78c5c9a04bd2eaa505085b30d1b732f266d0291f9831288bb952c9d2a08ed825"
+    },
+    {
+      "path": "quote-inventory.json",
+      "sha256": "e51391fa206e13b4da628527ce7a5ee26734d8cf85b4ff0d20b03610a8ab61b3"
+    },
+    {
+      "path": "quote-feed.json",
+      "sha256": "9676a9740452b1bde4cfad5b96af24a1ad7089c141a9d7679e3844e1d3a3f21c"
+    },
+    {
+      "path": "core-step-benchmark.json",
+      "sha256": "442326f7d5dfe9797fb079877016ae1088a403c4cfb7bc2dcc8003e623a78d28"
+    },
+    {
+      "path": "core-state-benchmark.json",
+      "sha256": "e3ad9f456b2e99b61a27ec214c7a9c12ebd52d287e8bdc713abfb55fc5139857"
+    },
+    {
+      "path": "funds-view-benchmark.json",
+      "sha256": "2bf66312619cd3e653e1ab58d57f3cc90d8013fd97700cca7e84d4d1bebd6090"
+    }
+  ]
+}

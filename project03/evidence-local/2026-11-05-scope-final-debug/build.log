@@ -1,0 +1,46 @@
+[  4%] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.obj
+types.cpp
+[  8%] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.obj
+reference_data.cpp
+[ 13%] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.obj
+positions.cpp
+[ 17%] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.obj
+oms.cpp
+[ 21%] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.obj
+ledger.cpp
+[ 26%] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.obj
+funds.cpp
+[ 30%] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.obj
+risk.cpp
+[ 34%] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.obj
+core.cpp
+[ 39%] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.obj
+step_harness.cpp
+[ 43%] Linking CXX static library p03_core.lib
+[ 43%] Built target p03_core
+[ 47%] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.obj
+m1a_demo.cpp
+[ 52%] Linking CXX executable p03_m1a_demo.exe
+[ 52%] Built target p03_m1a_demo
+[ 56%] Building CXX object CMakeFiles/p03_export_snapshot.dir/examples/export_snapshot.cpp.obj
+export_snapshot.cpp
+[ 60%] Linking CXX executable p03_export_snapshot.exe
+[ 60%] Built target p03_export_snapshot
+[ 65%] Building CXX object CMakeFiles/p03_tests.dir/tests/test_main.cpp.obj
+test_main.cpp
+[ 69%] Building CXX object CMakeFiles/p03_tests.dir/tests/types_tests.cpp.obj
+types_tests.cpp
+[ 73%] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.obj
+oms_tests.cpp
+[ 78%] Building CXX object CMakeFiles/p03_tests.dir/tests/core_tests.cpp.obj
+core_tests.cpp
+[ 82%] Building CXX object CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.obj
+funds_tests.cpp
+[ 86%] Building CXX object CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.obj
+harness_tests.cpp
+[ 91%] Building CXX object CMakeFiles/p03_tests.dir/tests/scenario_tests.cpp.obj
+scenario_tests.cpp
+[ 95%] Building CXX object CMakeFiles/p03_tests.dir/tests/identity_tests.cpp.obj
+identity_tests.cpp
+[100%] Linking CXX executable p03_tests.exe
+[100%] Built target p03_tests

@@ -1,0 +1,89 @@
+{
+    "schema":  "p03.build-run.v1",
+    "run":  "2026-11-06-m1a-evidence-debug",
+    "configuration":  "Debug",
+    "mode":  "business",
+    "state":  "completed",
+    "started_utc":  "2026-11-06T12:05:41.1591921Z",
+    "finished_utc":  "2026-11-06T12:06:14.1059727Z",
+    "exit_code":  0,
+    "source_manifest_sha256":  "d38b8eb0ed84705242db0fe116c68d0c7b7db1cec4f714433463a95d73253c6e",
+    "artifacts":  [
+                      {
+                          "path":  "toolchain.json",
+                          "sha256":  "35c705e9a435e0a323c9369a8998cbeec004c0dca5e340429c7d3fc8bfb17edd"
+                      },
+                      {
+                          "path":  "run.cmd",
+                          "sha256":  "d823b5e146e8094ccd4dcf9feb6bfd35a2a7b71ae258d7ddce03de1c7fdf00de"
+                      },
+                      {
+                          "path":  "configure.log",
+                          "sha256":  "8f1a6c737cc981b0d252f056b58be01fba42384dc9f839bdef9e172a4830f570"
+                      },
+                      {
+                          "path":  "build.log",
+                          "sha256":  "4624a3481c4b11caedf819a566991135d79d8224d45870e8cd3483311d0ff1ad"
+                      },
+                      {
+                          "path":  "ctest.log",
+                          "sha256":  "ad1e8164e6418bc515b92c8e25672ee44efd0f5bea84aedee5eb00d64d451b65"
+                      },
+                      {
+                          "path":  "ctest-junit.xml",
+                          "sha256":  "d4bf6a6d21f65a9787f9dbd9f7f97030575ef8f961e09f3de1a7ad83b29499b2"
+                      },
+                      {
+                          "path":  "test-list.log",
+                          "sha256":  "c5e1ce568bfc53e244c8a5e37674ff3450e42331a9693fe1f2bb03f820e02c45"
+                      },
+                      {
+                          "path":  "tests.log",
+                          "sha256":  "651d7586fe4140f54255f4e066d37fc19e278c7600608d71f67796e10da74c5c"
+                      },
+                      {
+                          "path":  "runner-negative.log",
+                          "sha256":  "1deace34f838a42cf3f3ff4a1d82da17719e9c0e7303308f25b0f09b5381f03b"
+                      },
+                      {
+                          "path":  "unknown-case-negative.log",
+                          "sha256":  "539012cb689eab9899c2fac62db8505f8243852ffdbd98fbffd092209733a408"
+                      },
+                      {
+                          "path":  "negative-controls.json",
+                          "sha256":  "bbc6a5e75d606ccf6fd3baae5b293f0fdee2033df25e0e033b0d595cac67f79b"
+                      },
+                      {
+                          "path":  "demo.log",
+                          "sha256":  "6c64ff3abadf5b05f95f97a1f90f1f697cf3c6bdea286495045f31b0f3f0a730"
+                      },
+                      {
+                          "path":  "normal-demo.log",
+                          "sha256":  "1127b278cc6a3d8aca7cdb4e2c3d738c51ef6a62cc7f0383c6bdb0661e836509"
+                      },
+                      {
+                          "path":  "snapshot.json",
+                          "sha256":  "1fcc865c7a964da96286f9cc79cafe5c77a0777b856ff825015683196e76ed85"
+                      },
+                      {
+                          "path":  "normal-snapshot.json",
+                          "sha256":  "e3a6d56294c30e9a5f5102902608f2c5afb4aee60fedcf3d2d766719a8631ed0"
+                      },
+                      {
+                          "path":  "build/p03_tests.exe",
+                          "sha256":  "2a001a669ddff9fa3347ab7c912848fd0eabd6169407dd6769b29539e951f720"
+                      },
+                      {
+                          "path":  "build/p03_m1a_demo.exe",
+                          "sha256":  "396fa0b2412e8cd2689a248c95d86d1493b638dbe13bc56448331da82787d53c"
+                      },
+                      {
+                          "path":  "build/p03_export_snapshot.exe",
+                          "sha256":  "68bbb318ec7f6becc3b21ec9b6b405edb5dd4b05ff9ccdffa802ab217f1dce66"
+                      },
+                      {
+                          "path":  "build/CMakeCache.txt",
+                          "sha256":  "697c061ae732108a7bca8420f3f7fe367aac2af9ebe40ac6271daa87521885e2"
+                      }
+                  ]
+}

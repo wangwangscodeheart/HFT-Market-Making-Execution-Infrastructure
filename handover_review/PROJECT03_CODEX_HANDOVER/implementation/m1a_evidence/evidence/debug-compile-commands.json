@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/types.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/types.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/types.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/types.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/reference_data.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/reference_data.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/reference_data.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/reference_data.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/positions.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/positions.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/positions.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/positions.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/oms.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/oms.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/oms.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/oms.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/ledger.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/ledger.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/ledger.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/ledger.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/funds.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/funds.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/funds.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/funds.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/risk.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/risk.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/risk.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/risk.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/core.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/core.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/core.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/core.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_core.dir/src/step_harness.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/src/step_harness.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/src/step_harness.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/step_harness.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/examples/m1a_demo.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/examples/m1a_demo.cpp",
+  "output": "CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/test_main.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/test_main.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/test_main.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/types_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/types_tests.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/types_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/types_tests.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/oms_tests.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/oms_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/core_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/core_tests.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/core_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/core_tests.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o"
+},
+{
+  "directory": "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+  "command": "/usr/bin/c++ -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -o CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/harness_tests.cpp",
+  "file": "/workspace/scratch/085a4f9e2dc1/project03/tests/harness_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.o"
+}
+]

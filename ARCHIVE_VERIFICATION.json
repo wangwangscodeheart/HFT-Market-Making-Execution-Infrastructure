@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-11 Asia/Tokyo",
+  "zip": "PROJECT03_FREEZE_2026-11-11.zip",
+  "bytes": 3691494946,
+  "sha256": "6faed74c9f68ec8869dbb7c8c04ecef8d468d82c40118d604c8b5f55152f3e4a",
+  "extracted_files": 80940,
+  "hashed_records": 80939,
+  "failures": [],
+  "passed": true,
+  "restore_directory": "D:\\HFT Market Making & Execution Infrastructure\\PROJECT03_FREEZE_VERIFY_2026-11-11",
+  "manifest_self_hash_policy": "PACKAGE_FILES.json excluded from own list; identical extracted/source bytes checked; external ZIP SHA256 seals manifest"
+}

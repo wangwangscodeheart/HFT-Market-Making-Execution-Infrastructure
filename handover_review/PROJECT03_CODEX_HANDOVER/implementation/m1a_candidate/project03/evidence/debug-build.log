@@ -1,0 +1,6 @@
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.o
+[2/5] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.o
+[3/5] Linking CXX static library libp03_core.a
+[4/5] Linking CXX executable p03_m1a_demo
+[5/5] Linking CXX executable p03_tests

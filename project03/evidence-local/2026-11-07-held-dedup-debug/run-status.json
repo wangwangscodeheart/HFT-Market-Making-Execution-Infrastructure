@@ -1,0 +1,25 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-07-held-dedup-debug",
+    "configuration":  "Debug",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-07T10:12:47.3563192Z",
+    "finished_utc":  "2026-11-07T10:13:40.6672362Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "d097682321b300e5b29246e19de09b9f5866bea4f045966b0eaf92bceeac5f7d",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "component_scope":  "m1b-local-replay-slice3",
+    "query_first_replay":  true,
+    "quote_runner_export":  true,
+    "quote_expiry_export":  true,
+    "quote_query_gap_export":  true,
+    "quote_retry_export":  true,
+    "quote_overflow_export":  true,
+    "quote_cleanup_export":  true,
+    "quote_late_fill_export":  true,
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

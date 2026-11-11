@@ -1,0 +1,12 @@
+core.cpp
+D:\HFT Market Making & Execution Infrastructure\handover_review\PROJECT03_CODEX_HANDOVER\implementation\m1a_candidate\project03\src\core.cpp(114): error C2607: 静态断言失败
+funds.cpp
+ledger.cpp
+oms.cpp
+positions.cpp
+reference_data.cpp
+risk.cpp
+step_harness.cpp
+types.cpp
+m1a_demo.cpp
+正在生成代码...

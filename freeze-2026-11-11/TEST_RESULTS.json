@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-11 Asia/Tokyo",
+  "runs": [
+    {
+      "configuration": "debug",
+      "exit_code": 0,
+      "state": "completed",
+      "aggregate": "RESULT cases=342 failed=0 assertions=28988",
+      "negative_controls": {
+        "assertion_failure_exit": 1,
+        "unknown_case_exit": 2
+      },
+      "artifact_verification": "PASS: completed Debug run; archived sources and 40 artifact hashes verified; current workspace source matches."
+    },
+    {
+      "configuration": "release",
+      "exit_code": 0,
+      "state": "completed",
+      "aggregate": "RESULT cases=342 failed=0 assertions=28988",
+      "negative_controls": {
+        "assertion_failure_exit": 1,
+        "unknown_case_exit": 2
+      },
+      "artifact_verification": "PASS: completed Release run; archived sources and 40 artifact hashes verified; current workspace source matches."
+    }
+  ],
+  "functional_outputs": [
+    {
+      "path": "snapshot.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "normal-snapshot.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "local-sim-demo.log",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "local-replay.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "query-first-replay.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-runner.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-expiry.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-query-gap.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-retry.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-overflow.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-cleanup.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-late-fill.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-inventory.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    },
+    {
+      "path": "quote-feed.json",
+      "debug_release_equal": true,
+      "prior_round67_equal": true
+    }
+  ],
+  "not_run": [
+    "Linux",
+    "TSan",
+    "long soak",
+    "live CTP/SimNow",
+    "durable crash recovery",
+    "unwired BridgeIO draft",
+    "reference model rerun"
+  ],
+  "formal_acceptance": false,
+  "audit_attempts": [
+    {
+      "attempt": 1,
+      "result": "failed inventory during active build: transient CMakeFiles/Progress/1 removed before stat; no original content changed; rerun after builds completed"
+    }
+  ]
+}

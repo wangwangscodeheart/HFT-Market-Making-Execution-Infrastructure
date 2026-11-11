@@ -1,0 +1,117 @@
+{
+  "scope": "Handover/documentation integrity only; no C++ or external trading execution",
+  "checks": 18,
+  "passed": 18,
+  "failed": 0,
+  "mandatory_original_missing": 0,
+  "originals": 17,
+  "warnings": [
+    "M1A candidate exists but has no formal user acceptance; approved scope remains M1A.",
+    "Immutable historical originals contain superseded pending-review status; current overlay is explicit.",
+    "Full native conversation export and external SDK/specification binary/connection evidence are not provided.",
+    "LSan remains unverified; historical business tests were not rerun by this checker."
+  ],
+  "results": [
+    {
+      "name": "required_16_documents",
+      "passed": true,
+      "details": "00～15全部真实存在且非空"
+    },
+    {
+      "name": "all_files_nonempty",
+      "passed": true,
+      "details": "不以空文件冒充附件；合法文件逐个检查"
+    },
+    {
+      "name": "17_original_bytes",
+      "passed": true,
+      "details": "17份来源原件大小/SHA与取得时记录一致"
+    },
+    {
+      "name": "mandatory_originals_present",
+      "passed": true,
+      "details": "必需原件缺失0；模型ZIP内含源码/输出/元数据"
+    },
+    {
+      "name": "archives_docx_crc_and_structure",
+      "passed": true,
+      "details": "所有ZIP/DOCX CRC及DOCX正文XML有效；不是视觉等价审查"
+    },
+    {
+      "name": "adr001_to_010",
+      "passed": true,
+      "details": "十项背景/决定/原因/约束/状态/出处齐全，均标整理件而非历史原件"
+    },
+    {
+      "name": "full_v11_in_04",
+      "passed": true,
+      "details": "04包含完整原Markdown正文，不只摘要；正式原件SHA另独立核对"
+    },
+    {
+      "name": "five_p0_and_adr008_complete",
+      "passed": true,
+      "details": "六段规范全文逐段与原件一致，含不变量、路径、反例、测试和阶段影响"
+    },
+    {
+      "name": "m1a_plan_matches_17_2",
+      "passed": true,
+      "details": "原17.2完整保留；候选优先审查，禁止提前后续能力"
+    },
+    {
+      "name": "model_38_names_and_hashes",
+      "passed": true,
+      "details": "原始38名字/源码/输出哈希/5位置/720排列一致；没有重跑"
+    },
+    {
+      "name": "candidate_39_source_fingerprints",
+      "passed": true,
+      "details": "候选39项指纹全部匹配；本轮未改业务源码/历史文档"
+    },
+    {
+      "name": "candidate_85_historical_records",
+      "passed": true,
+      "details": "四组历史85例/JUnit/24868检查与源码一致；不代表本轮重跑或用户验收"
+    },
+    {
+      "name": "candidate_separate_evidence_identical",
+      "passed": true,
+      "details": "独立evidence ZIP与source ZIP中的同名历史证据字节一致"
+    },
+    {
+      "name": "current_status_disambiguated",
+      "passed": true,
+      "details": "批准时刻与当前候选分层说明；没有以旧模板抹去实现或自行验收"
+    },
+    {
+      "name": "42_reference_entries",
+      "passed": true,
+      "details": "原S01～S29/R01～R13全部保留；来源层级/版本/限制明确"
+    },
+    {
+      "name": "missing_materials_explicit",
+      "passed": true,
+      "details": "必需原件与外部/历史资料缺口分开，未用空文件冒充"
+    },
+    {
+      "name": "local_markdown_links",
+      "passed": true,
+      "details": "本地Markdown目标均存在；未把公网链接可达性冒充内容或接口实测"
+    },
+    {
+      "name": "inventory_sha256_and_coverage",
+      "passed": true,
+      "details": {
+        "checksummed_files": 194,
+        "missing": [],
+        "stale": [],
+        "self_excluded_outputs": [
+          "manifest/FILES.json",
+          "manifest/FILE_MANIFEST.md",
+          "manifest/INTEGRITY_CHECK_RESULTS.json",
+          "manifest/INTEGRITY_CHECK_RESULTS.md",
+          "manifest/SHA256SUMS"
+        ]
+      }
+    }
+  ]
+}

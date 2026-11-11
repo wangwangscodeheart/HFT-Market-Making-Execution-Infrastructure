@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-05",
+  "scope": "targeted primary-source checks for handover, not a market re-selection or current SDK certification",
+  "checks": [
+    {
+      "source": "S20/R06",
+      "url": "https://www.sec.gov/litigation/admin/2013/34-70694.pdf",
+      "access": "PDF parsed by retrieval; 18 pages",
+      "locator": "printed p.6, paras 15-17; controls paras 37-38",
+      "checked": "deployment and child-order/control background only",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S21/R07",
+      "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-omx-provides-updates-events-august-22-2013",
+      "access": "official page available",
+      "locator": "Aug 29, 2013; Summary of Preliminary Findings",
+      "checked": "preliminary findings scope and HFT exclusion",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S22/R08",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c1002255/content.shtml",
+      "access": "official page available",
+      "locator": "2013-08-30; 技术设计缺陷段",
+      "checked": "error multiplier and post-report limit control",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S23/R09-31",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20240927_10762480.shtml",
+      "access": "official page available",
+      "locator": "2024-09-27, 公告31号正文",
+      "checked": "slow confirmation observation; no internal root cause",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S23/R09-32",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20240927_10762482.shtml",
+      "access": "official page available",
+      "locator": "2024-09-27, 公告32号正文",
+      "checked": "gradual recovery from 11:13 only",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S04/R05-publication",
+      "url": "https://www.shfe.cn/services/technology/technical_download/202607/t20260728_832747.html",
+      "access": "official publication page available",
+      "locator": "V1.22, 2026-07-28; specification and revision-note links",
+      "checked": "publication/version index only",
+      "original_binary_in_package": false
+    },
+    {
+      "source": "S04/R05-pdf",
+      "url": "https://www.shfe.com.cn/services/technology/technical_download/202607/P020260728318635042109.pdf",
+      "access": "TimeoutError",
+      "checked": "not reacquired; do not claim a new field-level audit",
+      "original_binary_in_package": false
+    }
+  ]
+}

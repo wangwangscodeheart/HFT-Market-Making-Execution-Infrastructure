@@ -1,0 +1,42 @@
+[
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR001.md",
+    "sha256": "c45e527e27a5bb5348e38f9f5c0194f8ae228922b330330f8ddf6f3c4d01952e"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR002.md",
+    "sha256": "a1139dc60cc8e83b23a05f6e7e20eb50942c5798730e4a36aec1e68a57a906fd"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR003.md",
+    "sha256": "7279c2abed5b09249da73da48c44e08affca86e4178575939dacc62546885d6f"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR004.md",
+    "sha256": "e16f2a90f186982ea4738175472a3f3318e7599809451a96f3fcb5429a7d86a4"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR005.md",
+    "sha256": "8d028206b1aa0549b2725530da86dd148371f05c181515cd5a17107840f71b39"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR006.md",
+    "sha256": "6e16ea07914cdfacabdaf9e42358468c3bc41da48563c8e02f8b21143d8af2e3"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR007.md",
+    "sha256": "bb7f01f9cbc108a4d58818d3bc075c6872182b088a0aa06d63dfb2b5a0f59e4e"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR008.md",
+    "sha256": "61f1fb0ee47ba52c1534c185c2d411f7cb913ab72b538d822dd5b2caf5c77e01"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR009.md",
+    "sha256": "8ab94aec87f3bbd264b3cd3efc854cbd68bc4dd6bcf5e101ed58b85a8c758153"
+  },
+  {
+    "path": "handover_review/PROJECT03_CODEX_HANDOVER/adr/ADR010.md",
+    "sha256": "af387326839313d9076119c02e68e3816392fcf49fc757512e6a71017d49df69"
+  }
+]

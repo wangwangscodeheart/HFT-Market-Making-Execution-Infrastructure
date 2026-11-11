@@ -1,0 +1,12 @@
+CMake Error at C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:47 (message):
+  Could not find the compiler specified in the environment variable CXX:
+
+  D:\HFT Market Making & Execution
+  Infrastructure\project03\diagnostics\compiler-not-installed.exe.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!

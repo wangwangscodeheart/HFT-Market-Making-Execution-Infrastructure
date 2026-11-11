@@ -1,0 +1,248 @@
+[
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\types.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\types.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/types.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/types.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\reference_data.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\reference_data.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/reference_data.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/reference_data.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\positions.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\positions.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/positions.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/positions.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\oms.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\oms.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/oms.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/oms.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\ledger.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\ledger.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/ledger.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/ledger.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\funds.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\funds.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/funds.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/funds.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\risk.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\risk.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/risk.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/risk.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\core.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\core.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/core.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/core.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\step_harness.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\step_harness.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/step_harness.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/step_harness.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\order_planner.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\order_planner.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/order_planner.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/order_planner.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_core.dir\\src\\quote_strategy.cpp.obj /FdCMakeFiles\\p03_core.dir\\p03_core.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\quote_strategy.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/quote_strategy.cpp",
+  "output": "CMakeFiles/p03_core.dir/src/quote_strategy.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_m1a_demo.dir\\examples\\m1a_demo.cpp.obj /FdCMakeFiles\\p03_m1a_demo.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\examples\\m1a_demo.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/examples/m1a_demo.cpp",
+  "output": "CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_export_snapshot.dir\\examples\\export_snapshot.cpp.obj /FdCMakeFiles\\p03_export_snapshot.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\examples\\export_snapshot.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/examples/export_snapshot.cpp",
+  "output": "CMakeFiles/p03_export_snapshot.dir/examples/export_snapshot.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_localsim.dir\\src\\local_sim.cpp.obj /FdCMakeFiles\\p03_localsim.dir\\p03_localsim.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\local_sim.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/local_sim.cpp",
+  "output": "CMakeFiles/p03_localsim.dir/src/local_sim.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_localsim.dir\\src\\local_delivery.cpp.obj /FdCMakeFiles\\p03_localsim.dir\\p03_localsim.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\local_delivery.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/local_delivery.cpp",
+  "output": "CMakeFiles/p03_localsim.dir/src/local_delivery.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_localsim.dir\\src\\local_query_review.cpp.obj /FdCMakeFiles\\p03_localsim.dir\\p03_localsim.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\local_query_review.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/local_query_review.cpp",
+  "output": "CMakeFiles/p03_localsim.dir/src/local_query_review.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_localsim.dir\\src\\local_quote_runner.cpp.obj /FdCMakeFiles\\p03_localsim.dir\\p03_localsim.pdb /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\src\\local_quote_runner.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/src/local_quote_runner.cpp",
+  "output": "CMakeFiles/p03_localsim.dir/src/local_quote_runner.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_localsim_demo.dir\\examples\\local_sim_demo.cpp.obj /FdCMakeFiles\\p03_localsim_demo.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\examples\\local_sim_demo.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/examples/local_sim_demo.cpp",
+  "output": "CMakeFiles/p03_localsim_demo.dir/examples/local_sim_demo.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_export_local_replay.dir\\examples\\export_local_replay.cpp.obj /FdCMakeFiles\\p03_export_local_replay.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\examples\\export_local_replay.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/examples/export_local_replay.cpp",
+  "output": "CMakeFiles/p03_export_local_replay.dir/examples/export_local_replay.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_export_quote_runner.dir\\examples\\export_quote_runner.cpp.obj /FdCMakeFiles\\p03_export_quote_runner.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\examples\\export_quote_runner.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/examples/export_quote_runner.cpp",
+  "output": "CMakeFiles/p03_export_quote_runner.dir/examples/export_quote_runner.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\test_main.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\test_main.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/test_main.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/test_main.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\types_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\types_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/types_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/types_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\oms_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\oms_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/oms_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\core_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\core_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/core_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/core_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\funds_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\funds_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/funds_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\harness_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\harness_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/harness_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\scenario_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\scenario_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/scenario_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/scenario_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\identity_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\identity_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/identity_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/identity_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\input_transaction_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\input_transaction_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/input_transaction_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/input_transaction_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\admission_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\admission_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/admission_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/admission_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\journal_fact_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\journal_fact_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/journal_fact_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/journal_fact_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\lifecycle_fact_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\lifecycle_fact_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/lifecycle_fact_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/lifecycle_fact_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\client_order_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\client_order_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/client_order_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/client_order_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\strategy_identity_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\strategy_identity_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/strategy_identity_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/strategy_identity_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\local_sim_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\local_sim_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/local_sim_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/local_sim_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\local_delivery_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\local_delivery_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/local_delivery_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/local_delivery_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\local_replay_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\local_replay_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/local_replay_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/local_replay_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\local_query_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\local_query_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/local_query_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/local_query_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\planner_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\planner_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/planner_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/planner_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\quote_strategy_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\quote_strategy_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/quote_strategy_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/quote_strategy_tests.cpp.obj"
+},
+{
+  "directory": "D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-07-cleanup-preview-release/build",
+  "command": "D:\\新言的vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\" -I\"D:\\HFT Market Making & Execution Infrastructure\\project03\\include\" /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /WX /permissive- /utf-8 /EHsc /FoCMakeFiles\\p03_tests.dir\\tests\\local_runner_tests.cpp.obj /FdCMakeFiles\\p03_tests.dir\\ /FS -c \"D:\\HFT Market Making & Execution Infrastructure\\project03\\tests\\local_runner_tests.cpp\"",
+  "file": "D:/HFT Market Making & Execution Infrastructure/project03/tests/local_runner_tests.cpp",
+  "output": "CMakeFiles/p03_tests.dir/tests/local_runner_tests.cpp.obj"
+}
+]

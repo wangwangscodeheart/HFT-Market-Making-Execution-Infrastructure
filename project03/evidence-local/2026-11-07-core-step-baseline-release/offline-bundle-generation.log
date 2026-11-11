@@ -1,0 +1,2 @@
+PASS: standalone offline bundle 2026-11-07-core-step-baseline-release, 16 files, hashes/local dependencies/data run identities verified.
+PASS: 4 bundle negative controls rejected changed/missing/extra/duplicate file records.

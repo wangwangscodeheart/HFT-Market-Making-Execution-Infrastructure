@@ -1,0 +1,2 @@
+PASS: five runner frames, calls/orders, preserved inventory after kill, bounds, provenance and missing/failed data; Node DOM logic only.
+PASS: cleanup scenario lanes, reserved Stop, rejected admission checks and no automatic reopening.

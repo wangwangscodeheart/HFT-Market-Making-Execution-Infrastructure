@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "case": "normal",
+      "frames": 6,
+      "canonical_matches": 6
+    },
+    {
+      "case": "race",
+      "frames": 8,
+      "canonical_matches": 8
+    }
+  ],
+  "tests": 322,
+  "assertions": 28737,
+  "source_manifest": "source-sha256.json"
+}

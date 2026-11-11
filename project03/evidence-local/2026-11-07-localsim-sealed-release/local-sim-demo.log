@@ -1,0 +1,5 @@
+LOCAL_SIM deterministic peer; FIX A.1.a quantities scaled 1:1000; no exchange connection.
+sim_revision=2 peer_long_today=2 core_long_today=2 budget=998980
+sim_revision=3 peer_long_today=3 core_long_today=3 budget=998980
+sim_revision=4 peer_long_today=10 core_long_today=10 budget=998980
+FINAL peer_core_match=1 fills=3 booked=10 origin=LocalSimulator

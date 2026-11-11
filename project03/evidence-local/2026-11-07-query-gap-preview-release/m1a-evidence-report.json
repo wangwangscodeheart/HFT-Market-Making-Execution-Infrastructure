@@ -1,0 +1,1532 @@
+{
+  "component_scope": "m1b-local-replay-slice3",
+  "schema": "p03.local-m1a-evidence.v1",
+  "run": "2026-11-07-query-gap-preview-release",
+  "configuration": "Release",
+  "generated_utc": "2026-11-07T04:10:39.384Z",
+  "result": "LOCAL_REGRESSION_GATE_PASSED",
+  "cases": 197,
+  "assertions": 26629,
+  "failed": 0,
+  "skipped": 0,
+  "source_manifest_sha256": "e0d2f6aa2a11926c393cb693b0ced5346ba606cff5b80b65fcd5bcd91aa42d3e",
+  "source_files": 83,
+  "source_archive": "source",
+  "declared_registry_aggregate_ctest_match": true,
+  "negative_controls": {
+    "assertion_failure_exit": 1,
+    "unknown_case_exit": 2
+  },
+  "evidence_guard": "PASS: 8 negative evidence controls rejected failed/stale/changed/incomplete records. No source or run files modified.",
+  "preview_check": "PASS: 2 cases / 14 snapshots match independent text-demo scheduling; 197 tests, 26629 assertions; normal-source mapping and negative boundaries verified.",
+  "frontend_logic_check": "PASS: HTML node bindings, both cases, all critical steps, position table, chart scaling/source labels, no-order state, and autoplay stop. Not a browser layout test.",
+  "local_replay_preview": "PASS: verified C++ local replay exported for offline workbench; 2026-11-07-query-gap-preview-release",
+  "local_replay_frontend": "PASS: 10 replay frames, selected details, divergence, missing trades, convergence, duplicate handling, bounds, provenance, absent/failed data. Node DOM logic only; no browser layout claim.",
+  "quote_runner_preview": "PASS: sealed quote-runner JSON, cancel-before-replace, withdrawal, final inventory and zero held quantity checked.",
+  "quote_runner_frontend": "PASS: five runner frames, calls/orders, preserved inventory after kill, bounds, provenance and missing/failed data; Node DOM logic only.",
+  "boundaries": {
+    "local_simulator": "Independent synchronous peer slice; full M1B strategy/runtime not complete",
+    "origin": "LocalFixture and LocalSimulator profiles isolated",
+    "native_browser_layout": "not verified",
+    "linux_current_source": "not verified; no installed WSL distribution or GCC/Clang compiler found",
+    "real_ctp": "not implemented/blocked",
+    "journal_writer_dispatch_runtime": "not implemented",
+    "performance": "not measured",
+    "phase_decision": "Local regression evidence is complete for the enumerated M1A scope. Scoped M1B local engineering may proceed under the current authorization; this is not external/production readiness."
+  },
+  "tests": [
+    {
+      "name": "ADMISSION_rejected_local_input_does_not_consume_business_sequence_or_clock",
+      "source": "tests/admission_tests.cpp",
+      "line": 5,
+      "checks": 12,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_untrusted_trade_becomes_local_rejection_fact_not_booking",
+      "source": "tests/admission_tests.cpp",
+      "line": 16,
+      "checks": 16,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_wrong_identity_request_does_not_use_next_order_or_command_ID",
+      "source": "tests/admission_tests.cpp",
+      "line": 33,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_risk_rejection_is_an_admitted_business_decision",
+      "source": "tests/admission_tests.cpp",
+      "line": 44,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_valid_duplicate_remains_ordered_without_double_booking",
+      "source": "tests/admission_tests.cpp",
+      "line": 53,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_conflicting_trade_key_marks_original_and_related_order",
+      "source": "tests/admission_tests.cpp",
+      "line": 64,
+      "checks": 18,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_harness_retains_raw_rejection_and_independent_identifiers",
+      "source": "tests/admission_tests.cpp",
+      "line": 76,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "ADMISSION_bad_observation_and_unknown_operation_cannot_advance_clock",
+      "source": "tests/admission_tests.cpp",
+      "line": 86,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_same_request_after_partial_fill_does_not_duplicate_risk_or_order",
+      "source": "tests/client_order_tests.cpp",
+      "line": 17,
+      "checks": 15,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_same_key_changed_intent_is_rejected_without_poisoning_original",
+      "source": "tests/client_order_tests.cpp",
+      "line": 26,
+      "checks": 52,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_producer_namespace_prevents_accidental_request_collision",
+      "source": "tests/client_order_tests.cpp",
+      "line": 37,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_invalid_identity_rejected_before_business_sequence",
+      "source": "tests/client_order_tests.cpp",
+      "line": 42,
+      "checks": 24,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_failed_reservation_does_not_bind_request_to_nonexistent_order",
+      "source": "tests/client_order_tests.cpp",
+      "line": 51,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_commit_failure_rolls_back_index_order_and_resources_together",
+      "source": "tests/client_order_tests.cpp",
+      "line": 57,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_known_retry_while_killed_reports_original_without_new_risk",
+      "source": "tests/client_order_tests.cpp",
+      "line": 63,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_duplicate_at_order_capacity_does_not_need_a_second_slot",
+      "source": "tests/client_order_tests.cpp",
+      "line": 70,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_retry_after_full_fill_does_not_open_a_new_position",
+      "source": "tests/client_order_tests.cpp",
+      "line": 76,
+      "checks": 14,
+      "contracts": []
+    },
+    {
+      "name": "CLIENT_unknown_order_timeout_retry_never_resubmits_or_releases",
+      "source": "tests/client_order_tests.cpp",
+      "line": 87,
+      "checks": 14,
+      "contracts": []
+    },
+    {
+      "name": "COMMAND_FACTS_intent_must_match_authorized_scope_and_preserve_vendor_unknown",
+      "source": "tests/client_order_tests.cpp",
+      "line": 95,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "COMMAND_FACTS_vendor_reference_requires_session_and_profile_not_invented_CTP_mapping",
+      "source": "tests/client_order_tests.cpp",
+      "line": 103,
+      "checks": 3,
+      "contracts": []
+    },
+    {
+      "name": "P02_real_position_mapping_remains_blocked",
+      "source": "tests/core_tests.cpp",
+      "line": 3,
+      "checks": 8,
+      "contracts": [
+        "P02"
+      ]
+    },
+    {
+      "name": "A01_core_rejects_bad_contract_calendar_tick_and_account",
+      "source": "tests/core_tests.cpp",
+      "line": 10,
+      "checks": 35,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A04_quantity_failure_has_no_order_or_reservation",
+      "source": "tests/core_tests.cpp",
+      "line": 22,
+      "checks": 7,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A04_insufficient_close_rollback",
+      "source": "tests/core_tests.cpp",
+      "line": 28,
+      "checks": 8,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A04_insufficient_funds_rolls_back_candidate_and_ID",
+      "source": "tests/core_tests.cpp",
+      "line": 34,
+      "checks": 11,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A04_capacity_failure_preserves_existing_state",
+      "source": "tests/core_tests.cpp",
+      "line": 41,
+      "checks": 10,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A04_exception_seam_has_strong_transaction_rollback",
+      "source": "tests/core_tests.cpp",
+      "line": 48,
+      "checks": 12,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A04_ID_exhaustion_does_not_leave_half_order",
+      "source": "tests/core_tests.cpp",
+      "line": 56,
+      "checks": 10,
+      "contracts": [
+        "A04"
+      ]
+    },
+    {
+      "name": "A05_worst_case_interval_is_one_to_five",
+      "source": "tests/core_tests.cpp",
+      "line": 62,
+      "checks": 12,
+      "contracts": [
+        "A05"
+      ]
+    },
+    {
+      "name": "A05_opposite_quote_cannot_net_away_limit",
+      "source": "tests/core_tests.cpp",
+      "line": 68,
+      "checks": 9,
+      "contracts": [
+        "A05"
+      ]
+    },
+    {
+      "name": "A06_P01_six_effects_through_actual_core",
+      "source": "tests/core_tests.cpp",
+      "line": 74,
+      "checks": 60,
+      "contracts": [
+        "A06",
+        "P01"
+      ]
+    },
+    {
+      "name": "A06_P01_close_freezes_compete_per_bucket",
+      "source": "tests/core_tests.cpp",
+      "line": 88,
+      "checks": 18,
+      "contracts": [
+        "A06",
+        "P01"
+      ]
+    },
+    {
+      "name": "P02_external_and_settlement_never_overwrite_buckets",
+      "source": "tests/core_tests.cpp",
+      "line": 98,
+      "checks": 10,
+      "contracts": [
+        "P02"
+      ]
+    },
+    {
+      "name": "P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once",
+      "source": "tests/core_tests.cpp",
+      "line": 105,
+      "checks": 20,
+      "contracts": [
+        "P03"
+      ]
+    },
+    {
+      "name": "P03_clean_boundary_still_requires_new_anchor_evidence",
+      "source": "tests/core_tests.cpp",
+      "line": 116,
+      "checks": 9,
+      "contracts": [
+        "P03"
+      ]
+    },
+    {
+      "name": "RISK_reinstated_close_freeze_reports_deficit_without_losing_trade",
+      "source": "tests/core_tests.cpp",
+      "line": 122,
+      "checks": 18,
+      "contracts": []
+    },
+    {
+      "name": "RISK_stale_mark_rate_limit_and_gross_limit",
+      "source": "tests/core_tests.cpp",
+      "line": 131,
+      "checks": 20,
+      "contracts": []
+    },
+    {
+      "name": "RISK_crossing_pending_cancel_and_unknown_orders_still_blocked",
+      "source": "tests/core_tests.cpp",
+      "line": 141,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact",
+      "source": "tests/core_tests.cpp",
+      "line": 148,
+      "checks": 15,
+      "contracts": []
+    },
+    {
+      "name": "CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume",
+      "source": "tests/core_tests.cpp",
+      "line": 156,
+      "checks": 14,
+      "contracts": []
+    },
+    {
+      "name": "CAPACITY_evidence_streams_are_bounded",
+      "source": "tests/core_tests.cpp",
+      "line": 164,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "BOUNDARY_Kill_blocks_new_but_processes_existing_trades",
+      "source": "tests/core_tests.cpp",
+      "line": 171,
+      "checks": 14,
+      "contracts": []
+    },
+    {
+      "name": "BOUNDARY_future_capabilities_never_return_success",
+      "source": "tests/core_tests.cpp",
+      "line": 178,
+      "checks": 39,
+      "contracts": []
+    },
+    {
+      "name": "BOUNDARY_external_CTP_evidence_is_blocked_not_trusted",
+      "source": "tests/core_tests.cpp",
+      "line": 188,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "BOUNDARY_malformed_trade_and_unknown_identity_quarantine",
+      "source": "tests/core_tests.cpp",
+      "line": 193,
+      "checks": 40,
+      "contracts": []
+    },
+    {
+      "name": "A01_actual_core_tick_and_quantity_step_reject",
+      "source": "tests/core_tests.cpp",
+      "line": 204,
+      "checks": 8,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "RISK_rate_window_expires_using_logical_time",
+      "source": "tests/core_tests.cpp",
+      "line": 211,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "RISK_economic_close_deficit_is_retained_not_clamped",
+      "source": "tests/core_tests.cpp",
+      "line": 218,
+      "checks": 18,
+      "contracts": []
+    },
+    {
+      "name": "P04_full_and_partial_proven_coverage_subtract_only_difference",
+      "source": "tests/funds_tests.cpp",
+      "line": 12,
+      "checks": 8,
+      "contracts": [
+        "P04"
+      ]
+    },
+    {
+      "name": "P04_local_cap_is_independent_of_external_available",
+      "source": "tests/funds_tests.cpp",
+      "line": 20,
+      "checks": 4,
+      "contracts": [
+        "P04"
+      ]
+    },
+    {
+      "name": "P04_duplicate_or_excess_coverage_rejected_atomically",
+      "source": "tests/funds_tests.cpp",
+      "line": 25,
+      "checks": 4,
+      "contracts": [
+        "P04"
+      ]
+    },
+    {
+      "name": "P04_core_insufficient_external_budget_rejects_atomic_reservation",
+      "source": "tests/funds_tests.cpp",
+      "line": 31,
+      "checks": 8,
+      "contracts": [
+        "P04"
+      ]
+    },
+    {
+      "name": "P05_unknown_and_excluded_coverage_are_zero",
+      "source": "tests/funds_tests.cpp",
+      "line": 36,
+      "checks": 8,
+      "contracts": [
+        "P05"
+      ]
+    },
+    {
+      "name": "P05_untrusted_and_wrong_anchor_cannot_activate_coverage",
+      "source": "tests/funds_tests.cpp",
+      "line": 44,
+      "checks": 4,
+      "contracts": [
+        "P05"
+      ]
+    },
+    {
+      "name": "P06_transfer_keeps_one_resource_and_no_fabricated_money",
+      "source": "tests/funds_tests.cpp",
+      "line": 50,
+      "checks": 17,
+      "contracts": [
+        "P06"
+      ]
+    },
+    {
+      "name": "P06_post_anchor_fees_are_not_covered_by_margin_proof",
+      "source": "tests/funds_tests.cpp",
+      "line": 61,
+      "checks": 5,
+      "contracts": [
+        "P06"
+      ]
+    },
+    {
+      "name": "P06_cancel_release_does_not_credit_external_available",
+      "source": "tests/funds_tests.cpp",
+      "line": 69,
+      "checks": 4,
+      "contracts": [
+        "P06"
+      ]
+    },
+    {
+      "name": "FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline",
+      "source": "tests/funds_tests.cpp",
+      "line": 75,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "FUNDS_duplicate_resource_transfer_cannot_double_proof",
+      "source": "tests/funds_tests.cpp",
+      "line": 81,
+      "checks": 3,
+      "contracts": []
+    },
+    {
+      "name": "FUNDS_invalid_coverage_status_cannot_activate_money",
+      "source": "tests/funds_tests.cpp",
+      "line": 86,
+      "checks": 3,
+      "contracts": []
+    },
+    {
+      "name": "P04_one_external_deduction_cannot_cover_two_resources",
+      "source": "tests/funds_tests.cpp",
+      "line": 91,
+      "checks": 3,
+      "contracts": [
+        "P04"
+      ]
+    },
+    {
+      "name": "P05_wrong_currency_and_unbounded_query_window_rejected",
+      "source": "tests/funds_tests.cpp",
+      "line": 97,
+      "checks": 3,
+      "contracts": [
+        "P05"
+      ]
+    },
+    {
+      "name": "HARNESS_equal_time_preserves_insertion_order",
+      "source": "tests/harness_tests.cpp",
+      "line": 4,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "HARNESS_same_ordered_inputs_same_business_states",
+      "source": "tests/harness_tests.cpp",
+      "line": 11,
+      "checks": 22,
+      "contracts": []
+    },
+    {
+      "name": "HARNESS_bounded_schedule_and_past_time_rejection",
+      "source": "tests/harness_tests.cpp",
+      "line": 24,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "HARNESS_core_rejects_clock_regression_without_financial_change",
+      "source": "tests/harness_tests.cpp",
+      "line": 31,
+      "checks": 3,
+      "contracts": []
+    },
+    {
+      "name": "HARNESS_failed_evidence_input_is_retained_with_result",
+      "source": "tests/harness_tests.cpp",
+      "line": 36,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "HARNESS_summary_distinguishes_hidden_cumulative_versions",
+      "source": "tests/harness_tests.cpp",
+      "line": 43,
+      "checks": 16,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_empty_account_states_have_distinct_diagnostic_summaries",
+      "source": "tests/identity_tests.cpp",
+      "line": 5,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_exchange_qualifies_contract_without_case_guessing",
+      "source": "tests/identity_tests.cpp",
+      "line": 17,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_distinct_core_scopes_do_not_share_orders_positions_or_dedup",
+      "source": "tests/identity_tests.cpp",
+      "line": 29,
+      "checks": 28,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_foreign_trade_never_books_or_releases_resources",
+      "source": "tests/identity_tests.cpp",
+      "line": 50,
+      "checks": 80,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_foreign_intent_is_rejected_without_consuming_order_ID",
+      "source": "tests/identity_tests.cpp",
+      "line": 71,
+      "checks": 33,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_external_observations_cannot_overwrite_scoped_position_book",
+      "source": "tests/identity_tests.cpp",
+      "line": 85,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "IDENTITY_scope_boot_preserves_single_RB_contract_boundary",
+      "source": "tests/identity_tests.cpp",
+      "line": 98,
+      "checks": 4,
+      "contracts": []
+    },
+    {
+      "name": "INPUT_invalid_channel_cannot_book_standard_fill",
+      "source": "tests/input_transaction_tests.cpp",
+      "line": 5,
+      "checks": 42,
+      "contracts": []
+    },
+    {
+      "name": "INPUT_invalid_channel_cannot_bypass_validation_via_duplicate",
+      "source": "tests/input_transaction_tests.cpp",
+      "line": 24,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "TRANSACTION_failed_standard_fill_does_not_leave_ghost_dedup_or_position",
+      "source": "tests/input_transaction_tests.cpp",
+      "line": 35,
+      "checks": 19,
+      "contracts": []
+    },
+    {
+      "name": "TRANSACTION_failed_terminal_does_not_release_resources_until_retry",
+      "source": "tests/input_transaction_tests.cpp",
+      "line": 54,
+      "checks": 18,
+      "contracts": []
+    },
+    {
+      "name": "TRANSACTION_duplicate_does_not_consume_next_commit_failure_seam",
+      "source": "tests/input_transaction_tests.cpp",
+      "line": 71,
+      "checks": 15,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_identity_and_counter_domains_are_distinct",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 10,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_batch_boundaries_reject_holes_overlap_and_wrap",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 21,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_adjacent_batches_require_same_writer_and_contiguous_ranges",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 38,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_live_prefixes_enforce_all_ordering_relations",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 50,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_ack_reference_requires_exact_batch_end_and_writer",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 58,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "JOURNAL_TYPES_exhausted_batch_numbers_cannot_wrap_to_a_new_batch",
+      "source": "tests/journal_fact_tests.cpp",
+      "line": 68,
+      "checks": 1,
+      "contracts": []
+    },
+    {
+      "name": "DISPATCH_FACTS_authorization_domains_are_distinct_and_same_instance",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 12,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "DISPATCH_FACTS_missing_scope_prefix_epoch_or_expiry_cannot_form_valid_facts",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 24,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "DISPATCH_FACTS_permit_names_all_five_states_without_running_a_gate",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 33,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "RECOVERY_FACTS_unknown_boundary_and_missing_items_are_not_hidden",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 42,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "RECOVERY_FACTS_wrong_run_account_query_session_or_generation_cannot_correlate",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 50,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RECOVERY_FACTS_explicit_and_whole_account_scopes_are_not_interchangeable",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 60,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "RECOVERY_FACTS_scope_kind_day_and_trade_identity_are_explicit",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 67,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "RECOVERY_FACTS_page_mismatch_and_unbounded_metadata_are_rejected",
+      "source": "tests/lifecycle_fact_tests.cpp",
+      "line": 75,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "DELIVERY_delayed_trade_is_visible_in_peer_before_core_and_replay_is_duplicate",
+      "source": "tests/local_delivery_tests.cpp",
+      "line": 9,
+      "checks": 19,
+      "contracts": []
+    },
+    {
+      "name": "DELIVERY_A07_terminal_precedes_delayed_trade_without_losing_exposure",
+      "source": "tests/local_delivery_tests.cpp",
+      "line": 21,
+      "checks": 17,
+      "contracts": [
+        "A07"
+      ]
+    },
+    {
+      "name": "DELIVERY_capture_batch_is_atomic_and_accepts_only_simulator_report_types",
+      "source": "tests/local_delivery_tests.cpp",
+      "line": 34,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "DELIVERY_invalid_ids_and_attempt_capacity_do_not_touch_core",
+      "source": "tests/local_delivery_tests.cpp",
+      "line": 46,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_complete_snapshot_has_explicit_counts_and_independent_positions",
+      "source": "tests/local_query_tests.cpp",
+      "line": 13,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_missing_end_or_rows_cannot_be_treated_as_complete",
+      "source": "tests/local_query_tests.cpp",
+      "line": 17,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_duplicate_trade_and_foreign_scope_fail_validation",
+      "source": "tests/local_query_tests.cpp",
+      "line": 23,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_wrong_epoch_push_channel_and_future_revision_are_invalid",
+      "source": "tests/local_query_tests.cpp",
+      "line": 30,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_position_frozen_and_order_fill_disagreements_remain_unaccepted",
+      "source": "tests/local_query_tests.cpp",
+      "line": 36,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_review_never_changes_core_or_peer_state",
+      "source": "tests/local_query_tests.cpp",
+      "line": 41,
+      "checks": 5,
+      "contracts": []
+    },
+    {
+      "name": "QUERY_failed_response_missing_snapshot_and_wrong_request_cannot_be_accepted",
+      "source": "tests/local_query_tests.cpp",
+      "line": 47,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "REPLAY_query_recovers_missing_fill_before_late_push_without_double_booking",
+      "source": "tests/local_replay_tests.cpp",
+      "line": 4,
+      "checks": 24,
+      "contracts": []
+    },
+    {
+      "name": "REPLAY_script_assertions_cover_peer_core_divergence_and_convergence",
+      "source": "tests/local_replay_tests.cpp",
+      "line": 17,
+      "checks": 20,
+      "contracts": []
+    },
+    {
+      "name": "REPLAY_repeated_runs_have_identical_states_and_delivery_sequences",
+      "source": "tests/local_replay_tests.cpp",
+      "line": 25,
+      "checks": 102,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_query_gap_export_replay_preserves_pending_and_rejected_query_without_core_changes",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 6,
+      "checks": 42,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_expiry_export_replay_preserves_noop_boundary_and_new_quote_recovery",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 15,
+      "checks": 22,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_export_scenario_replays_all_five_frames_and_preserves_position_after_kill",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 25,
+      "checks": 24,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_market_input_produces_recorded_mark_and_two_peer_accepted_orders",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 46,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_price_update_receives_cancel_evidence_before_replacement_submits",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 54,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_invalid_market_withdraws_orders_and_kill_prevents_new_quotes",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 66,
+      "checks": 12,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_fill_records_actual_report_and_independent_peer_positions",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 75,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_raw_input_replay_reproduces_core_peer_and_core_call_sequences",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 83,
+      "checks": 65,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_bounds_and_out_of_order_input_do_not_create_unrecorded_core_effects",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 95,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_peer_budget_rejection_is_delivered_to_core_without_faking_acceptance",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 102,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_partial_plan_risk_rejection_retains_first_accepted_order_and_its_reservation",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 108,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_invalid_baseline_and_core_call_budget_fail_closed",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 117,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_same_prices_after_fill_replace_open_sell_with_close_then_reduce_position",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 124,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_explicit_timer_withdraws_stale_quotes_without_new_market_input",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 134,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_timer_without_market_and_repeated_expiry_cannot_create_orders",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 141,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_deferred_fill_blocks_new_quotes_and_incomplete_query_cannot_book_or_clear_it",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 148,
+      "checks": 24,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_held_delivery_can_fill_gap_and_repeated_defer_does_not_add_pending_exposure",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 162,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_invalid_query_and_delivery_do_not_create_core_events_or_resume_pending_quotes",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 170,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "RUNNER_deferred_query_path_raw_input_replay_preserves_divergence_and_gap_count",
+      "source": "tests/local_runner_tests.cpp",
+      "line": 177,
+      "checks": 35,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_query_is_a_detached_snapshot_of_independent_state",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 15,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_standard_A1a_fills_and_query_replay_match_actual_core",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 22,
+      "checks": 41,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_A07_peer_fills_before_cancel_core_receives_trade_late",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 37,
+      "checks": 35,
+      "contracts": [
+        "A07"
+      ]
+    },
+    {
+      "name": "LOCALSIM_peer_rule_or_budget_rejection_is_independent_of_core_approval",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 49,
+      "checks": 28,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_six_position_effects_use_peer_accounting_not_core_position_ledger",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 61,
+      "checks": 42,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_duplicate_requests_and_fills_do_not_create_extra_peer_exposure",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 71,
+      "checks": 19,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_invalid_fill_and_close_shortage_leave_peer_state_unchanged",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 81,
+      "checks": 15,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_capacity_and_duplicate_cancel_preserve_resources",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 91,
+      "checks": 14,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_backend_origin_profiles_cannot_be_mixed",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 102,
+      "checks": 17,
+      "contracts": []
+    },
+    {
+      "name": "LOCALSIM_invalid_configuration_and_profile_fail_closed",
+      "source": "tests/local_sim_tests.cpp",
+      "line": 109,
+      "checks": 4,
+      "contracts": []
+    },
+    {
+      "name": "O01_untrusted_negative_and_over_Q_do_not_promote_R",
+      "source": "tests/oms_tests.cpp",
+      "line": 6,
+      "checks": 36,
+      "contracts": [
+        "O01"
+      ]
+    },
+    {
+      "name": "O01_identity_scope_is_checked_before_evidence",
+      "source": "tests/oms_tests.cpp",
+      "line": 18,
+      "checks": 27,
+      "contracts": [
+        "O01"
+      ]
+    },
+    {
+      "name": "O02_all_720_cumulative_trade_orderings",
+      "source": "tests/oms_tests.cpp",
+      "line": 28,
+      "checks": 23761,
+      "contracts": [
+        "O02"
+      ]
+    },
+    {
+      "name": "O02_R_greater_and_B_greater_are_not_conflicts",
+      "source": "tests/oms_tests.cpp",
+      "line": 44,
+      "checks": 16,
+      "contracts": [
+        "O02"
+      ]
+    },
+    {
+      "name": "O03_A07_cancel_exact_and_late_trade_release_only_one",
+      "source": "tests/oms_tests.cpp",
+      "line": 54,
+      "checks": 21,
+      "contracts": [
+        "O03",
+        "A07"
+      ]
+    },
+    {
+      "name": "O04_F_less_than_B_keeps_booked_facts_and_halts",
+      "source": "tests/oms_tests.cpp",
+      "line": 68,
+      "checks": 15,
+      "contracts": [
+        "O04"
+      ]
+    },
+    {
+      "name": "O04_late_trade_after_reject_restores_conservative_hold",
+      "source": "tests/oms_tests.cpp",
+      "line": 75,
+      "checks": 16,
+      "contracts": [
+        "O04"
+      ]
+    },
+    {
+      "name": "O04_terminal_exact_contradiction_cannot_release_twice",
+      "source": "tests/oms_tests.cpp",
+      "line": 84,
+      "checks": 12,
+      "contracts": [
+        "O04"
+      ]
+    },
+    {
+      "name": "O05_query_push_share_economic_dedup",
+      "source": "tests/oms_tests.cpp",
+      "line": 91,
+      "checks": 11,
+      "contracts": [
+        "O05"
+      ]
+    },
+    {
+      "name": "O06_same_key_changed_payload_preserves_original",
+      "source": "tests/oms_tests.cpp",
+      "line": 97,
+      "checks": 39,
+      "contracts": [
+        "O06"
+      ]
+    },
+    {
+      "name": "O07_A08_overfill_entire_trade_to_X_and_dedup",
+      "source": "tests/oms_tests.cpp",
+      "line": 110,
+      "checks": 18,
+      "contracts": [
+        "O07",
+        "A08"
+      ]
+    },
+    {
+      "name": "O08_no_exact_terminal_holds_V_and_H",
+      "source": "tests/oms_tests.cpp",
+      "line": 122,
+      "checks": 15,
+      "contracts": [
+        "O08"
+      ]
+    },
+    {
+      "name": "O09_comparable_newer_regression_conflicts",
+      "source": "tests/oms_tests.cpp",
+      "line": 131,
+      "checks": 11,
+      "contracts": [
+        "O09"
+      ]
+    },
+    {
+      "name": "O09_older_smaller_and_distinct_epoch_do_not_regress",
+      "source": "tests/oms_tests.cpp",
+      "line": 137,
+      "checks": 13,
+      "contracts": [
+        "O09"
+      ]
+    },
+    {
+      "name": "OMS_cancel_reject_does_not_reject_order",
+      "source": "tests/oms_tests.cpp",
+      "line": 145,
+      "checks": 16,
+      "contracts": []
+    },
+    {
+      "name": "OMS_cancel_success_without_F_does_not_release",
+      "source": "tests/oms_tests.cpp",
+      "line": 152,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "OMS_working_late_cannot_reopen_terminal",
+      "source": "tests/oms_tests.cpp",
+      "line": 157,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "OMS_timeout_holds_risk_and_never_resubmits",
+      "source": "tests/oms_tests.cpp",
+      "line": 163,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "OMS_unknown_cancel_stops_new_intents_but_books_late_trade",
+      "source": "tests/oms_tests.cpp",
+      "line": 168,
+      "checks": 20,
+      "contracts": []
+    },
+    {
+      "name": "OMS_late_old_cancel_report_does_not_overwrite_new_action",
+      "source": "tests/oms_tests.cpp",
+      "line": 177,
+      "checks": 17,
+      "contracts": []
+    },
+    {
+      "name": "OMS_cancel_action_capacity_rejects_without_half_action",
+      "source": "tests/oms_tests.cpp",
+      "line": 185,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "OMS_reliable_acceptance_conflicts_with_NotSent_or_reject",
+      "source": "tests/oms_tests.cpp",
+      "line": 192,
+      "checks": 48,
+      "contracts": []
+    },
+    {
+      "name": "OMS_cumulative_partial_cannot_regress_to_working",
+      "source": "tests/oms_tests.cpp",
+      "line": 208,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot",
+      "source": "tests/oms_tests.cpp",
+      "line": 214,
+      "checks": 12,
+      "contracts": []
+    },
+    {
+      "name": "OMS_invalid_terminal_enum_cannot_release",
+      "source": "tests/oms_tests.cpp",
+      "line": 220,
+      "checks": 9,
+      "contracts": []
+    },
+    {
+      "name": "O09_equal_version_changed_quantity_conflicts",
+      "source": "tests/oms_tests.cpp",
+      "line": 225,
+      "checks": 10,
+      "contracts": [
+        "O09"
+      ]
+    },
+    {
+      "name": "O05_identical_economic_content_with_different_trade_id_is_distinct",
+      "source": "tests/oms_tests.cpp",
+      "line": 231,
+      "checks": 10,
+      "contracts": [
+        "O05"
+      ]
+    },
+    {
+      "name": "PLANNER_unchanged_open_quote_is_replaced_when_confirmed_opposite_inventory_appears",
+      "source": "tests/planner_tests.cpp",
+      "line": 4,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_existing_close_uses_its_own_frozen_quantity_without_cancel_churn",
+      "source": "tests/planner_tests.cpp",
+      "line": 11,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_two_sided_plan_is_read_only_and_each_submit_still_passes_core_risk",
+      "source": "tests/planner_tests.cpp",
+      "line": 20,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_changed_quote_cancels_before_creating_and_pending_cancel_keeps_slot",
+      "source": "tests/planner_tests.cpp",
+      "line": 26,
+      "checks": 11,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_routes_yesterday_then_today_from_confirmed_positions",
+      "source": "tests/planner_tests.cpp",
+      "line": 32,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_terminal_cancellation_allows_replacement_but_plan_cannot_bypass_funds",
+      "source": "tests/planner_tests.cpp",
+      "line": 39,
+      "checks": 16,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_stale_generation_foreign_scope_crossed_quotes_and_kill_fail_closed",
+      "source": "tests/planner_tests.cpp",
+      "line": 50,
+      "checks": 8,
+      "contracts": []
+    },
+    {
+      "name": "PLANNER_missing_trades_and_multiple_live_quotes_block_new_plans",
+      "source": "tests/planner_tests.cpp",
+      "line": 56,
+      "checks": 17,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_valid_local_top_generates_passive_targets_without_mutating_core",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 10,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_duplicate_sequence_old_generation_and_wrong_epoch_do_not_requote",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 19,
+      "checks": 6,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_stale_future_unhealthy_crossed_and_closed_session_request_withdrawal",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 26,
+      "checks": 17,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_inventory_limit_suppresses_risk_increasing_side_and_routes_reduction",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 35,
+      "checks": 7,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_kill_and_missing_trade_evidence_prevent_new_targets",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 42,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_targets_planner_core_and_independent_peer_complete_a_local_cycle",
+      "source": "tests/quote_strategy_tests.cpp",
+      "line": 48,
+      "checks": 30,
+      "contracts": []
+    },
+    {
+      "name": "STANDARD_A1a_accepted_order_fills_in_source_proportions",
+      "source": "tests/scenario_tests.cpp",
+      "line": 5,
+      "checks": 81,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_identity_is_distinct_and_invalid_configuration_cannot_boot",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 8,
+      "checks": 2,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_omitted_owner_uses_configuration_not_client_producer",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 14,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_foreign_owner_cannot_alias_or_modify_existing_client_request",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 22,
+      "checks": 12,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_client_index_key_qualifies_identical_client_ids_by_owner",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 31,
+      "checks": 4,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_failed_commit_rolls_back_owned_client_index",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 41,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_order_ownership_does_not_split_account_position_or_risk",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 48,
+      "checks": 13,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_trade_transport_source_cannot_reassign_order_ownership",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 55,
+      "checks": 10,
+      "contracts": []
+    },
+    {
+      "name": "STRATEGY_command_description_requires_same_owner_as_authorization",
+      "source": "tests/strategy_identity_tests.cpp",
+      "line": 61,
+      "checks": 4,
+      "contracts": []
+    },
+    {
+      "name": "A01_identity_types_and_exhaustion",
+      "source": "tests/types_tests.cpp",
+      "line": 6,
+      "checks": 4,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_dates_validate_gregorian",
+      "source": "tests/types_tests.cpp",
+      "line": 13,
+      "checks": 4,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_calendar_night_mapping_and_breaks",
+      "source": "tests/types_tests.cpp",
+      "line": 17,
+      "checks": 6,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_bad_calendar_configuration_rejected",
+      "source": "tests/types_tests.cpp",
+      "line": 26,
+      "checks": 2,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_contract_tick_quantity_and_day_rules",
+      "source": "tests/types_tests.cpp",
+      "line": 30,
+      "checks": 7,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_unsupported_real_profile_cannot_boot",
+      "source": "tests/types_tests.cpp",
+      "line": 41,
+      "checks": 2,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "A01_checked_arithmetic_boundaries",
+      "source": "tests/types_tests.cpp",
+      "line": 46,
+      "checks": 6,
+      "contracts": [
+        "A01"
+      ]
+    },
+    {
+      "name": "P01_six_position_effects",
+      "source": "tests/types_tests.cpp",
+      "line": 56,
+      "checks": 12,
+      "contracts": [
+        "P01"
+      ]
+    },
+    {
+      "name": "P01_anchor_is_not_mutated_by_booking",
+      "source": "tests/types_tests.cpp",
+      "line": 66,
+      "checks": 4,
+      "contracts": [
+        "P01"
+      ]
+    },
+    {
+      "name": "P01_invalid_side_offset_and_bucket_fail_without_mutation",
+      "source": "tests/types_tests.cpp",
+      "line": 73,
+      "checks": 4,
+      "contracts": [
+        "P01"
+      ]
+    }
+  ]
+}

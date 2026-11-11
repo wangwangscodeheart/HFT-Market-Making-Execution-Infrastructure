@@ -1,0 +1,9 @@
+{
+  "baseline": "2026-11-10-heartbeat-gate-release",
+  "changed_existing_files": [],
+  "added_files": [
+    "include/p03/local_view_bridge.hpp",
+    "src/local_view_bridge.cpp"
+  ],
+  "meaning": "Added files are unwired draft, not tested by main build"
+}

@@ -1,0 +1,164 @@
+#pragma once
+
+#include <compare>
+#include <cstdint>
+#include <limits>
+#include <optional>
+#include <stdexcept>
+#include <string>
+#include <string_view>
+
+namespace p03 {
+using Lots = std::int64_t;
+using Ticks = std::int64_t;
+using Money = std::int64_t; // Integer fixture money units; no SDK monetary conversion in M1A.
+using LogicalTime = std::uint64_t;
+constexpr Lots max_input_lots = 1'000'000;
+constexpr Ticks max_input_ticks = 1'000'000'000;
+constexpr Money max_money = 1'000'000'000'000'000;
+
+template<class Tag> struct Id {
+    std::uint64_t instance{};
+    std::uint64_t serial{};
+    [[nodiscard]] bool valid() const noexcept { return instance != 0 && serial != 0; }
+    auto operator<=>(const Id&) const = default;
+};
+struct OrderTag; struct CommandTag; struct CancelTag; struct ReservationTag;
+using OrderId = Id<OrderTag>;
+using CommandId = Id<CommandTag>;
+using CancelActionId = Id<CancelTag>;
+using ReservationId = Id<ReservationTag>;
+
+template<class Tag> class IdSequence {
+public:
+    explicit IdSequence(std::uint64_t instance, std::uint64_t next = 1)
+        : instance_(instance), next_(next) {
+        if (instance == 0 || next == 0) throw std::invalid_argument("invalid identity seed");
+    }
+    [[nodiscard]] std::optional<Id<Tag>> take() noexcept {
+        if (exhausted_) return std::nullopt;
+        const Id<Tag> id{instance_, next_};
+        if (next_ == std::numeric_limits<std::uint64_t>::max()) exhausted_ = true;
+        else ++next_;
+        return id;
+    }
+    [[nodiscard]] std::uint64_t next_serial() const noexcept { return next_; }
+    [[nodiscard]] bool exhausted() const noexcept { return exhausted_; }
+private:
+    std::uint64_t instance_, next_;
+    bool exhausted_{};
+};
+
+struct TradingDay {
+    int ymd{};
+    [[nodiscard]] bool valid() const noexcept;
+    auto operator<=>(const TradingDay&) const = default;
+};
+
+// Exchange-qualified identity. Product is reference-data metadata, not an extra
+// economic identity dimension that could split one contract into two books.
+struct InstrumentKey {
+    std::string exchange;
+    std::string instrument;
+    [[nodiscard]] bool matches(std::string_view venue, std::string_view symbol) const noexcept {
+        return exchange==venue && instrument==symbol;
+    }
+    auto operator<=>(const InstrumentKey&) const = default;
+};
+struct BusinessScope {
+    std::string account;
+    InstrumentKey contract;
+    TradingDay day;
+    std::uint64_t position_epoch{};
+    bool operator==(const BusinessScope&) const = default;
+};
+enum class Side { Buy, Sell };
+enum class Offset { Open, CloseToday, CloseYesterday };
+enum class Bucket : std::size_t { LongToday, LongYesterday, ShortToday, ShortYesterday };
+enum class EvidenceOrigin { Unverified, LocalFixture, ExternalUnconfigured, LocalSimulator };
+enum class TradeEvidenceMode { Fixture,Simulator };
+[[nodiscard]] inline EvidenceOrigin trade_origin(TradeEvidenceMode mode) noexcept {
+    if(mode==TradeEvidenceMode::Fixture)return EvidenceOrigin::LocalFixture;
+    if(mode==TradeEvidenceMode::Simulator)return EvidenceOrigin::LocalSimulator;
+    return EvidenceOrigin::Unverified;
+}
+[[nodiscard]] inline std::string_view trade_source_prefix(TradeEvidenceMode mode) noexcept {
+    if(mode==TradeEvidenceMode::Fixture)return "fixture.";
+    return mode==TradeEvidenceMode::Simulator?"localsim.":"";
+}
+[[nodiscard]] inline std::string_view economic_trade_scope(TradeEvidenceMode mode) noexcept {
+    if(mode==TradeEvidenceMode::Fixture)return "p03.fixture.day.v1";
+    return mode==TradeEvidenceMode::Simulator?"p03.localsim.day.v1":"";
+}
+enum class Channel { Push, Query }; // NOT part of an economic trade key.
+enum class Availability { Implemented, NotImplemented, Blocked };
+enum class Error {
+    None, InvalidInput, ArithmeticOverflow, WrongIdentity, WrongTradingDay,
+    NoContract, ClosedSession, PriceRule, QuantityRule, StaleMark, RateLimit,
+    PositionLimit, GrossLimit, InsufficientClose, InsufficientFunds, SelfTrade,
+    Capacity, IdExhausted, Halted, UntrustedEvidence, EvidenceConflict,
+    UnknownOrder, Duplicate, NotImplemented, Blocked, InjectedFailure, OutOfOrderTime
+};
+[[nodiscard]] std::string_view error_name(Error) noexcept;
+[[nodiscard]] std::int64_t checked_add(std::int64_t a, std::int64_t b);
+[[nodiscard]] std::int64_t checked_mul_nonnegative(std::int64_t a, std::int64_t b);
+
+struct EvidenceStamp {
+    EvidenceOrigin origin{EvidenceOrigin::Unverified};
+    std::string source;
+    std::uint64_t epoch{};
+    std::optional<std::uint64_t> sequence;
+    bool comparable{}; // Only the local test profile can assert this in M1A.
+    bool operator==(const EvidenceStamp&) const = default;
+};
+struct ObservationMetadata {
+    std::string source, profile, scope, currency;
+    LogicalTime request_begin{}, response_end{};
+    bool operator==(const ObservationMetadata&) const = default;
+};
+struct ExternalOrderIdentity {
+    std::string exchange;
+    std::string order_system_id;
+    std::optional<int> front_id;
+    std::optional<int> session_id;
+    std::string order_ref;
+}; // Optional external facts, never fabricated from OrderId.
+
+// Local request identity supplied by a producer, not OrderId, CTP OrderRef or
+// OrderSysID. Its producer namespace prevents collisions between local clients.
+struct ClientOrderId {
+    std::string producer,value;
+    [[nodiscard]] bool valid() const noexcept {
+        return !producer.empty() && producer.size()<=128 && !value.empty() && value.size()<=128;
+    }
+    auto operator<=>(const ClientOrderId&) const = default;
+};
+struct StrategyId {
+    std::string value;
+    [[nodiscard]] bool valid() const noexcept { return !value.empty() && value.size()<=128; }
+    auto operator<=>(const StrategyId&) const = default;
+};
+struct ClientRequestKey {
+    StrategyId strategy;
+    ClientOrderId client;
+    [[nodiscard]] bool valid() const noexcept { return strategy.valid() && client.valid(); }
+    auto operator<=>(const ClientRequestKey&) const = default;
+};
+
+struct OrderIntent {
+    std::string account;
+    std::string instrument;
+    TradingDay day;
+    Side side{Side::Buy};
+    Offset offset{Offset::Open};
+    Ticks price{};
+    Lots quantity{};
+    bool operator==(const OrderIntent&) const = default;
+};
+struct QuantityParts {
+    Lots booked{}, suspense{}, possible{}, released{}, unresolved{}; // B,H,P,L,V
+    [[nodiscard]] Lots held() const { return checked_add(suspense, checked_add(possible, unresolved)); }
+    [[nodiscard]] Lots total() const { return checked_add(booked, checked_add(held(), released)); }
+    bool operator==(const QuantityParts&) const = default;
+};
+} // namespace p03

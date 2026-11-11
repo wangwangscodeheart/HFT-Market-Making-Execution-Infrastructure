@@ -1,0 +1,16 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-06-m1a-build-failure-control",
+    "configuration":  "Debug",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-06T12:09:52.9001571Z",
+    "finished_utc":  "2026-11-06T12:09:55.5329091Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "9a557fccd996a6acc431029f7d8a0387074f882b6db36f73b72f46b6a9a307f4",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

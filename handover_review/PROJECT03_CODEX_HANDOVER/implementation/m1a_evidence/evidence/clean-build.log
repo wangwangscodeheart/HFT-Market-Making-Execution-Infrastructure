@@ -1,0 +1,20 @@
+[0/2] Re-checking globbed directories...
+[1/19] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.o
+[2/19] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.o
+[3/19] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.o
+[4/19] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.o
+[5/19] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.o
+[6/19] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.o
+[7/19] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.o
+[8/19] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.o
+[9/19] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.o
+[10/19] Linking CXX static library libp03_core.a
+[11/19] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.o
+[12/19] Linking CXX executable p03_m1a_demo
+[13/19] Building CXX object CMakeFiles/p03_tests.dir/tests/test_main.cpp.o
+[14/19] Building CXX object CMakeFiles/p03_tests.dir/tests/types_tests.cpp.o
+[15/19] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.o
+[16/19] Building CXX object CMakeFiles/p03_tests.dir/tests/core_tests.cpp.o
+[17/19] Building CXX object CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o
+[18/19] Building CXX object CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.o
+[19/19] Linking CXX executable p03_tests

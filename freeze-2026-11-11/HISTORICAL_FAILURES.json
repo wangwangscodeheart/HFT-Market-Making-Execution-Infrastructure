@@ -1,0 +1,74 @@
+[
+  {
+    "path": "project03/evidence-local/2026-11-06-m1a-build-failure-control",
+    "exit": 1,
+    "started": "2026-11-06T12:09:52.9001571Z",
+    "finished": "2026-11-06T12:09:55.5329091Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-delivery-debug",
+    "exit": 1,
+    "started": "2026-11-07T02:56:47.3376311Z",
+    "finished": "2026-11-07T02:57:21.2276091Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-held-dedup-debug",
+    "exit": 1,
+    "started": "2026-11-07T10:12:47.3563192Z",
+    "finished": "2026-11-07T10:13:40.6672362Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-held-dedup-release",
+    "exit": 1,
+    "started": "2026-11-07T10:12:57.4710111Z",
+    "finished": "2026-11-07T10:14:00.7071566Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-ledger-aggregation-debug",
+    "exit": 1,
+    "started": "2026-11-07T11:02:48.7479327Z",
+    "finished": "2026-11-07T11:03:48.4034422Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-ledger-aggregation-release",
+    "exit": 1,
+    "started": "2026-11-07T11:02:58.9188859Z",
+    "finished": "2026-11-07T11:04:08.6633933Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-query-backpressure-debug",
+    "exit": 1,
+    "started": "2026-11-07T05:05:58.8843694Z",
+    "finished": "2026-11-07T05:06:47.5474466Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-query-backpressure-release",
+    "exit": 1,
+    "started": "2026-11-07T05:06:08.9319664Z",
+    "finished": "2026-11-07T05:07:05.6730910Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-runner-query-debug",
+    "exit": 1,
+    "started": "2026-11-07T04:01:05.3118331Z",
+    "finished": "2026-11-07T04:01:28.7131217Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-07-runner-query-release",
+    "exit": 1,
+    "started": "2026-11-07T04:01:15.5243723Z",
+    "finished": "2026-11-07T04:01:39.0928846Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-10-bounded-queue-debug",
+    "exit": 1,
+    "started": "2026-11-10T03:49:53.6467593Z",
+    "finished": "2026-11-10T03:50:55.9260803Z"
+  },
+  {
+    "path": "project03/evidence-local/2026-11-10-bounded-queue-release",
+    "exit": 1,
+    "started": "2026-11-10T03:50:23.4951842Z",
+    "finished": "2026-11-10T03:51:34.5850712Z"
+  }
+]

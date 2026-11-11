@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Win32-nmake"
+	tests="169"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname="oink"
+	time="2"
+	timestamp="2026-11-07T12:21:01"
+	>
+	<testcase name="ADMISSION_rejected_local_input_does_not_consume_business_sequence_or_clock" classname="ADMISSION_rejected_local_input_does_not_consume_business_sequence_or_clock" time="0.0597445" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_rejected_local_input_does_not_consume_business_sequence_or_clock checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_untrusted_trade_becomes_local_rejection_fact_not_booking" classname="ADMISSION_untrusted_trade_becomes_local_rejection_fact_not_booking" time="0.0107629" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_untrusted_trade_becomes_local_rejection_fact_not_booking checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_wrong_identity_request_does_not_use_next_order_or_command_ID" classname="ADMISSION_wrong_identity_request_does_not_use_next_order_or_command_ID" time="0.0094247" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_wrong_identity_request_does_not_use_next_order_or_command_ID checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_risk_rejection_is_an_admitted_business_decision" classname="ADMISSION_risk_rejection_is_an_admitted_business_decision" time="0.0104217" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_risk_rejection_is_an_admitted_business_decision checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_valid_duplicate_remains_ordered_without_double_booking" classname="ADMISSION_valid_duplicate_remains_ordered_without_double_booking" time="0.0104892" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_valid_duplicate_remains_ordered_without_double_booking checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_conflicting_trade_key_marks_original_and_related_order" classname="ADMISSION_conflicting_trade_key_marks_original_and_related_order" time="0.0120533" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_conflicting_trade_key_marks_original_and_related_order checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_harness_retains_raw_rejection_and_independent_identifiers" classname="ADMISSION_harness_retains_raw_rejection_and_independent_identifiers" time="0.0162232" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_harness_retains_raw_rejection_and_independent_identifiers checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="ADMISSION_bad_observation_and_unknown_operation_cannot_advance_clock" classname="ADMISSION_bad_observation_and_unknown_operation_cannot_advance_clock" time="0.0105343" status="run">
+		<properties/>
+		<system-out>PASS ADMISSION_bad_observation_and_unknown_operation_cannot_advance_clock checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_same_request_after_partial_fill_does_not_duplicate_risk_or_order" classname="CLIENT_same_request_after_partial_fill_does_not_duplicate_risk_or_order" time="0.0148863" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_same_request_after_partial_fill_does_not_duplicate_risk_or_order checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_same_key_changed_intent_is_rejected_without_poisoning_original" classname="CLIENT_same_key_changed_intent_is_rejected_without_poisoning_original" time="0.0145508" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_same_key_changed_intent_is_rejected_without_poisoning_original checks=52
+RESULT cases=1 failed=0 assertions=52
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_producer_namespace_prevents_accidental_request_collision" classname="CLIENT_producer_namespace_prevents_accidental_request_collision" time="0.0117373" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_producer_namespace_prevents_accidental_request_collision checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_invalid_identity_rejected_before_business_sequence" classname="CLIENT_invalid_identity_rejected_before_business_sequence" time="0.0112988" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_invalid_identity_rejected_before_business_sequence checks=24
+RESULT cases=1 failed=0 assertions=24
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_failed_reservation_does_not_bind_request_to_nonexistent_order" classname="CLIENT_failed_reservation_does_not_bind_request_to_nonexistent_order" time="0.0143885" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_failed_reservation_does_not_bind_request_to_nonexistent_order checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_commit_failure_rolls_back_index_order_and_resources_together" classname="CLIENT_commit_failure_rolls_back_index_order_and_resources_together" time="0.0094291" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_commit_failure_rolls_back_index_order_and_resources_together checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_known_retry_while_killed_reports_original_without_new_risk" classname="CLIENT_known_retry_while_killed_reports_original_without_new_risk" time="0.0101303" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_known_retry_while_killed_reports_original_without_new_risk checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_duplicate_at_order_capacity_does_not_need_a_second_slot" classname="CLIENT_duplicate_at_order_capacity_does_not_need_a_second_slot" time="0.0118149" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_duplicate_at_order_capacity_does_not_need_a_second_slot checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_retry_after_full_fill_does_not_open_a_new_position" classname="CLIENT_retry_after_full_fill_does_not_open_a_new_position" time="0.0110487" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_retry_after_full_fill_does_not_open_a_new_position checks=14
+RESULT cases=1 failed=0 assertions=14
+</system-out>
+	</testcase>
+	<testcase name="CLIENT_unknown_order_timeout_retry_never_resubmits_or_releases" classname="CLIENT_unknown_order_timeout_retry_never_resubmits_or_releases" time="0.0152344" status="run">
+		<properties/>
+		<system-out>PASS CLIENT_unknown_order_timeout_retry_never_resubmits_or_releases checks=14
+RESULT cases=1 failed=0 assertions=14
+</system-out>
+	</testcase>
+	<testcase name="COMMAND_FACTS_intent_must_match_authorized_scope_and_preserve_vendor_unknown" classname="COMMAND_FACTS_intent_must_match_authorized_scope_and_preserve_vendor_unknown" time="0.0098956" status="run">
+		<properties/>
+		<system-out>PASS COMMAND_FACTS_intent_must_match_authorized_scope_and_preserve_vendor_unknown checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="COMMAND_FACTS_vendor_reference_requires_session_and_profile_not_invented_CTP_mapping" classname="COMMAND_FACTS_vendor_reference_requires_session_and_profile_not_invented_CTP_mapping" time="0.0100744" status="run">
+		<properties/>
+		<system-out>PASS COMMAND_FACTS_vendor_reference_requires_session_and_profile_not_invented_CTP_mapping checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="P02_real_position_mapping_remains_blocked" classname="P02_real_position_mapping_remains_blocked" time="0.0161529" status="run">
+		<properties/>
+		<system-out>PASS P02_real_position_mapping_remains_blocked checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="A01_core_rejects_bad_contract_calendar_tick_and_account" classname="A01_core_rejects_bad_contract_calendar_tick_and_account" time="0.0102595" status="run">
+		<properties/>
+		<system-out>PASS A01_core_rejects_bad_contract_calendar_tick_and_account checks=35
+RESULT cases=1 failed=0 assertions=35
+</system-out>
+	</testcase>
+	<testcase name="A04_quantity_failure_has_no_order_or_reservation" classname="A04_quantity_failure_has_no_order_or_reservation" time="0.0095909" status="run">
+		<properties/>
+		<system-out>PASS A04_quantity_failure_has_no_order_or_reservation checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="A04_insufficient_close_rollback" classname="A04_insufficient_close_rollback" time="0.00963" status="run">
+		<properties/>
+		<system-out>PASS A04_insufficient_close_rollback checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="A04_insufficient_funds_rolls_back_candidate_and_ID" classname="A04_insufficient_funds_rolls_back_candidate_and_ID" time="0.0097859" status="run">
+		<properties/>
+		<system-out>PASS A04_insufficient_funds_rolls_back_candidate_and_ID checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="A04_capacity_failure_preserves_existing_state" classname="A04_capacity_failure_preserves_existing_state" time="0.0098965" status="run">
+		<properties/>
+		<system-out>PASS A04_capacity_failure_preserves_existing_state checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="A04_exception_seam_has_strong_transaction_rollback" classname="A04_exception_seam_has_strong_transaction_rollback" time="0.0098671" status="run">
+		<properties/>
+		<system-out>PASS A04_exception_seam_has_strong_transaction_rollback checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="A04_ID_exhaustion_does_not_leave_half_order" classname="A04_ID_exhaustion_does_not_leave_half_order" time="0.0100354" status="run">
+		<properties/>
+		<system-out>PASS A04_ID_exhaustion_does_not_leave_half_order checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="A05_worst_case_interval_is_one_to_five" classname="A05_worst_case_interval_is_one_to_five" time="0.0095843" status="run">
+		<properties/>
+		<system-out>PASS A05_worst_case_interval_is_one_to_five checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="A05_opposite_quote_cannot_net_away_limit" classname="A05_opposite_quote_cannot_net_away_limit" time="0.0103905" status="run">
+		<properties/>
+		<system-out>PASS A05_opposite_quote_cannot_net_away_limit checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="A06_P01_six_effects_through_actual_core" classname="A06_P01_six_effects_through_actual_core" time="0.0101723" status="run">
+		<properties/>
+		<system-out>PASS A06_P01_six_effects_through_actual_core checks=60
+RESULT cases=1 failed=0 assertions=60
+</system-out>
+	</testcase>
+	<testcase name="A06_P01_close_freezes_compete_per_bucket" classname="A06_P01_close_freezes_compete_per_bucket" time="0.0098566" status="run">
+		<properties/>
+		<system-out>PASS A06_P01_close_freezes_compete_per_bucket checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="P02_external_and_settlement_never_overwrite_buckets" classname="P02_external_and_settlement_never_overwrite_buckets" time="0.009908" status="run">
+		<properties/>
+		<system-out>PASS P02_external_and_settlement_never_overwrite_buckets checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once" classname="P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once" time="0.0103128" status="run">
+		<properties/>
+		<system-out>PASS P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once checks=20
+RESULT cases=1 failed=0 assertions=20
+</system-out>
+	</testcase>
+	<testcase name="P03_clean_boundary_still_requires_new_anchor_evidence" classname="P03_clean_boundary_still_requires_new_anchor_evidence" time="0.0128745" status="run">
+		<properties/>
+		<system-out>PASS P03_clean_boundary_still_requires_new_anchor_evidence checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="RISK_reinstated_close_freeze_reports_deficit_without_losing_trade" classname="RISK_reinstated_close_freeze_reports_deficit_without_losing_trade" time="0.0095471" status="run">
+		<properties/>
+		<system-out>PASS RISK_reinstated_close_freeze_reports_deficit_without_losing_trade checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="RISK_stale_mark_rate_limit_and_gross_limit" classname="RISK_stale_mark_rate_limit_and_gross_limit" time="0.0100639" status="run">
+		<properties/>
+		<system-out>PASS RISK_stale_mark_rate_limit_and_gross_limit checks=20
+RESULT cases=1 failed=0 assertions=20
+</system-out>
+	</testcase>
+	<testcase name="RISK_crossing_pending_cancel_and_unknown_orders_still_blocked" classname="RISK_crossing_pending_cancel_and_unknown_orders_still_blocked" time="0.0128302" status="run">
+		<properties/>
+		<system-out>PASS RISK_crossing_pending_cancel_and_unknown_orders_still_blocked checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact" classname="CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact" time="0.0150507" status="run">
+		<properties/>
+		<system-out>PASS CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume" classname="CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume" time="0.0152344" status="run">
+		<properties/>
+		<system-out>PASS CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume checks=14
+RESULT cases=1 failed=0 assertions=14
+</system-out>
+	</testcase>
+	<testcase name="CAPACITY_evidence_streams_are_bounded" classname="CAPACITY_evidence_streams_are_bounded" time="0.0106751" status="run">
+		<properties/>
+		<system-out>PASS CAPACITY_evidence_streams_are_bounded checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="BOUNDARY_Kill_blocks_new_but_processes_existing_trades" classname="BOUNDARY_Kill_blocks_new_but_processes_existing_trades" time="0.0145518" status="run">
+		<properties/>
+		<system-out>PASS BOUNDARY_Kill_blocks_new_but_processes_existing_trades checks=14
+RESULT cases=1 failed=0 assertions=14
+</system-out>
+	</testcase>
+	<testcase name="BOUNDARY_future_capabilities_never_return_success" classname="BOUNDARY_future_capabilities_never_return_success" time="0.0089407" status="run">
+		<properties/>
+		<system-out>PASS BOUNDARY_future_capabilities_never_return_success checks=39
+RESULT cases=1 failed=0 assertions=39
+</system-out>
+	</testcase>
+	<testcase name="BOUNDARY_external_CTP_evidence_is_blocked_not_trusted" classname="BOUNDARY_external_CTP_evidence_is_blocked_not_trusted" time="0.0107518" status="run">
+		<properties/>
+		<system-out>PASS BOUNDARY_external_CTP_evidence_is_blocked_not_trusted checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="BOUNDARY_malformed_trade_and_unknown_identity_quarantine" classname="BOUNDARY_malformed_trade_and_unknown_identity_quarantine" time="0.0107602" status="run">
+		<properties/>
+		<system-out>PASS BOUNDARY_malformed_trade_and_unknown_identity_quarantine checks=40
+RESULT cases=1 failed=0 assertions=40
+</system-out>
+	</testcase>
+	<testcase name="A01_actual_core_tick_and_quantity_step_reject" classname="A01_actual_core_tick_and_quantity_step_reject" time="0.0147679" status="run">
+		<properties/>
+		<system-out>PASS A01_actual_core_tick_and_quantity_step_reject checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="RISK_rate_window_expires_using_logical_time" classname="RISK_rate_window_expires_using_logical_time" time="0.0144123" status="run">
+		<properties/>
+		<system-out>PASS RISK_rate_window_expires_using_logical_time checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="RISK_economic_close_deficit_is_retained_not_clamped" classname="RISK_economic_close_deficit_is_retained_not_clamped" time="0.0153868" status="run">
+		<properties/>
+		<system-out>PASS RISK_economic_close_deficit_is_retained_not_clamped checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="P04_full_and_partial_proven_coverage_subtract_only_difference" classname="P04_full_and_partial_proven_coverage_subtract_only_difference" time="0.0259959" status="run">
+		<properties/>
+		<system-out>PASS P04_full_and_partial_proven_coverage_subtract_only_difference checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="P04_local_cap_is_independent_of_external_available" classname="P04_local_cap_is_independent_of_external_available" time="0.0091094" status="run">
+		<properties/>
+		<system-out>PASS P04_local_cap_is_independent_of_external_available checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="P04_duplicate_or_excess_coverage_rejected_atomically" classname="P04_duplicate_or_excess_coverage_rejected_atomically" time="0.0111826" status="run">
+		<properties/>
+		<system-out>PASS P04_duplicate_or_excess_coverage_rejected_atomically checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="P04_core_insufficient_external_budget_rejects_atomic_reservation" classname="P04_core_insufficient_external_budget_rejects_atomic_reservation" time="0.0110001" status="run">
+		<properties/>
+		<system-out>PASS P04_core_insufficient_external_budget_rejects_atomic_reservation checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="P05_unknown_and_excluded_coverage_are_zero" classname="P05_unknown_and_excluded_coverage_are_zero" time="0.0117925" status="run">
+		<properties/>
+		<system-out>PASS P05_unknown_and_excluded_coverage_are_zero checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="P05_untrusted_and_wrong_anchor_cannot_activate_coverage" classname="P05_untrusted_and_wrong_anchor_cannot_activate_coverage" time="0.0151069" status="run">
+		<properties/>
+		<system-out>PASS P05_untrusted_and_wrong_anchor_cannot_activate_coverage checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="P06_transfer_keeps_one_resource_and_no_fabricated_money" classname="P06_transfer_keeps_one_resource_and_no_fabricated_money" time="0.0107101" status="run">
+		<properties/>
+		<system-out>PASS P06_transfer_keeps_one_resource_and_no_fabricated_money checks=17
+RESULT cases=1 failed=0 assertions=17
+</system-out>
+	</testcase>
+	<testcase name="P06_post_anchor_fees_are_not_covered_by_margin_proof" classname="P06_post_anchor_fees_are_not_covered_by_margin_proof" time="0.0110356" status="run">
+		<properties/>
+		<system-out>PASS P06_post_anchor_fees_are_not_covered_by_margin_proof checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="P06_cancel_release_does_not_credit_external_available" classname="P06_cancel_release_does_not_credit_external_available" time="0.0111659" status="run">
+		<properties/>
+		<system-out>PASS P06_cancel_release_does_not_credit_external_available checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline" classname="FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline" time="0.0129394" status="run">
+		<properties/>
+		<system-out>PASS FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="FUNDS_duplicate_resource_transfer_cannot_double_proof" classname="FUNDS_duplicate_resource_transfer_cannot_double_proof" time="0.0123788" status="run">
+		<properties/>
+		<system-out>PASS FUNDS_duplicate_resource_transfer_cannot_double_proof checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="FUNDS_invalid_coverage_status_cannot_activate_money" classname="FUNDS_invalid_coverage_status_cannot_activate_money" time="0.0136243" status="run">
+		<properties/>
+		<system-out>PASS FUNDS_invalid_coverage_status_cannot_activate_money checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="P04_one_external_deduction_cannot_cover_two_resources" classname="P04_one_external_deduction_cannot_cover_two_resources" time="0.013856" status="run">
+		<properties/>
+		<system-out>PASS P04_one_external_deduction_cannot_cover_two_resources checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="P05_wrong_currency_and_unbounded_query_window_rejected" classname="P05_wrong_currency_and_unbounded_query_window_rejected" time="0.0106566" status="run">
+		<properties/>
+		<system-out>PASS P05_wrong_currency_and_unbounded_query_window_rejected checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_equal_time_preserves_insertion_order" classname="HARNESS_equal_time_preserves_insertion_order" time="0.0101336" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_equal_time_preserves_insertion_order checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_same_ordered_inputs_same_business_states" classname="HARNESS_same_ordered_inputs_same_business_states" time="0.0193667" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_same_ordered_inputs_same_business_states checks=22
+RESULT cases=1 failed=0 assertions=22
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_bounded_schedule_and_past_time_rejection" classname="HARNESS_bounded_schedule_and_past_time_rejection" time="0.0174655" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_bounded_schedule_and_past_time_rejection checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_core_rejects_clock_regression_without_financial_change" classname="HARNESS_core_rejects_clock_regression_without_financial_change" time="0.0140906" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_core_rejects_clock_regression_without_financial_change checks=3
+RESULT cases=1 failed=0 assertions=3
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_failed_evidence_input_is_retained_with_result" classname="HARNESS_failed_evidence_input_is_retained_with_result" time="0.0110012" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_failed_evidence_input_is_retained_with_result checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="HARNESS_summary_distinguishes_hidden_cumulative_versions" classname="HARNESS_summary_distinguishes_hidden_cumulative_versions" time="0.0151381" status="run">
+		<properties/>
+		<system-out>PASS HARNESS_summary_distinguishes_hidden_cumulative_versions checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_empty_account_states_have_distinct_diagnostic_summaries" classname="IDENTITY_empty_account_states_have_distinct_diagnostic_summaries" time="0.0101427" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_empty_account_states_have_distinct_diagnostic_summaries checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_exchange_qualifies_contract_without_case_guessing" classname="IDENTITY_exchange_qualifies_contract_without_case_guessing" time="0.0105752" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_exchange_qualifies_contract_without_case_guessing checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_distinct_core_scopes_do_not_share_orders_positions_or_dedup" classname="IDENTITY_distinct_core_scopes_do_not_share_orders_positions_or_dedup" time="0.0099624" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_distinct_core_scopes_do_not_share_orders_positions_or_dedup checks=28
+RESULT cases=1 failed=0 assertions=28
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_foreign_trade_never_books_or_releases_resources" classname="IDENTITY_foreign_trade_never_books_or_releases_resources" time="0.0101738" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_foreign_trade_never_books_or_releases_resources checks=80
+RESULT cases=1 failed=0 assertions=80
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_foreign_intent_is_rejected_without_consuming_order_ID" classname="IDENTITY_foreign_intent_is_rejected_without_consuming_order_ID" time="0.0100165" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_foreign_intent_is_rejected_without_consuming_order_ID checks=33
+RESULT cases=1 failed=0 assertions=33
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_external_observations_cannot_overwrite_scoped_position_book" classname="IDENTITY_external_observations_cannot_overwrite_scoped_position_book" time="0.0115227" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_external_observations_cannot_overwrite_scoped_position_book checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="IDENTITY_scope_boot_preserves_single_RB_contract_boundary" classname="IDENTITY_scope_boot_preserves_single_RB_contract_boundary" time="0.0229058" status="run">
+		<properties/>
+		<system-out>PASS IDENTITY_scope_boot_preserves_single_RB_contract_boundary checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="INPUT_invalid_channel_cannot_book_standard_fill" classname="INPUT_invalid_channel_cannot_book_standard_fill" time="0.0174359" status="run">
+		<properties/>
+		<system-out>PASS INPUT_invalid_channel_cannot_book_standard_fill checks=42
+RESULT cases=1 failed=0 assertions=42
+</system-out>
+	</testcase>
+	<testcase name="INPUT_invalid_channel_cannot_bypass_validation_via_duplicate" classname="INPUT_invalid_channel_cannot_bypass_validation_via_duplicate" time="0.0159548" status="run">
+		<properties/>
+		<system-out>PASS INPUT_invalid_channel_cannot_bypass_validation_via_duplicate checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="TRANSACTION_failed_standard_fill_does_not_leave_ghost_dedup_or_position" classname="TRANSACTION_failed_standard_fill_does_not_leave_ghost_dedup_or_position" time="0.0140911" status="run">
+		<properties/>
+		<system-out>PASS TRANSACTION_failed_standard_fill_does_not_leave_ghost_dedup_or_position checks=19
+RESULT cases=1 failed=0 assertions=19
+</system-out>
+	</testcase>
+	<testcase name="TRANSACTION_failed_terminal_does_not_release_resources_until_retry" classname="TRANSACTION_failed_terminal_does_not_release_resources_until_retry" time="0.0144676" status="run">
+		<properties/>
+		<system-out>PASS TRANSACTION_failed_terminal_does_not_release_resources_until_retry checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="TRANSACTION_duplicate_does_not_consume_next_commit_failure_seam" classname="TRANSACTION_duplicate_does_not_consume_next_commit_failure_seam" time="0.0144493" status="run">
+		<properties/>
+		<system-out>PASS TRANSACTION_duplicate_does_not_consume_next_commit_failure_seam checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_identity_and_counter_domains_are_distinct" classname="JOURNAL_TYPES_identity_and_counter_domains_are_distinct" time="0.0133026" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_identity_and_counter_domains_are_distinct checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_batch_boundaries_reject_holes_overlap_and_wrap" classname="JOURNAL_TYPES_batch_boundaries_reject_holes_overlap_and_wrap" time="0.0120223" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_batch_boundaries_reject_holes_overlap_and_wrap checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_adjacent_batches_require_same_writer_and_contiguous_ranges" classname="JOURNAL_TYPES_adjacent_batches_require_same_writer_and_contiguous_ranges" time="0.0149243" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_adjacent_batches_require_same_writer_and_contiguous_ranges checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_live_prefixes_enforce_all_ordering_relations" classname="JOURNAL_TYPES_live_prefixes_enforce_all_ordering_relations" time="0.0140709" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_live_prefixes_enforce_all_ordering_relations checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_ack_reference_requires_exact_batch_end_and_writer" classname="JOURNAL_TYPES_ack_reference_requires_exact_batch_end_and_writer" time="0.0149987" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_ack_reference_requires_exact_batch_end_and_writer checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="JOURNAL_TYPES_exhausted_batch_numbers_cannot_wrap_to_a_new_batch" classname="JOURNAL_TYPES_exhausted_batch_numbers_cannot_wrap_to_a_new_batch" time="0.012981" status="run">
+		<properties/>
+		<system-out>PASS JOURNAL_TYPES_exhausted_batch_numbers_cannot_wrap_to_a_new_batch checks=1
+RESULT cases=1 failed=0 assertions=1
+</system-out>
+	</testcase>
+	<testcase name="DISPATCH_FACTS_authorization_domains_are_distinct_and_same_instance" classname="DISPATCH_FACTS_authorization_domains_are_distinct_and_same_instance" time="0.0160906" status="run">
+		<properties/>
+		<system-out>PASS DISPATCH_FACTS_authorization_domains_are_distinct_and_same_instance checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="DISPATCH_FACTS_missing_scope_prefix_epoch_or_expiry_cannot_form_valid_facts" classname="DISPATCH_FACTS_missing_scope_prefix_epoch_or_expiry_cannot_form_valid_facts" time="0.0147057" status="run">
+		<properties/>
+		<system-out>PASS DISPATCH_FACTS_missing_scope_prefix_epoch_or_expiry_cannot_form_valid_facts checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="DISPATCH_FACTS_permit_names_all_five_states_without_running_a_gate" classname="DISPATCH_FACTS_permit_names_all_five_states_without_running_a_gate" time="0.0166924" status="run">
+		<properties/>
+		<system-out>PASS DISPATCH_FACTS_permit_names_all_five_states_without_running_a_gate checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="RECOVERY_FACTS_unknown_boundary_and_missing_items_are_not_hidden" classname="RECOVERY_FACTS_unknown_boundary_and_missing_items_are_not_hidden" time="0.0119489" status="run">
+		<properties/>
+		<system-out>PASS RECOVERY_FACTS_unknown_boundary_and_missing_items_are_not_hidden checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="RECOVERY_FACTS_wrong_run_account_query_session_or_generation_cannot_correlate" classname="RECOVERY_FACTS_wrong_run_account_query_session_or_generation_cannot_correlate" time="0.0138364" status="run">
+		<properties/>
+		<system-out>PASS RECOVERY_FACTS_wrong_run_account_query_session_or_generation_cannot_correlate checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="RECOVERY_FACTS_explicit_and_whole_account_scopes_are_not_interchangeable" classname="RECOVERY_FACTS_explicit_and_whole_account_scopes_are_not_interchangeable" time="0.0133962" status="run">
+		<properties/>
+		<system-out>PASS RECOVERY_FACTS_explicit_and_whole_account_scopes_are_not_interchangeable checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="RECOVERY_FACTS_scope_kind_day_and_trade_identity_are_explicit" classname="RECOVERY_FACTS_scope_kind_day_and_trade_identity_are_explicit" time="0.0138144" status="run">
+		<properties/>
+		<system-out>PASS RECOVERY_FACTS_scope_kind_day_and_trade_identity_are_explicit checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="RECOVERY_FACTS_page_mismatch_and_unbounded_metadata_are_rejected" classname="RECOVERY_FACTS_page_mismatch_and_unbounded_metadata_are_rejected" time="0.0114932" status="run">
+		<properties/>
+		<system-out>PASS RECOVERY_FACTS_page_mismatch_and_unbounded_metadata_are_rejected checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="DELIVERY_delayed_trade_is_visible_in_peer_before_core_and_replay_is_duplicate" classname="DELIVERY_delayed_trade_is_visible_in_peer_before_core_and_replay_is_duplicate" time="0.0118612" status="run">
+		<properties/>
+		<system-out>PASS DELIVERY_delayed_trade_is_visible_in_peer_before_core_and_replay_is_duplicate checks=19
+RESULT cases=1 failed=0 assertions=19
+</system-out>
+	</testcase>
+	<testcase name="DELIVERY_A07_terminal_precedes_delayed_trade_without_losing_exposure" classname="DELIVERY_A07_terminal_precedes_delayed_trade_without_losing_exposure" time="0.0120319" status="run">
+		<properties/>
+		<system-out>PASS DELIVERY_A07_terminal_precedes_delayed_trade_without_losing_exposure checks=17
+RESULT cases=1 failed=0 assertions=17
+</system-out>
+	</testcase>
+	<testcase name="DELIVERY_capture_batch_is_atomic_and_accepts_only_simulator_report_types" classname="DELIVERY_capture_batch_is_atomic_and_accepts_only_simulator_report_types" time="0.0102821" status="run">
+		<properties/>
+		<system-out>PASS DELIVERY_capture_batch_is_atomic_and_accepts_only_simulator_report_types checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="DELIVERY_invalid_ids_and_attempt_capacity_do_not_touch_core" classname="DELIVERY_invalid_ids_and_attempt_capacity_do_not_touch_core" time="0.0109619" status="run">
+		<properties/>
+		<system-out>PASS DELIVERY_invalid_ids_and_attempt_capacity_do_not_touch_core checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="QUERY_complete_snapshot_has_explicit_counts_and_independent_positions" classname="QUERY_complete_snapshot_has_explicit_counts_and_independent_positions" time="0.0137873" status="run">
+		<properties/>
+		<system-out>PASS QUERY_complete_snapshot_has_explicit_counts_and_independent_positions checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="QUERY_missing_end_or_rows_cannot_be_treated_as_complete" classname="QUERY_missing_end_or_rows_cannot_be_treated_as_complete" time="0.0111714" status="run">
+		<properties/>
+		<system-out>PASS QUERY_missing_end_or_rows_cannot_be_treated_as_complete checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="QUERY_duplicate_trade_and_foreign_scope_fail_validation" classname="QUERY_duplicate_trade_and_foreign_scope_fail_validation" time="0.0104361" status="run">
+		<properties/>
+		<system-out>PASS QUERY_duplicate_trade_and_foreign_scope_fail_validation checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="QUERY_wrong_epoch_push_channel_and_future_revision_are_invalid" classname="QUERY_wrong_epoch_push_channel_and_future_revision_are_invalid" time="0.014553" status="run">
+		<properties/>
+		<system-out>PASS QUERY_wrong_epoch_push_channel_and_future_revision_are_invalid checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="QUERY_position_frozen_and_order_fill_disagreements_remain_unaccepted" classname="QUERY_position_frozen_and_order_fill_disagreements_remain_unaccepted" time="0.0111889" status="run">
+		<properties/>
+		<system-out>PASS QUERY_position_frozen_and_order_fill_disagreements_remain_unaccepted checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="QUERY_review_never_changes_core_or_peer_state" classname="QUERY_review_never_changes_core_or_peer_state" time="0.0110464" status="run">
+		<properties/>
+		<system-out>PASS QUERY_review_never_changes_core_or_peer_state checks=5
+RESULT cases=1 failed=0 assertions=5
+</system-out>
+	</testcase>
+	<testcase name="REPLAY_query_recovers_missing_fill_before_late_push_without_double_booking" classname="REPLAY_query_recovers_missing_fill_before_late_push_without_double_booking" time="0.0131071" status="run">
+		<properties/>
+		<system-out>PASS REPLAY_query_recovers_missing_fill_before_late_push_without_double_booking checks=24
+RESULT cases=1 failed=0 assertions=24
+</system-out>
+	</testcase>
+	<testcase name="REPLAY_script_assertions_cover_peer_core_divergence_and_convergence" classname="REPLAY_script_assertions_cover_peer_core_divergence_and_convergence" time="0.015576" status="run">
+		<properties/>
+		<system-out>PASS REPLAY_script_assertions_cover_peer_core_divergence_and_convergence checks=20
+RESULT cases=1 failed=0 assertions=20
+</system-out>
+	</testcase>
+	<testcase name="REPLAY_repeated_runs_have_identical_states_and_delivery_sequences" classname="REPLAY_repeated_runs_have_identical_states_and_delivery_sequences" time="0.0191574" status="run">
+		<properties/>
+		<system-out>PASS REPLAY_repeated_runs_have_identical_states_and_delivery_sequences checks=102
+RESULT cases=1 failed=0 assertions=102
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_query_is_a_detached_snapshot_of_independent_state" classname="LOCALSIM_query_is_a_detached_snapshot_of_independent_state" time="0.0114669" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_query_is_a_detached_snapshot_of_independent_state checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_standard_A1a_fills_and_query_replay_match_actual_core" classname="LOCALSIM_standard_A1a_fills_and_query_replay_match_actual_core" time="0.0116937" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_standard_A1a_fills_and_query_replay_match_actual_core checks=41
+RESULT cases=1 failed=0 assertions=41
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_A07_peer_fills_before_cancel_core_receives_trade_late" classname="LOCALSIM_A07_peer_fills_before_cancel_core_receives_trade_late" time="0.0141914" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_A07_peer_fills_before_cancel_core_receives_trade_late checks=35
+RESULT cases=1 failed=0 assertions=35
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_peer_rule_or_budget_rejection_is_independent_of_core_approval" classname="LOCALSIM_peer_rule_or_budget_rejection_is_independent_of_core_approval" time="0.0111148" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_peer_rule_or_budget_rejection_is_independent_of_core_approval checks=28
+RESULT cases=1 failed=0 assertions=28
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_six_position_effects_use_peer_accounting_not_core_position_ledger" classname="LOCALSIM_six_position_effects_use_peer_accounting_not_core_position_ledger" time="0.0104991" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_six_position_effects_use_peer_accounting_not_core_position_ledger checks=42
+RESULT cases=1 failed=0 assertions=42
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_duplicate_requests_and_fills_do_not_create_extra_peer_exposure" classname="LOCALSIM_duplicate_requests_and_fills_do_not_create_extra_peer_exposure" time="0.0110792" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_duplicate_requests_and_fills_do_not_create_extra_peer_exposure checks=19
+RESULT cases=1 failed=0 assertions=19
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_invalid_fill_and_close_shortage_leave_peer_state_unchanged" classname="LOCALSIM_invalid_fill_and_close_shortage_leave_peer_state_unchanged" time="0.0102962" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_invalid_fill_and_close_shortage_leave_peer_state_unchanged checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_capacity_and_duplicate_cancel_preserve_resources" classname="LOCALSIM_capacity_and_duplicate_cancel_preserve_resources" time="0.0134996" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_capacity_and_duplicate_cancel_preserve_resources checks=14
+RESULT cases=1 failed=0 assertions=14
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_backend_origin_profiles_cannot_be_mixed" classname="LOCALSIM_backend_origin_profiles_cannot_be_mixed" time="0.0102896" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_backend_origin_profiles_cannot_be_mixed checks=17
+RESULT cases=1 failed=0 assertions=17
+</system-out>
+	</testcase>
+	<testcase name="LOCALSIM_invalid_configuration_and_profile_fail_closed" classname="LOCALSIM_invalid_configuration_and_profile_fail_closed" time="0.009721" status="run">
+		<properties/>
+		<system-out>PASS LOCALSIM_invalid_configuration_and_profile_fail_closed checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="O01_untrusted_negative_and_over_Q_do_not_promote_R" classname="O01_untrusted_negative_and_over_Q_do_not_promote_R" time="0.011161" status="run">
+		<properties/>
+		<system-out>PASS O01_untrusted_negative_and_over_Q_do_not_promote_R checks=36
+RESULT cases=1 failed=0 assertions=36
+</system-out>
+	</testcase>
+	<testcase name="O01_identity_scope_is_checked_before_evidence" classname="O01_identity_scope_is_checked_before_evidence" time="0.0127952" status="run">
+		<properties/>
+		<system-out>PASS O01_identity_scope_is_checked_before_evidence checks=27
+RESULT cases=1 failed=0 assertions=27
+</system-out>
+	</testcase>
+	<testcase name="O02_all_720_cumulative_trade_orderings" classname="O02_all_720_cumulative_trade_orderings" time="0.222922" status="run">
+		<properties/>
+		<system-out>DETAIL O02 permutations=720
+PASS O02_all_720_cumulative_trade_orderings checks=23761
+RESULT cases=1 failed=0 assertions=23761
+</system-out>
+	</testcase>
+	<testcase name="O02_R_greater_and_B_greater_are_not_conflicts" classname="O02_R_greater_and_B_greater_are_not_conflicts" time="0.0145118" status="run">
+		<properties/>
+		<system-out>PASS O02_R_greater_and_B_greater_are_not_conflicts checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="O03_A07_cancel_exact_and_late_trade_release_only_one" classname="O03_A07_cancel_exact_and_late_trade_release_only_one" time="0.0141238" status="run">
+		<properties/>
+		<system-out>PASS O03_A07_cancel_exact_and_late_trade_release_only_one checks=21
+RESULT cases=1 failed=0 assertions=21
+</system-out>
+	</testcase>
+	<testcase name="O04_F_less_than_B_keeps_booked_facts_and_halts" classname="O04_F_less_than_B_keeps_booked_facts_and_halts" time="0.0112304" status="run">
+		<properties/>
+		<system-out>PASS O04_F_less_than_B_keeps_booked_facts_and_halts checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="O04_late_trade_after_reject_restores_conservative_hold" classname="O04_late_trade_after_reject_restores_conservative_hold" time="0.0159165" status="run">
+		<properties/>
+		<system-out>PASS O04_late_trade_after_reject_restores_conservative_hold checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="O04_terminal_exact_contradiction_cannot_release_twice" classname="O04_terminal_exact_contradiction_cannot_release_twice" time="0.0103197" status="run">
+		<properties/>
+		<system-out>PASS O04_terminal_exact_contradiction_cannot_release_twice checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="O05_query_push_share_economic_dedup" classname="O05_query_push_share_economic_dedup" time="0.0114069" status="run">
+		<properties/>
+		<system-out>PASS O05_query_push_share_economic_dedup checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="O06_same_key_changed_payload_preserves_original" classname="O06_same_key_changed_payload_preserves_original" time="0.0146841" status="run">
+		<properties/>
+		<system-out>PASS O06_same_key_changed_payload_preserves_original checks=39
+RESULT cases=1 failed=0 assertions=39
+</system-out>
+	</testcase>
+	<testcase name="O07_A08_overfill_entire_trade_to_X_and_dedup" classname="O07_A08_overfill_entire_trade_to_X_and_dedup" time="0.0101247" status="run">
+		<properties/>
+		<system-out>PASS O07_A08_overfill_entire_trade_to_X_and_dedup checks=18
+RESULT cases=1 failed=0 assertions=18
+</system-out>
+	</testcase>
+	<testcase name="O08_no_exact_terminal_holds_V_and_H" classname="O08_no_exact_terminal_holds_V_and_H" time="0.0103208" status="run">
+		<properties/>
+		<system-out>PASS O08_no_exact_terminal_holds_V_and_H checks=15
+RESULT cases=1 failed=0 assertions=15
+</system-out>
+	</testcase>
+	<testcase name="O09_comparable_newer_regression_conflicts" classname="O09_comparable_newer_regression_conflicts" time="0.0105503" status="run">
+		<properties/>
+		<system-out>PASS O09_comparable_newer_regression_conflicts checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="O09_older_smaller_and_distinct_epoch_do_not_regress" classname="O09_older_smaller_and_distinct_epoch_do_not_regress" time="0.0112604" status="run">
+		<properties/>
+		<system-out>PASS O09_older_smaller_and_distinct_epoch_do_not_regress checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="OMS_cancel_reject_does_not_reject_order" classname="OMS_cancel_reject_does_not_reject_order" time="0.0111562" status="run">
+		<properties/>
+		<system-out>PASS OMS_cancel_reject_does_not_reject_order checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="OMS_cancel_success_without_F_does_not_release" classname="OMS_cancel_success_without_F_does_not_release" time="0.0101968" status="run">
+		<properties/>
+		<system-out>PASS OMS_cancel_success_without_F_does_not_release checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="OMS_working_late_cannot_reopen_terminal" classname="OMS_working_late_cannot_reopen_terminal" time="0.0106405" status="run">
+		<properties/>
+		<system-out>PASS OMS_working_late_cannot_reopen_terminal checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="OMS_timeout_holds_risk_and_never_resubmits" classname="OMS_timeout_holds_risk_and_never_resubmits" time="0.018634" status="run">
+		<properties/>
+		<system-out>PASS OMS_timeout_holds_risk_and_never_resubmits checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="OMS_unknown_cancel_stops_new_intents_but_books_late_trade" classname="OMS_unknown_cancel_stops_new_intents_but_books_late_trade" time="0.011721" status="run">
+		<properties/>
+		<system-out>PASS OMS_unknown_cancel_stops_new_intents_but_books_late_trade checks=20
+RESULT cases=1 failed=0 assertions=20
+</system-out>
+	</testcase>
+	<testcase name="OMS_late_old_cancel_report_does_not_overwrite_new_action" classname="OMS_late_old_cancel_report_does_not_overwrite_new_action" time="0.0120571" status="run">
+		<properties/>
+		<system-out>PASS OMS_late_old_cancel_report_does_not_overwrite_new_action checks=17
+RESULT cases=1 failed=0 assertions=17
+</system-out>
+	</testcase>
+	<testcase name="OMS_cancel_action_capacity_rejects_without_half_action" classname="OMS_cancel_action_capacity_rejects_without_half_action" time="0.0109044" status="run">
+		<properties/>
+		<system-out>PASS OMS_cancel_action_capacity_rejects_without_half_action checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="OMS_reliable_acceptance_conflicts_with_NotSent_or_reject" classname="OMS_reliable_acceptance_conflicts_with_NotSent_or_reject" time="0.0147373" status="run">
+		<properties/>
+		<system-out>PASS OMS_reliable_acceptance_conflicts_with_NotSent_or_reject checks=48
+RESULT cases=1 failed=0 assertions=48
+</system-out>
+	</testcase>
+	<testcase name="OMS_cumulative_partial_cannot_regress_to_working" classname="OMS_cumulative_partial_cannot_regress_to_working" time="0.011142" status="run">
+		<properties/>
+		<system-out>PASS OMS_cumulative_partial_cannot_regress_to_working checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot" classname="OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot" time="0.0109929" status="run">
+		<properties/>
+		<system-out>PASS OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="OMS_invalid_terminal_enum_cannot_release" classname="OMS_invalid_terminal_enum_cannot_release" time="0.0133431" status="run">
+		<properties/>
+		<system-out>PASS OMS_invalid_terminal_enum_cannot_release checks=9
+RESULT cases=1 failed=0 assertions=9
+</system-out>
+	</testcase>
+	<testcase name="O09_equal_version_changed_quantity_conflicts" classname="O09_equal_version_changed_quantity_conflicts" time="0.0117394" status="run">
+		<properties/>
+		<system-out>PASS O09_equal_version_changed_quantity_conflicts checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="O05_identical_economic_content_with_different_trade_id_is_distinct" classname="O05_identical_economic_content_with_different_trade_id_is_distinct" time="0.0108993" status="run">
+		<properties/>
+		<system-out>PASS O05_identical_economic_content_with_different_trade_id_is_distinct checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_two_sided_plan_is_read_only_and_each_submit_still_passes_core_risk" classname="PLANNER_two_sided_plan_is_read_only_and_each_submit_still_passes_core_risk" time="0.0121763" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_two_sided_plan_is_read_only_and_each_submit_still_passes_core_risk checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_changed_quote_cancels_before_creating_and_pending_cancel_keeps_slot" classname="PLANNER_changed_quote_cancels_before_creating_and_pending_cancel_keeps_slot" time="0.0121771" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_changed_quote_cancels_before_creating_and_pending_cancel_keeps_slot checks=11
+RESULT cases=1 failed=0 assertions=11
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_routes_yesterday_then_today_from_confirmed_positions" classname="PLANNER_routes_yesterday_then_today_from_confirmed_positions" time="0.0158714" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_routes_yesterday_then_today_from_confirmed_positions checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_terminal_cancellation_allows_replacement_but_plan_cannot_bypass_funds" classname="PLANNER_terminal_cancellation_allows_replacement_but_plan_cannot_bypass_funds" time="0.0101151" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_terminal_cancellation_allows_replacement_but_plan_cannot_bypass_funds checks=16
+RESULT cases=1 failed=0 assertions=16
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_stale_generation_foreign_scope_crossed_quotes_and_kill_fail_closed" classname="PLANNER_stale_generation_foreign_scope_crossed_quotes_and_kill_fail_closed" time="0.0124388" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_stale_generation_foreign_scope_crossed_quotes_and_kill_fail_closed checks=8
+RESULT cases=1 failed=0 assertions=8
+</system-out>
+	</testcase>
+	<testcase name="PLANNER_missing_trades_and_multiple_live_quotes_block_new_plans" classname="PLANNER_missing_trades_and_multiple_live_quotes_block_new_plans" time="0.023478" status="run">
+		<properties/>
+		<system-out>PASS PLANNER_missing_trades_and_multiple_live_quotes_block_new_plans checks=17
+RESULT cases=1 failed=0 assertions=17
+</system-out>
+	</testcase>
+	<testcase name="STANDARD_A1a_accepted_order_fills_in_source_proportions" classname="STANDARD_A1a_accepted_order_fills_in_source_proportions" time="0.0116897" status="run">
+		<properties/>
+		<system-out>PASS STANDARD_A1a_accepted_order_fills_in_source_proportions checks=81
+RESULT cases=1 failed=0 assertions=81
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_identity_is_distinct_and_invalid_configuration_cannot_boot" classname="STRATEGY_identity_is_distinct_and_invalid_configuration_cannot_boot" time="0.0098848" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_identity_is_distinct_and_invalid_configuration_cannot_boot checks=2
+RESULT cases=1 failed=0 assertions=2
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_omitted_owner_uses_configuration_not_client_producer" classname="STRATEGY_omitted_owner_uses_configuration_not_client_producer" time="0.0094596" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_omitted_owner_uses_configuration_not_client_producer checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_foreign_owner_cannot_alias_or_modify_existing_client_request" classname="STRATEGY_foreign_owner_cannot_alias_or_modify_existing_client_request" time="0.0104209" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_foreign_owner_cannot_alias_or_modify_existing_client_request checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_client_index_key_qualifies_identical_client_ids_by_owner" classname="STRATEGY_client_index_key_qualifies_identical_client_ids_by_owner" time="0.0102476" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_client_index_key_qualifies_identical_client_ids_by_owner checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_failed_commit_rolls_back_owned_client_index" classname="STRATEGY_failed_commit_rolls_back_owned_client_index" time="0.0102487" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_failed_commit_rolls_back_owned_client_index checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_order_ownership_does_not_split_account_position_or_risk" classname="STRATEGY_order_ownership_does_not_split_account_position_or_risk" time="0.0154277" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_order_ownership_does_not_split_account_position_or_risk checks=13
+RESULT cases=1 failed=0 assertions=13
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_trade_transport_source_cannot_reassign_order_ownership" classname="STRATEGY_trade_transport_source_cannot_reassign_order_ownership" time="0.0142518" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_trade_transport_source_cannot_reassign_order_ownership checks=10
+RESULT cases=1 failed=0 assertions=10
+</system-out>
+	</testcase>
+	<testcase name="STRATEGY_command_description_requires_same_owner_as_authorization" classname="STRATEGY_command_description_requires_same_owner_as_authorization" time="0.0119154" status="run">
+		<properties/>
+		<system-out>PASS STRATEGY_command_description_requires_same_owner_as_authorization checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="A01_identity_types_and_exhaustion" classname="A01_identity_types_and_exhaustion" time="0.0096395" status="run">
+		<properties/>
+		<system-out>PASS A01_identity_types_and_exhaustion checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="A01_dates_validate_gregorian" classname="A01_dates_validate_gregorian" time="0.0118391" status="run">
+		<properties/>
+		<system-out>PASS A01_dates_validate_gregorian checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="A01_calendar_night_mapping_and_breaks" classname="A01_calendar_night_mapping_and_breaks" time="0.010208" status="run">
+		<properties/>
+		<system-out>PASS A01_calendar_night_mapping_and_breaks checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="A01_bad_calendar_configuration_rejected" classname="A01_bad_calendar_configuration_rejected" time="0.011531" status="run">
+		<properties/>
+		<system-out>PASS A01_bad_calendar_configuration_rejected checks=2
+RESULT cases=1 failed=0 assertions=2
+</system-out>
+	</testcase>
+	<testcase name="A01_contract_tick_quantity_and_day_rules" classname="A01_contract_tick_quantity_and_day_rules" time="0.0171996" status="run">
+		<properties/>
+		<system-out>PASS A01_contract_tick_quantity_and_day_rules checks=7
+RESULT cases=1 failed=0 assertions=7
+</system-out>
+	</testcase>
+	<testcase name="A01_unsupported_real_profile_cannot_boot" classname="A01_unsupported_real_profile_cannot_boot" time="0.0152617" status="run">
+		<properties/>
+		<system-out>PASS A01_unsupported_real_profile_cannot_boot checks=2
+RESULT cases=1 failed=0 assertions=2
+</system-out>
+	</testcase>
+	<testcase name="A01_checked_arithmetic_boundaries" classname="A01_checked_arithmetic_boundaries" time="0.0136631" status="run">
+		<properties/>
+		<system-out>PASS A01_checked_arithmetic_boundaries checks=6
+RESULT cases=1 failed=0 assertions=6
+</system-out>
+	</testcase>
+	<testcase name="P01_six_position_effects" classname="P01_six_position_effects" time="0.0135051" status="run">
+		<properties/>
+		<system-out>PASS P01_six_position_effects checks=12
+RESULT cases=1 failed=0 assertions=12
+</system-out>
+	</testcase>
+	<testcase name="P01_anchor_is_not_mutated_by_booking" classname="P01_anchor_is_not_mutated_by_booking" time="0.0128546" status="run">
+		<properties/>
+		<system-out>PASS P01_anchor_is_not_mutated_by_booking checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+	<testcase name="P01_invalid_side_offset_and_bucket_fail_without_mutation" classname="P01_invalid_side_offset_and_bucket_fail_without_mutation" time="0.0117244" status="run">
+		<properties/>
+		<system-out>PASS P01_invalid_side_offset_and_bucket_fail_without_mutation checks=4
+RESULT cases=1 failed=0 assertions=4
+</system-out>
+	</testcase>
+</testsuite>

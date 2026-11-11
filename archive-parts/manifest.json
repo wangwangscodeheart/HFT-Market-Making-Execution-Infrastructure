@@ -1,0 +1,31 @@
+{
+  "schema": "p03.lossless-archive-parts.v1",
+  "original": {
+    "name": "PROJECT03_FREEZE_2026-11-11.zip",
+    "bytes": 3691494946,
+    "sha256": "6faed74c9f68ec8869dbb7c8c04ecef8d468d82c40118d604c8b5f55152f3e4a"
+  },
+  "restore": "Concatenate parts in this listed order; verify SHA256 before extracting",
+  "parts": [
+    {
+      "name": "PROJECT03_FREEZE_2026-11-11.zip.001.part",
+      "bytes": 1073741824,
+      "sha256": "7849d1238447a587916d70b771ff937387dd9176de13879e9bd6960febdf4cd7"
+    },
+    {
+      "name": "PROJECT03_FREEZE_2026-11-11.zip.002.part",
+      "bytes": 1073741824,
+      "sha256": "940b1f1fba03112f3d14064dbff5638d4352a1183e1624fd4e9c87f1515e34fe"
+    },
+    {
+      "name": "PROJECT03_FREEZE_2026-11-11.zip.003.part",
+      "bytes": 1073741824,
+      "sha256": "ee2aa067d6cafaba71a3c57155663dc9e9695970aa0793b2e64736dcd97bd5a7"
+    },
+    {
+      "name": "PROJECT03_FREEZE_2026-11-11.zip.004.part",
+      "bytes": 470269474,
+      "sha256": "7c40e147978193f511d2472950866c8eb276b035016dd52f1e0dff4b5ff23fe5"
+    }
+  ]
+}

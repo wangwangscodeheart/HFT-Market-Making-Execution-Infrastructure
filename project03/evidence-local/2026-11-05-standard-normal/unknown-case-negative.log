@@ -1,0 +1,8 @@
+﻿p03_tests.exe : No tests selected
+所在位置 行:2 字符: 392
++ ... ntrol did not fail'}; & $testExe --case nonexistent_case 2>&1 | Out-S ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No tests selected:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

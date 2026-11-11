@@ -1,0 +1,32 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-10-bounded-queue-release",
+    "configuration":  "Release",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-10T03:50:23.4951842Z",
+    "finished_utc":  "2026-11-10T03:51:34.5850712Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "c5f04cd8121b9c0fb9dee2b5cadc652ff31f30c15d6d129a7367b40c9b07c425",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "component_scope":  "m1b-local-replay-slice3",
+    "query_first_replay":  true,
+    "quote_runner_export":  true,
+    "quote_expiry_export":  true,
+    "quote_query_gap_export":  true,
+    "quote_retry_export":  true,
+    "quote_overflow_export":  true,
+    "quote_cleanup_export":  true,
+    "quote_late_fill_export":  true,
+    "quote_inventory_export":  true,
+    "quote_feed_export":  true,
+    "ui_source_seal":  true,
+    "core_step_benchmark":  true,
+    "core_state_benchmark":  true,
+    "funds_view_benchmark":  true,
+    "ui_manifest_sha256":  "6a9a2021640fea8b6c6f15eee39e5e873585a95abc6430d7e1282b8e6ec3f286",
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

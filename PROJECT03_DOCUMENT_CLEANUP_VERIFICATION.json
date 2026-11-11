@@ -1,0 +1,272 @@
+{
+  "before": {
+    "files": 161885,
+    "bytes": 52779176096,
+    "groups": {
+      "ARCHIVE_VERIFICATION.json": {
+        "files": 1,
+        "bytes": 540
+      },
+      "demos": {
+        "files": 34,
+        "bytes": 4411351
+      },
+      "freeze-2026-11-11": {
+        "files": 22,
+        "bytes": 33331516
+      },
+      "handover_review": {
+        "files": 199,
+        "bytes": 3455694
+      },
+      "project03": {
+        "files": 80685,
+        "bytes": 24502641695
+      },
+      "PROJECT03_FREEZE_2026-11-11.zip": {
+        "files": 1,
+        "bytes": 3691494946
+      },
+      "PROJECT03_FREEZE_2026-11-11.zip.sha256": {
+        "files": 1,
+        "bytes": 98
+      },
+      "PROJECT03_FREEZE_ARCHIVE.log": {
+        "files": 1,
+        "bytes": 0
+      },
+      "PROJECT03_FREEZE_EXTRACT.log": {
+        "files": 1,
+        "bytes": 0
+      },
+      "PROJECT03_FREEZE_VERIFY_2026-11-11": {
+        "files": 80940,
+        "bytes": 24543840256
+      }
+    }
+  },
+  "report_checks": [
+    {
+      "name": "V1.1 complete exact original included",
+      "passed": true
+    },
+    {
+      "name": "ADR001 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR002 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR003 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR004 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR005 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR006 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR007 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR008 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR009 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "ADR010 complete exact text included",
+      "passed": true
+    },
+    {
+      "name": "M0 full rules and interface chapters 4-6 included",
+      "passed": true
+    },
+    {
+      "name": "38 original model checks included",
+      "passed": true
+    },
+    {
+      "name": "no replacement characters",
+      "passed": true
+    },
+    {
+      "name": "all 18 report sections",
+      "passed": true
+    },
+    {
+      "name": "scope includes P0-05",
+      "passed": true
+    },
+    {
+      "name": "unwired draft explicitly distinguished",
+      "passed": true
+    },
+    {
+      "name": "all proposed deletions verified generated duplicates",
+      "passed": true
+    }
+  ],
+  "proposed_deletions": [
+    {
+      "path": "freeze-2026-11-11/PROJECT03_STATUS_AT_FREEZE.md",
+      "bytes": 9588,
+      "sha256": "73ca7056137c4cc2a604e43894ed30fd0f161ef11051562111ed9fa86f935daa",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/PROJECT03_RESUME_GUIDE.md",
+      "bytes": 6385,
+      "sha256": "ba3b3ce0bea46a9e1b85fbcc81b6be6d525761c0acc84c3213465f359855e58d",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/PROJECT03_SCOPE_REASSESSMENT.md",
+      "bytes": 4112,
+      "sha256": "64658fd96cfca32f0805fea8a2a2c3ac14128b81c08e337667219a0778f9f67a",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/README.md",
+      "bytes": 1787,
+      "sha256": "23341adcb887893431a88fc0bf92c840ff9a3e71650e298e242066e9bb3091a5",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/AUDIT_TEXT_INDEX.json",
+      "bytes": 133200,
+      "sha256": "6cdd8837aa792e5fc85f31873a2c882414a51e78c9045c3e649ddd0ce9164dff",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/document-review-index-handover.json",
+      "bytes": 42535,
+      "sha256": "d2b2a5cd2722c9a3bbcccd179f7bf48b25b12d5f39394875663baf5c459e27b7",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    },
+    {
+      "path": "freeze-2026-11-11/document-review-index-working.json",
+      "bytes": 22553,
+      "sha256": "fed298921b39da3c20889beb895fdc06ffb6852cc1955bc91986dc15722d89f4",
+      "original_freeze_generated_file": true,
+      "retained_in_original_zip": true,
+      "retained_verified_copy": true
+    }
+  ],
+  "deleted_bytes": 220160,
+  "zip_recheck": {
+    "algorithm": "SHA256",
+    "bytes": 3691494946,
+    "actual": "6faed74c9f68ec8869dbb7c8c04ecef8d468d82c40118d604c8b5f55152f3e4a",
+    "matches_original": true,
+    "method": "Get-FileHash executed this document-cleanup turn"
+  },
+  "report": {
+    "path": "PROJECT03_COMPLETE_ARCHIVE_AND_RESUME_REPORT.md",
+    "bytes": 180927,
+    "lines": 1816,
+    "sha256": "ddecbdf5a80fc1ff9dbe1df237f48c8473536cbb4fee3eae812cc290d1118ab6"
+  },
+  "cleanup_completed": true,
+  "deleted_paths": [
+    "freeze-2026-11-11/PROJECT03_STATUS_AT_FREEZE.md",
+    "freeze-2026-11-11/PROJECT03_RESUME_GUIDE.md",
+    "freeze-2026-11-11/PROJECT03_SCOPE_REASSESSMENT.md",
+    "freeze-2026-11-11/README.md",
+    "freeze-2026-11-11/AUDIT_TEXT_INDEX.json",
+    "freeze-2026-11-11/document-review-index-handover.json",
+    "freeze-2026-11-11/document-review-index-working.json"
+  ],
+  "original_assets_preserved": [
+    "project03",
+    "demos",
+    "handover_review",
+    "PROJECT03_FREEZE_VERIFY_2026-11-11"
+  ],
+  "space_unit": "logical file bytes, not filesystem allocated clusters",
+  "after": {
+    "files": 161881,
+    "bytes": 52779144232,
+    "groups": {
+      "ARCHIVE_VERIFICATION.json": {
+        "files": 1,
+        "bytes": 540
+      },
+      "demos": {
+        "files": 34,
+        "bytes": 4411351
+      },
+      "freeze-2026-11-11": {
+        "files": 15,
+        "bytes": 33111356
+      },
+      "handover_review": {
+        "files": 199,
+        "bytes": 3455694
+      },
+      "project03": {
+        "files": 80685,
+        "bytes": 24502641695
+      },
+      "PROJECT03_COMPLETE_ARCHIVE_AND_RESUME_REPORT.md": {
+        "files": 1,
+        "bytes": 180927
+      },
+      "PROJECT03_COMPLETE_ARCHIVE_AND_RESUME_REPORT.md.sha256": {
+        "files": 1,
+        "bytes": 114
+      },
+      "PROJECT03_DOCUMENT_CLEANUP_VERIFICATION.json": {
+        "files": 1,
+        "bytes": 7255
+      },
+      "PROJECT03_FREEZE_2026-11-11.zip": {
+        "files": 1,
+        "bytes": 3691494946
+      },
+      "PROJECT03_FREEZE_2026-11-11.zip.sha256": {
+        "files": 1,
+        "bytes": 98
+      },
+      "PROJECT03_FREEZE_ARCHIVE.log": {
+        "files": 1,
+        "bytes": 0
+      },
+      "PROJECT03_FREEZE_EXTRACT.log": {
+        "files": 1,
+        "bytes": 0
+      },
+      "PROJECT03_FREEZE_VERIFY_2026-11-11": {
+        "files": 80940,
+        "bytes": 24543840256
+      }
+    }
+  },
+  "original_group_counts_and_bytes_unchanged": true,
+  "net_file_change": -4,
+  "net_byte_change": -31864
+}

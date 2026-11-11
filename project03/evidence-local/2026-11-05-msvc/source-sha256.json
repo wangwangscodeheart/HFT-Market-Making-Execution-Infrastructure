@@ -1,0 +1,134 @@
+﻿[
+    {
+        "path":  "CMakeLists.txt",
+        "sha256":  "28B0E465FA2A604449D618098C879687C893A1DA9E4927014FDB1C02EE1EEEC6"
+    },
+    {
+        "path":  "include\\p03\\core.hpp",
+        "sha256":  "2C6183EE6F1125A0A2F0BB5F47D5BC13A7EE3FB220C2262B991A9C482C0157B3"
+    },
+    {
+        "path":  "include\\p03\\funds.hpp",
+        "sha256":  "5596D5921833EBA5B568D989018F2B32E940B9E3E947CB2835EA70DD8C8F23E0"
+    },
+    {
+        "path":  "include\\p03\\ledger.hpp",
+        "sha256":  "3F273DF9D80653DDE2C51AD95BA9B42486B0367F2CD593ADD475F3ABD6D41CF7"
+    },
+    {
+        "path":  "include\\p03\\oms.hpp",
+        "sha256":  "C5DDCC2E9332371E340E76F70B7A7111BF2A77F99DAEBB4D514969B6E56EEA8C"
+    },
+    {
+        "path":  "include\\p03\\positions.hpp",
+        "sha256":  "2D841F6CBA70C7BABAD41189B979684A49C8CF66A2B6EF0239DD4F48421FA939"
+    },
+    {
+        "path":  "include\\p03\\reference_data.hpp",
+        "sha256":  "ECFEB32C427518717D1B093798F9442A4AD7BBBF088E9500F66C2791800B8874"
+    },
+    {
+        "path":  "include\\p03\\risk.hpp",
+        "sha256":  "ABEB4B004DA362DE2F35E18A023BD4F784C63C07CF1413590AF7EE5FFC31F7AD"
+    },
+    {
+        "path":  "include\\p03\\step_harness.hpp",
+        "sha256":  "7AF7B747C4B19F46C35F151C15F6CFFF9891CF86FAF227F3F2CC7F99CE363724"
+    },
+    {
+        "path":  "include\\p03\\types.hpp",
+        "sha256":  "8ADF8DC9906FAF051EF866CBADA8903BDCE5565E95DD550D7192BFF2A507FA99"
+    },
+    {
+        "path":  "src\\core.cpp",
+        "sha256":  "9232B6F014D70C5E881531041265746719441B14ADADDCEB84302363891A8986"
+    },
+    {
+        "path":  "src\\funds.cpp",
+        "sha256":  "3FA5A3602768014708609E384E3675F91A4AD26CCC5C80AB9182E4B79D0621D4"
+    },
+    {
+        "path":  "src\\ledger.cpp",
+        "sha256":  "2D0231EBAAB7E0BF9EAFCBA5E16F68E5EA5E0C3781A5B83FF3F0A3B52661FDDA"
+    },
+    {
+        "path":  "src\\oms.cpp",
+        "sha256":  "7C1E9132B9EC256F11A872BD6AA4891AE367917C003A8D81E70CBA3375056802"
+    },
+    {
+        "path":  "src\\positions.cpp",
+        "sha256":  "CCC6299226EE0DCE07D7C8A13EB8E9537E28A24D261BDB49646F8FE32FEA4F29"
+    },
+    {
+        "path":  "src\\reference_data.cpp",
+        "sha256":  "E22250A0288728B7BF197A40A8255468E6FB7ED0933F58725A3296D1D3F61380"
+    },
+    {
+        "path":  "src\\risk.cpp",
+        "sha256":  "6F98966FE60B3D90E1FA0398CA170B4029B2206D5C1EC97F0551A45DB720344E"
+    },
+    {
+        "path":  "src\\step_harness.cpp",
+        "sha256":  "DF05398C4E8B823367028608FC4548CD99D2208F82E82044ABE9F9BCE8339DA6"
+    },
+    {
+        "path":  "src\\types.cpp",
+        "sha256":  "41982A0F610184156338942E66F63747652A2754D143E2E34B3A281DCFF4030A"
+    },
+    {
+        "path":  "tests\\core_tests.cpp",
+        "sha256":  "5916CBF10437EF380313E0A6E29C6EB1A9D7B1F47F1B632E9F4506DA16AE6F70"
+    },
+    {
+        "path":  "tests\\fixture.hpp",
+        "sha256":  "0BA4E2CA9A9FBFDC23F34E29DFAE0FCD938A297BAA913118F8962DAFBC8FB29F"
+    },
+    {
+        "path":  "tests\\funds_tests.cpp",
+        "sha256":  "F0216811CA5055700A7C4404579714E6622EE10F8FBC87114ED247326ED9D081"
+    },
+    {
+        "path":  "tests\\harness_tests.cpp",
+        "sha256":  "2E4E6808C535DA254622D24CBC9361336A8C094C1FD9C64148C84B18499B32D0"
+    },
+    {
+        "path":  "tests\\oms_tests.cpp",
+        "sha256":  "B9537D6F9CB373666E0010C4FA647AAB4A86846105053B71304AE97FF14419E7"
+    },
+    {
+        "path":  "tests\\test.hpp",
+        "sha256":  "0A195705C91F5B24BFAAC8CB5D22D6D5C3978A3A40F5B7259FD3D614D53FEA53"
+    },
+    {
+        "path":  "tests\\test_main.cpp",
+        "sha256":  "694FC07A20EC0BE0768398A3147EEE0A990FC4118F2BC720DBFF7B3E3785B628"
+    },
+    {
+        "path":  "tests\\types_tests.cpp",
+        "sha256":  "473D86B194982B0069726844111EFE5C9EFCD5785DE0271E27FB005B33EB2A9A"
+    },
+    {
+        "path":  "examples\\m1a_demo.cpp",
+        "sha256":  "31D9DB86BA52930FD8D5B0F7944A79A92F58A174C05911E7D3EE5349A7481C26"
+    },
+    {
+        "path":  "diagnostics\\swap_traits.cpp",
+        "sha256":  "44C292003B7FAB8138FA61389915440D84AD7A2A5238EB61D92DEA7E6E324976"
+    },
+    {
+        "path":  "scripts\\build-msvc.ps1",
+        "sha256":  "6A2050AC2AAEE43176C580FDA81257923B8072EA3B2AE49F5B979491D1B8BC77"
+    },
+    {
+        "path":  "scripts\\make_manifest.py",
+        "sha256":  "431156283B5CC02996849E844F6F9A0E65F2BCF3DDFDFB7CFC918C4B91ABD90E"
+    },
+    {
+        "path":  "scripts\\package.py",
+        "sha256":  "628D72BB809EBEC638881B3AEF3202FED08D80D13CAA455EB188B9F6AB0861B9"
+    },
+    {
+        "path":  "scripts\\verify.py",
+        "sha256":  "12C21A813558ABE7811441596CF2970A612CE759A93842CC087E64C14253A3E7"
+    }
+]

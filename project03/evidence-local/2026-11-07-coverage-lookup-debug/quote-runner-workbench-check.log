@@ -1,0 +1,4 @@
+PASS: five runner frames, calls/orders, preserved inventory after kill, bounds, provenance and missing/failed data; Node DOM logic only.
+PASS: inventory sizing, limit suppression, cancel-before-replace, query alignment, kill and scenario navigation.
+PASS: post-kill late fill, retained H, repeat Stop, exact terminal proof and query trade identity.
+PASS: cleanup scenario lanes, reserved Stop, rejected admission checks and no automatic reopening.

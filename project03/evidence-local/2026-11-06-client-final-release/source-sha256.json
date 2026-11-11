@@ -1,0 +1,194 @@
+[
+  {
+    "path": "include/p03/core.hpp",
+    "sha256": "2bb93ff797d2cd769f9e555732ca7188d5548187bd8779a0a052fb436d66f135"
+  },
+  {
+    "path": "include/p03/dispatch_facts.hpp",
+    "sha256": "7a373b9380151a8608d921f1311a08113fc42c51f1ed5ed23ba07f7d6cccd836"
+  },
+  {
+    "path": "include/p03/funds.hpp",
+    "sha256": "f7229f46c1755b5ff07c01f497525abe015c932d53e98836c1cf1162d587b47b"
+  },
+  {
+    "path": "include/p03/journal_facts.hpp",
+    "sha256": "b557ed2e7aef3eef948ec696cc6900ee671be3cb25f290f6276ae4196fbc4a4a"
+  },
+  {
+    "path": "include/p03/ledger.hpp",
+    "sha256": "3f273df9d80653dde2c51ad95ba9b42486b0367f2cd593add475f3abd6d41cf7"
+  },
+  {
+    "path": "include/p03/oms.hpp",
+    "sha256": "8fc79f45e3d386cff8e766962cc2ffe0ef7041c93b643c37945249d16d128e58"
+  },
+  {
+    "path": "include/p03/order_command_facts.hpp",
+    "sha256": "60f368b2d86d69a5ebdd169c8a9a1004d2f280c12ad770dea51d2fa36e6f53a9"
+  },
+  {
+    "path": "include/p03/positions.hpp",
+    "sha256": "2d841f6cba70c7babad41189b979684a49c8cf66a2b6ef0239dd4f48421fa939"
+  },
+  {
+    "path": "include/p03/recovery_facts.hpp",
+    "sha256": "3b57ae81a8d37a6094bad9e05a7910e48d11c4066c9d79d5633995966d52e58d"
+  },
+  {
+    "path": "include/p03/reference_data.hpp",
+    "sha256": "5dbae391628033ac4d7241aae5275c45825effe4ea41a83f3726a69eaf313537"
+  },
+  {
+    "path": "include/p03/risk.hpp",
+    "sha256": "abeb4b004da362de2f35e18a023bd4f784c63c07cf1413590af7ee5ffc31f7ad"
+  },
+  {
+    "path": "include/p03/step_harness.hpp",
+    "sha256": "7af7b747c4b19f46c35f151c15f6cfff9891cf86faf227f3f2cc7f99ce363724"
+  },
+  {
+    "path": "include/p03/types.hpp",
+    "sha256": "6a6f23582a4ae9d489e6e413d09e079ed857622983b2100611ee3dd7a8459ebb"
+  },
+  {
+    "path": "src/core.cpp",
+    "sha256": "3c2c8e411ba29466a2e1c840b38848d9df59fcd5cda78e3c03885729105f567f"
+  },
+  {
+    "path": "src/funds.cpp",
+    "sha256": "c00df867b549f065ee2ccad9a17f3c178719c90eb739cd69adf5e33d609f3cb2"
+  },
+  {
+    "path": "src/ledger.cpp",
+    "sha256": "2d0231ebaab7e0bf9eafcba5e16f68e5ea5e0c3781a5b83ff3f0a3b52661fdda"
+  },
+  {
+    "path": "src/oms.cpp",
+    "sha256": "ca599b1125874616ef21b8dc51fe2f9eb45a3e892bf7a2deb447b766a8e6c538"
+  },
+  {
+    "path": "src/positions.cpp",
+    "sha256": "ccc6299226ee0dce07d7c8a13eb8e9537e28a24d261bdb49646f8fe32fea4f29"
+  },
+  {
+    "path": "src/reference_data.cpp",
+    "sha256": "e22250a0288728b7bf197a40a8255468e6fb7ed0933f58725a3296d1d3f61380"
+  },
+  {
+    "path": "src/risk.cpp",
+    "sha256": "6f98966fe60b3d90e1fa0398ca170b4029b2206d5c1ec97f0551a45db720344e"
+  },
+  {
+    "path": "src/step_harness.cpp",
+    "sha256": "df05398c4e8b823367028608fc4548cd99d2208f82e82044abe9f9bce8339da6"
+  },
+  {
+    "path": "src/types.cpp",
+    "sha256": "41982a0f610184156338942e66f63747652a2754d143e2e34b3a281dcff4030a"
+  },
+  {
+    "path": "examples/demo_scenario.hpp",
+    "sha256": "58bdc6ab0230113b3c8b58bb61578bca7f1234c2853f736f71c836fdc6816747"
+  },
+  {
+    "path": "examples/export_snapshot.cpp",
+    "sha256": "182cf5e81589e109fe2b3eee92cc9583800478d338ddcce8a059b00a05f9305f"
+  },
+  {
+    "path": "examples/m1a_demo.cpp",
+    "sha256": "f41ee678e4cb593df4a842134bdcf1cd84031199c57fd3782e4cf362db4b2f46"
+  },
+  {
+    "path": "tests/admission_tests.cpp",
+    "sha256": "53a055ab319c9a17c37a9240a121d52334645c548ae7503301f9b43d39b9b5fc"
+  },
+  {
+    "path": "tests/client_order_tests.cpp",
+    "sha256": "715ade137f9889d754e28f646cc5c3b8174767ab0743ef65d0e77ebf68bf9970"
+  },
+  {
+    "path": "tests/core_tests.cpp",
+    "sha256": "5916cbf10437ef380313e0a6e29c6eb1a9d7b1f47f1b632e9f4506da16ae6f70"
+  },
+  {
+    "path": "tests/fixture.hpp",
+    "sha256": "0ba4e2ca9a9fbfdc23f34e29dfae0fcd938a297baa913118f8962dafbc8fb29f"
+  },
+  {
+    "path": "tests/funds_tests.cpp",
+    "sha256": "f0216811ca5055700a7c4404579714e6622ee10f8fbc87114ed247326ed9d081"
+  },
+  {
+    "path": "tests/harness_tests.cpp",
+    "sha256": "2e4e6808c535da254622d24cbc9361336a8c094c1fd9c64148c84b18499b32d0"
+  },
+  {
+    "path": "tests/identity_tests.cpp",
+    "sha256": "f7ccf5a13c9b58aeb3bb040a1e4df13b6d29ebd1a72429332835a42afa7b4cad"
+  },
+  {
+    "path": "tests/input_transaction_tests.cpp",
+    "sha256": "f4a85b0a5ac67d0c430b2cdac3b4ffd81e393efc0e9293dc20982c61762c5241"
+  },
+  {
+    "path": "tests/journal_fact_tests.cpp",
+    "sha256": "78447a7b0b15cdef86aa3e9cfff57f4f59b64938e3ab92456f33b4ac5fa592f5"
+  },
+  {
+    "path": "tests/lifecycle_fact_tests.cpp",
+    "sha256": "ccfb9ea59232df21376ddb86a0cb4fb5eca2af3a9884561da17c296f7e0b8d39"
+  },
+  {
+    "path": "tests/oms_tests.cpp",
+    "sha256": "b9537d6f9cb373666e0010c4fa647aab4a86846105053b71304ae97ff14419e7"
+  },
+  {
+    "path": "tests/scenario_tests.cpp",
+    "sha256": "a5562c2b5790602a4ac240f898463d3eaa977c7cfd22e7a93efc456b7f274b27"
+  },
+  {
+    "path": "tests/test.hpp",
+    "sha256": "0a195705c91f5b24bfaac8cb5d22d6d5c3978a3a40f5b7259fd3d614d53fea53"
+  },
+  {
+    "path": "tests/test_main.cpp",
+    "sha256": "694fc07a20ec0be0768398a3147eee0a990fc4118f2bc720dbff7b3e3785b628"
+  },
+  {
+    "path": "tests/types_tests.cpp",
+    "sha256": "473d86b194982b0069726844111efe5c9efcd5785de0271e27fb005b33eb2a9a"
+  },
+  {
+    "path": "scripts/build-msvc.ps1",
+    "sha256": "d216b80fd047939748a35e1f18755acdb6e9637c7084ad9b7c7649af8b8de09c"
+  },
+  {
+    "path": "scripts/check-workbench.cjs",
+    "sha256": "9e6740538924fd3bd84dd165c34c9f0d2ece4665b72e98d47785b5e57dd4ff26"
+  },
+  {
+    "path": "scripts/make_manifest.py",
+    "sha256": "431156283b5cc02996849e844f6f9a0e65f2bcf3ddfdfb7cfc918c4b91abd90e"
+  },
+  {
+    "path": "scripts/package.py",
+    "sha256": "628d72bb809ebec638881b3aef3202fed08d80d13caa455eb188b9f6ab0861b9"
+  },
+  {
+    "path": "scripts/prepare-cases.cjs",
+    "sha256": "73719d281f7951e175cb85f5525b4056806fbd68756278c62ce71de94cee337c"
+  },
+  {
+    "path": "scripts/prepare-preview.cjs",
+    "sha256": "686362c57f7f63afe96ea32c243513292a54b7797cbaaf5aee2c89166fe3944c"
+  },
+  {
+    "path": "scripts/verify.py",
+    "sha256": "12c21a813558abe7811441596cf2970a612ce759a93842cc087e64c14253a3e7"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "sha256": "ca2dd21574c056cc68d522b0eb3736bddb74746227456533bb6242cde7829fe0"
+  }
+]

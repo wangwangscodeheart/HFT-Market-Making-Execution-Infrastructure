@@ -1,0 +1,8 @@
+﻿/nologo
+/std:c++20
+/EHsc
+/utf-8
+/W4
+/I"D:\HFT Market Making & Execution Infrastructure\project03\include"
+"D:\HFT Market Making & Execution Infrastructure\project03\diagnostics\swap_traits.cpp"
+/Fe:swap_traits.exe

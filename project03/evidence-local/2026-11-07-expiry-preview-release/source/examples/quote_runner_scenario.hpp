@@ -1,0 +1,43 @@
+#pragma once
+#include "local_sim_scenario.hpp"
+#include "p03/local_quote_runner.hpp"
+namespace p03::example {
+inline LocalQuoteRunnerConfig quote_runner_config(){
+    auto source=standard_filled_order();auto c=source.config;c.trade_evidence_mode=TradeEvidenceMode::Simulator;
+    const BusinessScope scope{c.anchor.account,c.contract.key(),c.anchor.day,c.anchor.epoch};
+    return {c,simulator_config(c),{scope,c.strategy,EvidenceOrigin::LocalFixture,"fixture.book",1,10,1,10},128,4096};
+}
+inline MarketPulse runner_pulse(const LocalQuoteRunnerConfig& c,std::uint64_t sequence,LogicalTime at,Ticks bid,Ticks ask,bool healthy=true){
+    return {{c.strategy.scope,EvidenceOrigin::LocalFixture,"fixture.book",1,sequence,at,bid,ask,10,10,healthy},
+        {c.core.contract.day,9*3600+60,c.core.contract.day}};
+}
+inline bool run_quote_scenario(LocalQuoteRunner& run,const LocalQuoteRunnerConfig& c){
+    bool ok=run.step(runner_pulse(c,1,1,499,501),1)==Error::None;
+    ok=(run.step(runner_pulse(c,2,2,498,502),2)==Error::None)&&ok;
+    ok=(run.step(LocalFillInput{{c.core.instance,c.core.next_order+2},"runner-export-fill",1,498},3)==Error::None)&&ok;
+    ok=(run.step(runner_pulse(c,3,4,498,502,false),4)==Error::Blocked)&&ok;
+    ok=(run.step(StopLocalQuotes{},5)==Error::None)&&ok;
+    const auto& frames=run.trace();if(frames.size()!=5)return false;
+    ok=ok && frames[0].orders.size()==2 && frames[1].orders.size()==4 &&
+        frames[2].positions==std::array<Lots,4>{1,0,0,0} && frames[4].mode==CoreMode::Killed;
+    for(const auto& f:frames){
+        ok=ok && f.completed && f.peer.has_value() && f.positions==f.peer->positions;
+        if(f.ordinal>=4)for(const auto& order:f.orders)ok=ok && order.parts.held()==0;
+    }
+    return ok;
+}
+inline bool run_quote_expiry_scenario(LocalQuoteRunner& run,const LocalQuoteRunnerConfig& c){
+    const auto boundary=1+c.strategy.max_age;
+    bool ok=run.step(runner_pulse(c,1,1,499,501),1)==Error::None;
+    ok=(run.step(LocalQuoteTimer{},boundary)==Error::None)&&ok;
+    ok=(run.step(LocalQuoteTimer{},boundary+1)==Error::StaleMark)&&ok;
+    ok=(run.step(LocalQuoteTimer{},boundary+2)==Error::StaleMark)&&ok;
+    ok=(run.step(runner_pulse(c,2,boundary+3,499,501),boundary+3)==Error::None)&&ok;
+    ok=(run.step(StopLocalQuotes{},boundary+4)==Error::None)&&ok;
+    const auto& frames=run.trace();if(frames.size()!=6)return false;
+    ok=ok && frames[1].calls.empty() && frames[2].calls.size()==6 && frames[3].calls.empty() && frames[4].orders.size()==4;
+    for(const auto& f:frames)ok=ok && f.completed && f.peer && f.positions==f.peer->positions && f.positions==std::array<Lots,4>{};
+    for(const auto i:{2U,3U,5U})for(const auto& o:frames[i].orders)ok=ok && o.parts.held()==0;
+    return ok && frames.back().mode==CoreMode::Killed;
+}
+} // namespace p03::example

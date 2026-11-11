@@ -1,0 +1,7 @@
+orders map move_ctor=0 move_assign=1 adl_swap=1
+PositionLedger move_ctor=1 move_assign=1 adl_swap=1
+ExecutionLedger move_ctor=0 move_assign=1 adl_swap=1
+FundsLedger move_ctor=0 move_assign=1 adl_swap=1
+quarantine vector move_ctor=1 move_assign=1 adl_swap=1
+mark optional move_ctor=1 move_assign=1 adl_swap=1
+CoreState move_ctor=0 move_assign=1 adl_swap=1

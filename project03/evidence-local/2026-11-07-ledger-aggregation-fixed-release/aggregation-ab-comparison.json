@@ -1,0 +1,403 @@
+{
+  "schema": "p03.aggregation-ab.v1",
+  "before": "2026-11-07-state-cost-release",
+  "after": "2026-11-07-ledger-aggregation-fixed-release",
+  "order": "before-after,after-before,before-after",
+  "rounds": 3,
+  "statistic": "median of three per-run p50 values; uncontrolled local diagnostic, no significance claim",
+  "benchmark_source_sha256": "0646a4f57712c7daf62f8aef01ac377305973d50d950d28197354f3c1b5c2e0a",
+  "trials": [
+    {
+      "round": 1,
+      "label": "before",
+      "file": "aggregation-ab-1-before.json",
+      "sha256": "622d42602876f945d53ae845ac69808c124a284da111d9ee3fe45a548e5ad70c",
+      "executable_sha256": "330b08fbdfb9152b6f01e33e6547ed8af6a141971ef2fdaf90fe0cacef51c99b",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 700,
+          "p99_ns": 900
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 6400,
+          "p99_ns": 7300
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 22800,
+          "p99_ns": 27100
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 43000,
+          "p99_ns": 54800
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 500,
+          "p99_ns": 600
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 6900,
+          "p99_ns": 7200
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 32600,
+          "p99_ns": 38700
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 86500,
+          "p99_ns": 123100
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "label": "after",
+      "file": "aggregation-ab-1-after.json",
+      "sha256": "3561ab9e4363cdfae607de4f189e83985f46e05ab74c49f1d8ac8ee99a51e94d",
+      "executable_sha256": "96ac5d34f8d29979de060bdb1d33da386ec61b05cf225802bbe96488ccaa51de",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 700,
+          "p99_ns": 800
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 6800,
+          "p99_ns": 7100
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 21200,
+          "p99_ns": 23600
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 44800,
+          "p99_ns": 50100
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 600,
+          "p99_ns": 700
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 6900,
+          "p99_ns": 7500
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 29300,
+          "p99_ns": 31900
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 59100,
+          "p99_ns": 63400
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "label": "after",
+      "file": "aggregation-ab-2-after.json",
+      "sha256": "12acd6d29df5a2e74bf59314ddaeefdabf3cdd317d9b0ce057d97b70088e3b33",
+      "executable_sha256": "96ac5d34f8d29979de060bdb1d33da386ec61b05cf225802bbe96488ccaa51de",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 800,
+          "p99_ns": 900
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 6800,
+          "p99_ns": 8600
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 21300,
+          "p99_ns": 24200
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 44600,
+          "p99_ns": 47900
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 500,
+          "p99_ns": 600
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 6800,
+          "p99_ns": 7300
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 30000,
+          "p99_ns": 78300
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 62900,
+          "p99_ns": 117700
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "label": "before",
+      "file": "aggregation-ab-2-before.json",
+      "sha256": "82b3e1668925d76db9cc482f21c80170c95a4a92ca316eec753a708ba077338b",
+      "executable_sha256": "330b08fbdfb9152b6f01e33e6547ed8af6a141971ef2fdaf90fe0cacef51c99b",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 700,
+          "p99_ns": 800
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 6400,
+          "p99_ns": 6600
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 21400,
+          "p99_ns": 27100
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 43200,
+          "p99_ns": 47300
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 600,
+          "p99_ns": 700
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 7200,
+          "p99_ns": 7600
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 33500,
+          "p99_ns": 36100
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 84200,
+          "p99_ns": 163200
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "label": "before",
+      "file": "aggregation-ab-3-before.json",
+      "sha256": "df4bfe8b30b6e568290a791f3d69da9ff0f8cbbb86de6db6543ada6bb6e81a32",
+      "executable_sha256": "330b08fbdfb9152b6f01e33e6547ed8af6a141971ef2fdaf90fe0cacef51c99b",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 700,
+          "p99_ns": 800
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 5300,
+          "p99_ns": 5500
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 21500,
+          "p99_ns": 22600
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 52300,
+          "p99_ns": 62400
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 600,
+          "p99_ns": 600
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 6700,
+          "p99_ns": 7000
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 32900,
+          "p99_ns": 42200
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 89500,
+          "p99_ns": 109900
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "label": "after",
+      "file": "aggregation-ab-3-after.json",
+      "sha256": "ef1e4c3efb9263316245487e5523692ca3afebe88024e24bdb8be3edcdb91d9a",
+      "executable_sha256": "96ac5d34f8d29979de060bdb1d33da386ec61b05cf225802bbe96488ccaa51de",
+      "profiles": [
+        {
+          "state": "working",
+          "orders": 0,
+          "p50_ns": 800,
+          "p99_ns": 900
+        },
+        {
+          "state": "working",
+          "orders": 8,
+          "p50_ns": 6100,
+          "p99_ns": 6600
+        },
+        {
+          "state": "working",
+          "orders": 32,
+          "p50_ns": 21500,
+          "p99_ns": 23900
+        },
+        {
+          "state": "working",
+          "orders": 63,
+          "p50_ns": 44600,
+          "p99_ns": 48400
+        },
+        {
+          "state": "filled",
+          "orders": 0,
+          "p50_ns": 700,
+          "p99_ns": 5800
+        },
+        {
+          "state": "filled",
+          "orders": 8,
+          "p50_ns": 7400,
+          "p99_ns": 9600
+        },
+        {
+          "state": "filled",
+          "orders": 32,
+          "p50_ns": 29500,
+          "p99_ns": 34300
+        },
+        {
+          "state": "filled",
+          "orders": 63,
+          "p50_ns": 58500,
+          "p99_ns": 73400
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "state": "working",
+      "orders": 0,
+      "before_p50_us": 0.7,
+      "after_p50_us": 0.8
+    },
+    {
+      "state": "working",
+      "orders": 8,
+      "before_p50_us": 6.4,
+      "after_p50_us": 6.8
+    },
+    {
+      "state": "working",
+      "orders": 32,
+      "before_p50_us": 21.5,
+      "after_p50_us": 21.3
+    },
+    {
+      "state": "working",
+      "orders": 63,
+      "before_p50_us": 43.2,
+      "after_p50_us": 44.6
+    },
+    {
+      "state": "filled",
+      "orders": 0,
+      "before_p50_us": 0.6,
+      "after_p50_us": 0.6
+    },
+    {
+      "state": "filled",
+      "orders": 8,
+      "before_p50_us": 6.9,
+      "after_p50_us": 6.9
+    },
+    {
+      "state": "filled",
+      "orders": 32,
+      "before_p50_us": 32.9,
+      "after_p50_us": 29.5
+    },
+    {
+      "state": "filled",
+      "orders": 63,
+      "before_p50_us": 86.5,
+      "after_p50_us": 59.1
+    }
+  ]
+}

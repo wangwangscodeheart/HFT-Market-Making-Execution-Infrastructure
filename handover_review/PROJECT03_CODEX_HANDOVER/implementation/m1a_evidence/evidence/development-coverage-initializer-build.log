@@ -1,0 +1,97 @@
+[0/2] Re-checking globbed directories...
+[1/18] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.o
+[2/18] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.o
+[3/18] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.o
+[4/18] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.o
+[5/18] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.o
+[6/18] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.o
+[7/18] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.o
+[8/18] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.o
+[9/18] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.o
+[10/18] Linking CXX static library libp03_core.a
+[11/18] Building CXX object CMakeFiles/p03_tests.dir/tests/types_tests.cpp.o
+[12/18] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.o
+[13/18] Linking CXX executable p03_m1a_demo
+[14/18] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.o
+[15/18] Building CXX object CMakeFiles/p03_tests.dir/tests/core_tests.cpp.o
+[16/18] Building CXX object CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o
+FAILED: CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o 
+/usr/bin/c++  -I/workspace/scratch/085a4f9e2dc1/project03/tests -I/workspace/scratch/085a4f9e2dc1/project03/include -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Werror -MD -MT CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o -MF CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o.d -o CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.o -c /workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp
+In file included from /workspace/scratch/085a4f9e2dc1/project03/tests/fixture.hpp:2,
+                 from /workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:1:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P04_full_and_partial_proven_coverage_subtract_only_difference()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:14:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   14 |     CHECK_EQ(f.observe(observation(200,{{resource,CoverageStatus::Proven,100}})),Error::None);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:16:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   16 |     CHECK_EQ(f.observe(observation(200,{{resource,CoverageStatus::Proven,60}},2)),Error::None);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P04_duplicate_or_excess_coverage_rejected_atomically()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:27:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   27 |     CHECK_EQ(f.observe(observation(200,{{id,CoverageStatus::Proven,101}})),Error::InvalidInput);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:28:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   28 |     CHECK_EQ(f.observe(observation(200,{{id,CoverageStatus::Proven,60},{id,CoverageStatus::Proven,40}})),Error::InvalidInput);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:28:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   28 |     CHECK_EQ(f.observe(observation(200,{{id,CoverageStatus::Proven,60},{id,CoverageStatus::Proven,40}})),Error::InvalidInput);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P05_unknown_and_excluded_coverage_are_zero()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:40:39: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   40 |         CHECK_EQ(f.observe(observation(200,{{id,status,100}})),Error::None);
+      |                            ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P06_transfer_keeps_one_resource_and_no_fabricated_money()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:52:46: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   52 |     CHECK_EQ(f.apply(ObserveFunds{observation(1000,{{resource,CoverageStatus::Proven,300}})}).error,Error::None);
+      |                                   ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P06_post_anchor_fees_are_not_covered_by_margin_proof()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:63:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   63 |     CHECK_EQ(f.observe(observation(10,{{id,CoverageStatus::Proven,100}})),Error::None);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:66:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   66 |     CHECK_EQ(f.observe(observation(10,{{id,CoverageStatus::Proven,108}},2)),Error::InvalidInput);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void P06_cancel_release_does_not_credit_external_available()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:71:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   71 |     CHECK_EQ(f.observe(observation(200,{{id,CoverageStatus::Proven,100}})),Error::None);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp: In function ‘void FUNDS_invalid_coverage_status_cannot_activate_money()’:
+/workspace/scratch/085a4f9e2dc1/project03/tests/funds_tests.cpp:88:35: error: missing initializer for member ‘p03::CoverageProof::external_deduction_id’ [-Werror=missing-field-initializers]
+   88 |     CHECK_EQ(f.observe(observation(200,{{id,static_cast<CoverageStatus>(99),100}})),Error::InvalidInput);
+      |                        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/085a4f9e2dc1/project03/tests/test.hpp:19:48: note: in definition of macro ‘CHECK_EQ’
+   19 | #define CHECK_EQ(a,b) do { const auto check_a=(a); const auto check_b=(b); CHECK(check_a==check_b); } while(false)
+      |                                                ^
+cc1plus: all warnings being treated as errors
+[17/18] Building CXX object CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.o
+ninja: build stopped: subcommand failed.

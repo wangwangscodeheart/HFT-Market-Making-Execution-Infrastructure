@@ -1,0 +1,30 @@
+{
+    "schema":  "p03.build-run.v2",
+    "run":  "2026-11-07-ledger-aggregation-release",
+    "configuration":  "Release",
+    "mode":  "business",
+    "state":  "failed",
+    "started_utc":  "2026-11-07T11:02:58.9188859Z",
+    "finished_utc":  "2026-11-07T11:04:08.6633933Z",
+    "exit_code":  1,
+    "source_manifest_sha256":  "cd99817da60c6ea2ab6b860115eeea88aa3475a163874e03a3a138a31abeeb7c",
+    "source_archive":  "source",
+    "artifacts":  [
+
+                  ],
+    "component_scope":  "m1b-local-replay-slice3",
+    "query_first_replay":  true,
+    "quote_runner_export":  true,
+    "quote_expiry_export":  true,
+    "quote_query_gap_export":  true,
+    "quote_retry_export":  true,
+    "quote_overflow_export":  true,
+    "quote_cleanup_export":  true,
+    "quote_late_fill_export":  true,
+    "quote_inventory_export":  true,
+    "ui_source_seal":  true,
+    "core_step_benchmark":  true,
+    "core_state_benchmark":  true,
+    "ui_manifest_sha256":  "38de703bb6f0bdda4fb3578cd460e02d6c047d56dd83c66285558b47a92337af",
+    "error":  "Build/verification failed with exit 1; inspect this run\u0027s logs"
+}

@@ -1,0 +1,49 @@
+[  4%] Building CXX object CMakeFiles/p03_core.dir/src/types.cpp.obj
+types.cpp
+[  8%] Building CXX object CMakeFiles/p03_core.dir/src/reference_data.cpp.obj
+reference_data.cpp
+[ 12%] Building CXX object CMakeFiles/p03_core.dir/src/positions.cpp.obj
+positions.cpp
+[ 16%] Building CXX object CMakeFiles/p03_core.dir/src/oms.cpp.obj
+oms.cpp
+[ 20%] Building CXX object CMakeFiles/p03_core.dir/src/ledger.cpp.obj
+ledger.cpp
+[ 25%] Building CXX object CMakeFiles/p03_core.dir/src/funds.cpp.obj
+funds.cpp
+[ 29%] Building CXX object CMakeFiles/p03_core.dir/src/risk.cpp.obj
+risk.cpp
+[ 33%] Building CXX object CMakeFiles/p03_core.dir/src/core.cpp.obj
+core.cpp
+[ 37%] Building CXX object CMakeFiles/p03_core.dir/src/step_harness.cpp.obj
+step_harness.cpp
+[ 41%] Linking CXX static library p03_core.lib
+[ 41%] Built target p03_core
+[ 45%] Building CXX object CMakeFiles/p03_m1a_demo.dir/examples/m1a_demo.cpp.obj
+m1a_demo.cpp
+[ 50%] Linking CXX executable p03_m1a_demo.exe
+[ 50%] Built target p03_m1a_demo
+[ 54%] Building CXX object CMakeFiles/p03_export_snapshot.dir/examples/export_snapshot.cpp.obj
+export_snapshot.cpp
+[ 58%] Linking CXX executable p03_export_snapshot.exe
+[ 58%] Built target p03_export_snapshot
+[ 62%] Building CXX object CMakeFiles/p03_tests.dir/tests/test_main.cpp.obj
+test_main.cpp
+[ 66%] Building CXX object CMakeFiles/p03_tests.dir/tests/types_tests.cpp.obj
+types_tests.cpp
+[ 70%] Building CXX object CMakeFiles/p03_tests.dir/tests/oms_tests.cpp.obj
+oms_tests.cpp
+[ 75%] Building CXX object CMakeFiles/p03_tests.dir/tests/core_tests.cpp.obj
+core_tests.cpp
+[ 79%] Building CXX object CMakeFiles/p03_tests.dir/tests/funds_tests.cpp.obj
+funds_tests.cpp
+[ 83%] Building CXX object CMakeFiles/p03_tests.dir/tests/harness_tests.cpp.obj
+harness_tests.cpp
+[ 87%] Building CXX object CMakeFiles/p03_tests.dir/tests/scenario_tests.cpp.obj
+scenario_tests.cpp
+?敞鎰? 鍖呭惈鏂囦欢:       D:\鏂拌█鐨剉s2022\VC\Tools\MSVC\14.44.35207\include\optional
+[ 91%] Building CXX object CMakeFiles/p03_tests.dir/tests/identity_tests.cpp.obj
+identity_tests.cpp
+[ 95%] Building CXX object CMakeFiles/p03_tests.dir/tests/input_transaction_tests.cpp.obj
+input_transaction_tests.cpp
+[100%] Linking CXX executable p03_tests.exe
+[100%] Built target p03_tests

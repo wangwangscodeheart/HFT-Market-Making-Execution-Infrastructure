@@ -1,0 +1,203 @@
+[
+  {
+    "name": "cmake-version",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "--version"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "compiler-version",
+    "command": [
+      "c++",
+      "--version"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "cpu",
+    "command": [
+      "lscpu"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-configure",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "-S",
+      "/workspace/scratch/085a4f9e2dc1/project03",
+      "-B",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+      "-DCMAKE_BUILD_TYPE=Debug",
+      "-DBUILD_TESTING=ON",
+      "-DP03_SANITIZE=OFF",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/workspace/scratch/085a4f9e2dc1/.build_tools/bin/ninja"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-build",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "--build",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+      "--parallel",
+      "2"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-test-list",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug/p03_tests",
+      "--list"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-tests",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug/p03_tests"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-ctest",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/ctest",
+      "--test-dir",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug",
+      "--output-on-failure",
+      "--output-junit",
+      "/workspace/scratch/085a4f9e2dc1/project03/evidence/debug-junit.xml"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "debug-demo",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/debug/p03_m1a_demo"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-configure",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "-S",
+      "/workspace/scratch/085a4f9e2dc1/project03",
+      "-B",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_TESTING=ON",
+      "-DP03_SANITIZE=OFF",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/workspace/scratch/085a4f9e2dc1/.build_tools/bin/ninja"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-build",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "--build",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release",
+      "--parallel",
+      "2"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-test-list",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release/p03_tests",
+      "--list"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-tests",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release/p03_tests"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-ctest",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/ctest",
+      "--test-dir",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release",
+      "--output-on-failure",
+      "--output-junit",
+      "/workspace/scratch/085a4f9e2dc1/project03/evidence/release-junit.xml"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "release-demo",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/release/p03_m1a_demo"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "sanitizers-configure",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "-S",
+      "/workspace/scratch/085a4f9e2dc1/project03",
+      "-B",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/sanitizers",
+      "-DCMAKE_BUILD_TYPE=Debug",
+      "-DBUILD_TESTING=ON",
+      "-DP03_SANITIZE=ON",
+      "-G",
+      "Ninja",
+      "-DCMAKE_MAKE_PROGRAM=/workspace/scratch/085a4f9e2dc1/.build_tools/bin/ninja"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "sanitizers-build",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/.build_tools/cmake/data/bin/cmake",
+      "--build",
+      "/workspace/scratch/085a4f9e2dc1/project03/build/sanitizers",
+      "--parallel",
+      "2"
+    ],
+    "expected_exit": 0,
+    "exit": 0
+  },
+  {
+    "name": "sanitizers-test-list",
+    "command": [
+      "/workspace/scratch/085a4f9e2dc1/project03/build/sanitizers/p03_tests",
+      "--list"
+    ],
+    "expected_exit": 0,
+    "exit": 1
+  }
+]

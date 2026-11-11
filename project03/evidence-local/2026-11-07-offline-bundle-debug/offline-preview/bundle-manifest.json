@@ -1,0 +1,130 @@
+{
+  "schema": "p03.offline-bundle.v1",
+  "run": "2026-11-07-offline-bundle-debug",
+  "configuration": "Debug",
+  "ui_manifest_sha256": "38de703bb6f0bdda4fb3578cd460e02d6c047d56dd83c66285558b47a92337af",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8e5ddea4d8009789abab8df8bf9c3f870da03f5eb697849a46237c6b61cbd7c8"
+    },
+    {
+      "path": "core-snapshot.js",
+      "sha256": "01743f4ccedad13e847d9a19b52ec6136c8de89fb9934fb016813cad419ded06"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d25b3cda8a192a371353d25e02607513bb7026970c06412ad8738e42ec931f64"
+    },
+    {
+      "path": "local-replay-data.js",
+      "sha256": "ea8cb69efddd49d43326a15d29b26570dd7eaa5c2f84e6c40a74ee0f3768aa1e"
+    },
+    {
+      "path": "local-replay.css",
+      "sha256": "727abc2f4056f3eb22b1fd85227761c58c5cfc330f7ff0201f07c4a51acfc7f4"
+    },
+    {
+      "path": "local-replay.js",
+      "sha256": "f2e9ef8f1421b0c86a60725e1f0c59308c297ec170529de1e492379cd5aed102"
+    },
+    {
+      "path": "quote-runner-data.js",
+      "sha256": "2b67c8b6b5401b91064703230105b27f4b0ae1edf598aa5892e8b3f1808147ff"
+    },
+    {
+      "path": "quote-runner.js",
+      "sha256": "c767f8a537e3e2955bc715901f6c41794028bf0a07d4fcb344f8f88ec5301e21"
+    },
+    {
+      "path": "runner-charts.js",
+      "sha256": "49d047d95da0d4b5fbd225ee393ef1cc8084ad99d6ff4d96f7b321608313f3f7"
+    },
+    {
+      "path": "runner.html",
+      "sha256": "ecc29965e1d05a7dc8c5ef87ea98337b6b0fab4c8a9b8d33174d0a096ac4d59d"
+    },
+    {
+      "path": "terminal-cases.js",
+      "sha256": "ab85d6a1add2fb1bf13253234b88cbe60edeb717ea90d15803ca21c644ffcfd9"
+    },
+    {
+      "path": "terminal-core.js",
+      "sha256": "f0d91284f1586c83cadded51534e0815adbc15bea899fdde1fbd9e9dcf679e20"
+    },
+    {
+      "path": "terminal.css",
+      "sha256": "1425810e2d366a86b0be18d8e1a610cd9f36433d47a388c3541119d9183aec57"
+    },
+    {
+      "path": "terminal.js",
+      "sha256": "e8bef843b1d09ef9342508b2456340f465fffcfbbb846809667b5a43cab77bef"
+    },
+    {
+      "path": "trend-cases.js",
+      "sha256": "c2880583ed2b51d9c160848ff08eec5294f420e73a9ca7ceaade8a0503459fd0"
+    },
+    {
+      "path": "trend.js",
+      "sha256": "67beba20ceac56a8fe68f3df146cd7a2b9acb49d74ad359ec80a41d76adfb40b"
+    }
+  ],
+  "raw_json": [
+    {
+      "path": "toolchain.json",
+      "sha256": "35c705e9a435e0a323c9369a8998cbeec004c0dca5e340429c7d3fc8bfb17edd"
+    },
+    {
+      "path": "negative-controls.json",
+      "sha256": "bbc6a5e75d606ccf6fd3baae5b293f0fdee2033df25e0e033b0d595cac67f79b"
+    },
+    {
+      "path": "snapshot.json",
+      "sha256": "72f3535add506183ec310b4299c42545510cecad37f84049b873588cdda0da25"
+    },
+    {
+      "path": "normal-snapshot.json",
+      "sha256": "6b4aebf36e22ac7a2a26d2fa521e5cde9658944f04289205fd030954a6373acf"
+    },
+    {
+      "path": "local-replay.json",
+      "sha256": "52d0864c00d4132b6c1eaf9dea91b6670c4c3d6bfb54293090ba4f52dc0a7af4"
+    },
+    {
+      "path": "query-first-replay.json",
+      "sha256": "3a2c7f47685f87f1b0f1945d2474c0388991e08defd7ba7c684de4a68d8c2334"
+    },
+    {
+      "path": "quote-runner.json",
+      "sha256": "7887b6e42a1ab3271f00694935f46090e9436f0f8a3a7c85c57b6bc070241531"
+    },
+    {
+      "path": "quote-expiry.json",
+      "sha256": "f07196bdecb251b4878572416dfa9bbd4271a815a1c72479592e522fff111548"
+    },
+    {
+      "path": "quote-query-gap.json",
+      "sha256": "454a21262f54e742358882ceba98b05791feaa402c9d2f929c26c5823d087949"
+    },
+    {
+      "path": "quote-retry.json",
+      "sha256": "4b07ed3f248c8b7d798db272edb4f069fad0c0509e60623b4c07ae9cd8b3afc1"
+    },
+    {
+      "path": "quote-overflow.json",
+      "sha256": "f2fcf71c337f8c2084654882ad65146940be11f32632571239e3b853ea9e78be"
+    },
+    {
+      "path": "quote-cleanup.json",
+      "sha256": "d2f0bb144a4bbcfeead79717b728bb5ebb379cd22f3dcdf5741d4e44b7a8363f"
+    },
+    {
+      "path": "quote-late-fill.json",
+      "sha256": "92c5f792ba1fe3eacd89f7d6b44ee00449fedf07f21bc8b7def926cfb7b7484d"
+    },
+    {
+      "path": "quote-inventory.json",
+      "sha256": "6f06ec27afff427706a3a6b2446749d7e3c8e08022744147beb4877c7a61ef82"
+    }
+  ]
+}

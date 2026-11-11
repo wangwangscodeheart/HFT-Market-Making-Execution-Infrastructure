@@ -1,0 +1,175 @@
+Test project D:/HFT Market Making & Execution Infrastructure/project03/evidence-local/2026-11-05-msvc/build
+      Start  1: P02_real_position_mapping_remains_blocked
+ 1/85 Test  #1: P02_real_position_mapping_remains_blocked ............................   Passed    0.10 sec
+      Start  2: A01_core_rejects_bad_contract_calendar_tick_and_account
+ 2/85 Test  #2: A01_core_rejects_bad_contract_calendar_tick_and_account ..............   Passed    0.03 sec
+      Start  3: A04_quantity_failure_has_no_order_or_reservation
+ 3/85 Test  #3: A04_quantity_failure_has_no_order_or_reservation .....................   Passed    0.02 sec
+      Start  4: A04_insufficient_close_rollback
+ 4/85 Test  #4: A04_insufficient_close_rollback ......................................   Passed    0.02 sec
+      Start  5: A04_insufficient_funds_rolls_back_candidate_and_ID
+ 5/85 Test  #5: A04_insufficient_funds_rolls_back_candidate_and_ID ...................   Passed    0.02 sec
+      Start  6: A04_capacity_failure_preserves_existing_state
+ 6/85 Test  #6: A04_capacity_failure_preserves_existing_state ........................   Passed    0.02 sec
+      Start  7: A04_exception_seam_has_strong_transaction_rollback
+ 7/85 Test  #7: A04_exception_seam_has_strong_transaction_rollback ...................   Passed    0.02 sec
+      Start  8: A04_ID_exhaustion_does_not_leave_half_order
+ 8/85 Test  #8: A04_ID_exhaustion_does_not_leave_half_order ..........................   Passed    0.02 sec
+      Start  9: A05_worst_case_interval_is_one_to_five
+ 9/85 Test  #9: A05_worst_case_interval_is_one_to_five ...............................   Passed    0.02 sec
+      Start 10: A05_opposite_quote_cannot_net_away_limit
+10/85 Test #10: A05_opposite_quote_cannot_net_away_limit .............................   Passed    0.02 sec
+      Start 11: A06_P01_six_effects_through_actual_core
+11/85 Test #11: A06_P01_six_effects_through_actual_core ..............................   Passed    0.02 sec
+      Start 12: A06_P01_close_freezes_compete_per_bucket
+12/85 Test #12: A06_P01_close_freezes_compete_per_bucket .............................   Passed    0.02 sec
+      Start 13: P02_external_and_settlement_never_overwrite_buckets
+13/85 Test #13: P02_external_and_settlement_never_overwrite_buckets ..................   Passed    0.01 sec
+      Start 14: P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once
+14/85 Test #14: P03_cross_day_freeze_stays_old_epoch_and_late_trade_books_once .......   Passed    0.02 sec
+      Start 15: P03_clean_boundary_still_requires_new_anchor_evidence
+15/85 Test #15: P03_clean_boundary_still_requires_new_anchor_evidence ................   Passed    0.02 sec
+      Start 16: RISK_reinstated_close_freeze_reports_deficit_without_losing_trade
+16/85 Test #16: RISK_reinstated_close_freeze_reports_deficit_without_losing_trade ....   Passed    0.03 sec
+      Start 17: RISK_stale_mark_rate_limit_and_gross_limit
+17/85 Test #17: RISK_stale_mark_rate_limit_and_gross_limit ...........................   Passed    0.02 sec
+      Start 18: RISK_crossing_pending_cancel_and_unknown_orders_still_blocked
+18/85 Test #18: RISK_crossing_pending_cancel_and_unknown_orders_still_blocked ........   Passed    0.02 sec
+      Start 19: CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact
+19/85 Test #19: CAPACITY_execution_overflow_halts_and_preserves_unapplied_fact .......   Passed    0.01 sec
+      Start 20: CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume
+20/85 Test #20: CAPACITY_quarantine_overflow_latches_loss_and_cannot_resume ..........   Passed    0.02 sec
+      Start 21: CAPACITY_evidence_streams_are_bounded
+21/85 Test #21: CAPACITY_evidence_streams_are_bounded ................................   Passed    0.02 sec
+      Start 22: BOUNDARY_Kill_blocks_new_but_processes_existing_trades
+22/85 Test #22: BOUNDARY_Kill_blocks_new_but_processes_existing_trades ...............   Passed    0.02 sec
+      Start 23: BOUNDARY_future_capabilities_never_return_success
+23/85 Test #23: BOUNDARY_future_capabilities_never_return_success ....................   Passed    0.01 sec
+      Start 24: BOUNDARY_external_CTP_evidence_is_blocked_not_trusted
+24/85 Test #24: BOUNDARY_external_CTP_evidence_is_blocked_not_trusted ................   Passed    0.02 sec
+      Start 25: BOUNDARY_malformed_trade_and_unknown_identity_quarantine
+25/85 Test #25: BOUNDARY_malformed_trade_and_unknown_identity_quarantine .............   Passed    0.02 sec
+      Start 26: A01_actual_core_tick_and_quantity_step_reject
+26/85 Test #26: A01_actual_core_tick_and_quantity_step_reject ........................   Passed    0.01 sec
+      Start 27: RISK_rate_window_expires_using_logical_time
+27/85 Test #27: RISK_rate_window_expires_using_logical_time ..........................   Passed    0.02 sec
+      Start 28: RISK_economic_close_deficit_is_retained_not_clamped
+28/85 Test #28: RISK_economic_close_deficit_is_retained_not_clamped ..................   Passed    0.02 sec
+      Start 29: P04_full_and_partial_proven_coverage_subtract_only_difference
+29/85 Test #29: P04_full_and_partial_proven_coverage_subtract_only_difference ........   Passed    0.02 sec
+      Start 30: P04_local_cap_is_independent_of_external_available
+30/85 Test #30: P04_local_cap_is_independent_of_external_available ...................   Passed    0.02 sec
+      Start 31: P04_duplicate_or_excess_coverage_rejected_atomically
+31/85 Test #31: P04_duplicate_or_excess_coverage_rejected_atomically .................   Passed    0.01 sec
+      Start 32: P04_core_insufficient_external_budget_rejects_atomic_reservation
+32/85 Test #32: P04_core_insufficient_external_budget_rejects_atomic_reservation .....   Passed    0.02 sec
+      Start 33: P05_unknown_and_excluded_coverage_are_zero
+33/85 Test #33: P05_unknown_and_excluded_coverage_are_zero ...........................   Passed    0.02 sec
+      Start 34: P05_untrusted_and_wrong_anchor_cannot_activate_coverage
+34/85 Test #34: P05_untrusted_and_wrong_anchor_cannot_activate_coverage ..............   Passed    0.02 sec
+      Start 35: P06_transfer_keeps_one_resource_and_no_fabricated_money
+35/85 Test #35: P06_transfer_keeps_one_resource_and_no_fabricated_money ..............   Passed    0.02 sec
+      Start 36: P06_post_anchor_fees_are_not_covered_by_margin_proof
+36/85 Test #36: P06_post_anchor_fees_are_not_covered_by_margin_proof .................   Passed    0.01 sec
+      Start 37: P06_cancel_release_does_not_credit_external_available
+37/85 Test #37: P06_cancel_release_does_not_credit_external_available ................   Passed    0.02 sec
+      Start 38: FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline
+38/85 Test #38: FUNDS_same_snapshot_changed_payload_conflict_preserves_baseline ......   Passed    0.01 sec
+      Start 39: FUNDS_duplicate_resource_transfer_cannot_double_proof
+39/85 Test #39: FUNDS_duplicate_resource_transfer_cannot_double_proof ................   Passed    0.01 sec
+      Start 40: FUNDS_invalid_coverage_status_cannot_activate_money
+40/85 Test #40: FUNDS_invalid_coverage_status_cannot_activate_money ..................   Passed    0.01 sec
+      Start 41: P04_one_external_deduction_cannot_cover_two_resources
+41/85 Test #41: P04_one_external_deduction_cannot_cover_two_resources ................   Passed    0.03 sec
+      Start 42: P05_wrong_currency_and_unbounded_query_window_rejected
+42/85 Test #42: P05_wrong_currency_and_unbounded_query_window_rejected ...............   Passed    0.02 sec
+      Start 43: HARNESS_equal_time_preserves_insertion_order
+43/85 Test #43: HARNESS_equal_time_preserves_insertion_order .........................   Passed    0.03 sec
+      Start 44: HARNESS_same_ordered_inputs_same_business_states
+44/85 Test #44: HARNESS_same_ordered_inputs_same_business_states .....................   Passed    0.02 sec
+      Start 45: HARNESS_bounded_schedule_and_past_time_rejection
+45/85 Test #45: HARNESS_bounded_schedule_and_past_time_rejection .....................   Passed    0.03 sec
+      Start 46: HARNESS_core_rejects_clock_regression_without_financial_change
+46/85 Test #46: HARNESS_core_rejects_clock_regression_without_financial_change .......   Passed    0.01 sec
+      Start 47: HARNESS_failed_evidence_input_is_retained_with_result
+47/85 Test #47: HARNESS_failed_evidence_input_is_retained_with_result ................   Passed    0.01 sec
+      Start 48: HARNESS_summary_distinguishes_hidden_cumulative_versions
+48/85 Test #48: HARNESS_summary_distinguishes_hidden_cumulative_versions .............   Passed    0.01 sec
+      Start 49: O01_untrusted_negative_and_over_Q_do_not_promote_R
+49/85 Test #49: O01_untrusted_negative_and_over_Q_do_not_promote_R ...................   Passed    0.01 sec
+      Start 50: O01_identity_scope_is_checked_before_evidence
+50/85 Test #50: O01_identity_scope_is_checked_before_evidence ........................   Passed    0.01 sec
+      Start 51: O02_all_720_cumulative_trade_orderings
+51/85 Test #51: O02_all_720_cumulative_trade_orderings ...............................   Passed    0.25 sec
+      Start 52: O02_R_greater_and_B_greater_are_not_conflicts
+52/85 Test #52: O02_R_greater_and_B_greater_are_not_conflicts ........................   Passed    0.01 sec
+      Start 53: O03_A07_cancel_exact_and_late_trade_release_only_one
+53/85 Test #53: O03_A07_cancel_exact_and_late_trade_release_only_one .................   Passed    0.01 sec
+      Start 54: O04_F_less_than_B_keeps_booked_facts_and_halts
+54/85 Test #54: O04_F_less_than_B_keeps_booked_facts_and_halts .......................   Passed    0.01 sec
+      Start 55: O04_late_trade_after_reject_restores_conservative_hold
+55/85 Test #55: O04_late_trade_after_reject_restores_conservative_hold ...............   Passed    0.01 sec
+      Start 56: O04_terminal_exact_contradiction_cannot_release_twice
+56/85 Test #56: O04_terminal_exact_contradiction_cannot_release_twice ................   Passed    0.02 sec
+      Start 57: O05_query_push_share_economic_dedup
+57/85 Test #57: O05_query_push_share_economic_dedup ..................................   Passed    0.02 sec
+      Start 58: O06_same_key_changed_payload_preserves_original
+58/85 Test #58: O06_same_key_changed_payload_preserves_original ......................   Passed    0.02 sec
+      Start 59: O07_A08_overfill_entire_trade_to_X_and_dedup
+59/85 Test #59: O07_A08_overfill_entire_trade_to_X_and_dedup .........................   Passed    0.01 sec
+      Start 60: O08_no_exact_terminal_holds_V_and_H
+60/85 Test #60: O08_no_exact_terminal_holds_V_and_H ..................................   Passed    0.02 sec
+      Start 61: O09_comparable_newer_regression_conflicts
+61/85 Test #61: O09_comparable_newer_regression_conflicts ............................   Passed    0.02 sec
+      Start 62: O09_older_smaller_and_distinct_epoch_do_not_regress
+62/85 Test #62: O09_older_smaller_and_distinct_epoch_do_not_regress ..................   Passed    0.01 sec
+      Start 63: OMS_cancel_reject_does_not_reject_order
+63/85 Test #63: OMS_cancel_reject_does_not_reject_order ..............................   Passed    0.01 sec
+      Start 64: OMS_cancel_success_without_F_does_not_release
+64/85 Test #64: OMS_cancel_success_without_F_does_not_release ........................   Passed    0.02 sec
+      Start 65: OMS_working_late_cannot_reopen_terminal
+65/85 Test #65: OMS_working_late_cannot_reopen_terminal ..............................   Passed    0.01 sec
+      Start 66: OMS_timeout_holds_risk_and_never_resubmits
+66/85 Test #66: OMS_timeout_holds_risk_and_never_resubmits ...........................   Passed    0.01 sec
+      Start 67: OMS_unknown_cancel_stops_new_intents_but_books_late_trade
+67/85 Test #67: OMS_unknown_cancel_stops_new_intents_but_books_late_trade ............   Passed    0.02 sec
+      Start 68: OMS_late_old_cancel_report_does_not_overwrite_new_action
+68/85 Test #68: OMS_late_old_cancel_report_does_not_overwrite_new_action .............   Passed    0.02 sec
+      Start 69: OMS_cancel_action_capacity_rejects_without_half_action
+69/85 Test #69: OMS_cancel_action_capacity_rejects_without_half_action ...............   Passed    0.01 sec
+      Start 70: OMS_reliable_acceptance_conflicts_with_NotSent_or_reject
+70/85 Test #70: OMS_reliable_acceptance_conflicts_with_NotSent_or_reject .............   Passed    0.01 sec
+      Start 71: OMS_cumulative_partial_cannot_regress_to_working
+71/85 Test #71: OMS_cumulative_partial_cannot_regress_to_working .....................   Passed    0.01 sec
+      Start 72: OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot
+72/85 Test #72: OMS_full_terminal_cannot_regress_to_canceled_from_late_snapshot ......   Passed    0.01 sec
+      Start 73: OMS_invalid_terminal_enum_cannot_release
+73/85 Test #73: OMS_invalid_terminal_enum_cannot_release .............................   Passed    0.01 sec
+      Start 74: O09_equal_version_changed_quantity_conflicts
+74/85 Test #74: O09_equal_version_changed_quantity_conflicts .........................   Passed    0.01 sec
+      Start 75: O05_identical_economic_content_with_different_trade_id_is_distinct
+75/85 Test #75: O05_identical_economic_content_with_different_trade_id_is_distinct ...   Passed    0.01 sec
+      Start 76: A01_identity_types_and_exhaustion
+76/85 Test #76: A01_identity_types_and_exhaustion ....................................   Passed    0.01 sec
+      Start 77: A01_dates_validate_gregorian
+77/85 Test #77: A01_dates_validate_gregorian .........................................   Passed    0.01 sec
+      Start 78: A01_calendar_night_mapping_and_breaks
+78/85 Test #78: A01_calendar_night_mapping_and_breaks ................................   Passed    0.01 sec
+      Start 79: A01_bad_calendar_configuration_rejected
+79/85 Test #79: A01_bad_calendar_configuration_rejected ..............................   Passed    0.02 sec
+      Start 80: A01_contract_tick_quantity_and_day_rules
+80/85 Test #80: A01_contract_tick_quantity_and_day_rules .............................   Passed    0.01 sec
+      Start 81: A01_unsupported_real_profile_cannot_boot
+81/85 Test #81: A01_unsupported_real_profile_cannot_boot .............................   Passed    0.01 sec
+      Start 82: A01_checked_arithmetic_boundaries
+82/85 Test #82: A01_checked_arithmetic_boundaries ....................................   Passed    0.01 sec
+      Start 83: P01_six_position_effects
+83/85 Test #83: P01_six_position_effects .............................................   Passed    0.01 sec
+      Start 84: P01_anchor_is_not_mutated_by_booking
+84/85 Test #84: P01_anchor_is_not_mutated_by_booking .................................   Passed    0.01 sec
+      Start 85: P01_invalid_side_offset_and_bucket_fail_without_mutation
+85/85 Test #85: P01_invalid_side_offset_and_bucket_fail_without_mutation .............   Passed    0.02 sec
+
+100% tests passed out of 85
+
+Total Test time (real) =   1.83 sec

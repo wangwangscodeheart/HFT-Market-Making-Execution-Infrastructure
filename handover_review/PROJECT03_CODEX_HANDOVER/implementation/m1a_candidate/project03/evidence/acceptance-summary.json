@@ -1,0 +1,25 @@
+{
+  "scope": "M1A business implementation only",
+  "profiles": {
+    "debug": {
+      "tests": 85,
+      "failed": 0,
+      "assertions": 24868,
+      "ctest_names_match_source": true
+    },
+    "release": {
+      "tests": 85,
+      "failed": 0,
+      "assertions": 24868,
+      "ctest_names_match_source": true
+    },
+    "sanitizers": {
+      "tests": 85,
+      "failed": 0,
+      "assertions": 24868,
+      "ctest_names_match_source": true
+    }
+  },
+  "performance_measurement": false,
+  "lsan": "Blocked: task scanning did not complete; detect_leaks=0 in final sanitizer run"
+}

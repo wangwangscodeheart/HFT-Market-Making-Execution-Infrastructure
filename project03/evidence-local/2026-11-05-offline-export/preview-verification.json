@@ -1,0 +1,155 @@
+{
+  "frames": 8,
+  "canonical_matches": 8,
+  "duplicate_idempotent": true,
+  "outbound_unavailable": true,
+  "provenance": {
+    "generated_utc": "2026-11-05T14:03:24.298Z",
+    "run": "2026-11-05-offline-export",
+    "build": "MSVC / C++20 / Debug",
+    "snapshot_sha256": "a4364608299aca17fdae897b20ddb8bac823d2b4d4d392611dfceefb4ab2a059",
+    "executable_sha256": "e964f49c05cc5c8375ad3b98bd91985970ec36e70f5c6617078214f2b89cc5c1",
+    "sources": [
+      {
+        "path": "include/p03/core.hpp",
+        "sha256": "2c6183ee6f1125a0a2f0bb5f47d5bc13a7ee3fb220c2262b991a9c482c0157b3"
+      },
+      {
+        "path": "include/p03/funds.hpp",
+        "sha256": "5596d5921833eba5b568d989018f2b32e940b9e3e947cb2835ea70dd8c8f23e0"
+      },
+      {
+        "path": "include/p03/ledger.hpp",
+        "sha256": "3f273df9d80653dde2c51ad95ba9b42486b0367f2cd593add475f3abd6d41cf7"
+      },
+      {
+        "path": "include/p03/oms.hpp",
+        "sha256": "c5ddcc2e9332371e340e76f70b7a7111bf2a77f99daebb4d514969b6e56eea8c"
+      },
+      {
+        "path": "include/p03/positions.hpp",
+        "sha256": "2d841f6cba70c7babad41189b979684a49c8cf66a2b6ef0239dd4f48421fa939"
+      },
+      {
+        "path": "include/p03/reference_data.hpp",
+        "sha256": "ecfeb32c427518717d1b093798f9442a4ad7bbbf088e9500f66c2791800b8874"
+      },
+      {
+        "path": "include/p03/risk.hpp",
+        "sha256": "abeb4b004da362de2f35e18a023bd4f784c63c07cf1413590af7ee5ffc31f7ad"
+      },
+      {
+        "path": "include/p03/step_harness.hpp",
+        "sha256": "7af7b747c4b19f46c35f151c15f6cfff9891cf86faf227f3f2cc7f99ce363724"
+      },
+      {
+        "path": "include/p03/types.hpp",
+        "sha256": "8adf8dc9906faf051ef866cbada8903bdce5565e95dd550d7192bff2a507fa99"
+      },
+      {
+        "path": "src/core.cpp",
+        "sha256": "9232b6f014d70c5e881531041265746719441b14adaddceb84302363891a8986"
+      },
+      {
+        "path": "src/funds.cpp",
+        "sha256": "3fa5a3602768014708609e384e3675f91a4ad26ccc5c80ab9182e4b79d0621d4"
+      },
+      {
+        "path": "src/ledger.cpp",
+        "sha256": "2d0231ebaab7e0bf9eafcba5e16f68e5ea5e0c3781a5b83ff3f0a3b52661fdda"
+      },
+      {
+        "path": "src/oms.cpp",
+        "sha256": "7c1e9132b9ec256f11a872bd6aa4891ae367917c003a8d81e70cba3375056802"
+      },
+      {
+        "path": "src/positions.cpp",
+        "sha256": "ccc6299226ee0dce07d7c8a13eb8e9537e28a24d261bdb49646f8fe32fea4f29"
+      },
+      {
+        "path": "src/reference_data.cpp",
+        "sha256": "e22250a0288728b7bf197a40a8255468e6fb7ed0933f58725a3296d1d3f61380"
+      },
+      {
+        "path": "src/risk.cpp",
+        "sha256": "6f98966fe60b3d90e1fa0398ca170b4029b2206d5c1ec97f0551a45db720344e"
+      },
+      {
+        "path": "src/step_harness.cpp",
+        "sha256": "df05398c4e8b823367028608fc4548cd99d2208f82e82044abe9f9bce8339da6"
+      },
+      {
+        "path": "src/types.cpp",
+        "sha256": "41982a0f610184156338942e66f63747652a2754d143e2e34b3a281dcff4030a"
+      },
+      {
+        "path": "examples/demo_scenario.hpp",
+        "sha256": "03e398063bae963896dd4684eafee9c8f2a875c721542e3707cf4d8ee21cb028"
+      },
+      {
+        "path": "examples/export_snapshot.cpp",
+        "sha256": "46f5cb488173d72e14a41fca2bd0ac6792a9812547fcf3750a915a195715ec03"
+      },
+      {
+        "path": "examples/m1a_demo.cpp",
+        "sha256": "dd48a02c29088d918814fccc6ce64b47e7351daac6a74470dba2d7225a0d75aa"
+      },
+      {
+        "path": "tests/core_tests.cpp",
+        "sha256": "5916cbf10437ef380313e0a6e29c6eb1a9d7b1f47f1b632e9f4506da16ae6f70"
+      },
+      {
+        "path": "tests/fixture.hpp",
+        "sha256": "0ba4e2ca9a9fbfdc23f34e29dfae0fcd938a297baa913118f8962dafbc8fb29f"
+      },
+      {
+        "path": "tests/funds_tests.cpp",
+        "sha256": "f0216811ca5055700a7c4404579714e6622ee10f8fbc87114ed247326ed9d081"
+      },
+      {
+        "path": "tests/harness_tests.cpp",
+        "sha256": "2e4e6808c535da254622d24cbc9361336a8c094c1fd9c64148c84b18499b32d0"
+      },
+      {
+        "path": "tests/oms_tests.cpp",
+        "sha256": "b9537d6f9cb373666e0010c4fa647aab4a86846105053b71304ae97ff14419e7"
+      },
+      {
+        "path": "tests/test.hpp",
+        "sha256": "0a195705c91f5b24bfaac8cb5d22d6d5c3978a3a40f5b7259fd3d614d53fea53"
+      },
+      {
+        "path": "tests/test_main.cpp",
+        "sha256": "694fc07a20ec0be0768398a3147eee0a990fc4118f2bc720dbff7b3e3785b628"
+      },
+      {
+        "path": "tests/types_tests.cpp",
+        "sha256": "473d86b194982b0069726844111efe5c9efcd5785de0271e27fb005b33eb2a9a"
+      },
+      {
+        "path": "scripts/build-msvc.ps1",
+        "sha256": "028aeb5cd7f1c4c28c1c0c2c5e099d8c96a3ef6f879a6675ff394e6e2df6c1a7"
+      },
+      {
+        "path": "scripts/make_manifest.py",
+        "sha256": "431156283b5cc02996849e844f6f9a0e65f2bcf3ddfdfb7cfc918c4b91abd90e"
+      },
+      {
+        "path": "scripts/package.py",
+        "sha256": "628d72bb809ebec638881b3aef3202fed08d80d13caa455eb188b9f6ab0861b9"
+      },
+      {
+        "path": "scripts/prepare-preview.cjs",
+        "sha256": "686362c57f7f63afe96ea32c243513292a54b7797cbaaf5aee2c89166fe3944c"
+      },
+      {
+        "path": "scripts/verify.py",
+        "sha256": "12c21a813558abe7811441596cf2970a612ce759a93842cc087e64c14253a3e7"
+      },
+      {
+        "path": "CMakeLists.txt",
+        "sha256": "53fb34f00566ea5196be5cc2ff3566184d10f84c178762cf3cb54cf07f492a89"
+      }
+    ]
+  }
+}

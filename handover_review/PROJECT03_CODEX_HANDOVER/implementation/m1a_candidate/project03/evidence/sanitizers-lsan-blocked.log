@@ -1,0 +1,4 @@
+==439==Can't open /proc/438/task for reading.
+==438==LeakSanitizer has encountered a fatal error.
+==438==HINT: For debugging, try setting environment variable LSAN_OPTIONS=verbosity=1:log_threads=1
+==438==HINT: LeakSanitizer does not work under ptrace (strace, gdb, etc)
